@@ -1,4 +1,7 @@
-
+---
+layout: post
+title: This is so cool!
+---
 
 Last night I made a blog at https://BenLeggiero.blog and mirrored it on https://micro.blog/BenLeggiero! 
 
