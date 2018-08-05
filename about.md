@@ -8,4 +8,4 @@ I'm a developer and designer, by hobby and trade. You can read my social posts o
 
 
 | [Twitter](https://twitter.com/{{ site.footer-links.twitter }}) | [Google +](https://google.com/{{ site.footer-links.googleplus }}) |
-| :------------------------------------------------------------: | :-----------------------------------------------------------------------------: |
+| -------------------------------------------------------------- | ------------------------------------------------------------------------------- |
