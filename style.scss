@@ -120,8 +120,13 @@ img {
 }
 
 .date {
-  font-style: italic;
-  color: $gray;
+    font-size: small;
+    color: inherit;
+    opacity: 0.4;
+}
+
+.posts>.post .date {
+    float: right;
 }
 
 // Specify the color of the selection

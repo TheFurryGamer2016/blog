@@ -10,7 +10,7 @@ layout: default
   </div>
 
   <time class="date" datetime="{{ page.date | date_to_xmlschema }}">
-    Written {{ page.date | date: "%F (a %A) at %R" }}
+    Written {{ page.date | date: "%F (a %A) at %R %Z" }}
   </time>
 
   {% include disqus.html %}

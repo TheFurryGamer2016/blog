@@ -13,6 +13,10 @@ layout: default
       </div>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+
+      <time class="date" datetime="{{ post.date | date_to_xmlschema }}">
+        {{ post.date | date: "%a. %F at %R" }}
+      </time>
     </article>
   {% endfor %}
 </div>
