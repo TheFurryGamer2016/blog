@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1080px" height="608px" viewBox="0 0 1080 608" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Ben Leggiero Blog Background 2018</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#80D8FF" offset="0%"></stop>
+            <stop stop-color="#7C4DFF" offset="25%"></stop>
+            <stop stop-color="#FF4081" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="1" offset="100%"></stop>
+        </linearGradient>
+        <path d="M1080,608 L540,304 L0,608 L0,0 L1080,0 L1080,608 Z" id="path-2"></path>
+    </defs>
+    <g id="Ben-Leggiero-Blog-Background-2018" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.30">
+        <g id="Background">
+            <mask id="mask-3" fill="white">
+                <use xlink:href="#path-2"></use>
+            </mask>
+            <use id="Combined-Shape" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+            <g id="Triangles" mask="url(#path-2)">
+                <polygon id="Triangle-A" fill="#E0FFF8" points="0 0 1080 0 1080 608" fill-opacity="0.5"></polygon>
+                <polygon id="Triangle-B" fill="#BAEAFF" points="0 0 0 608 1080 0" fill-opacity="0.5"></polygon>
+                <rect id="Rectangle" fill="url(#linearGradient-4)" fill-rule="nonzero" x="0" y="0" width="1080" height="608"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

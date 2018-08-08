@@ -18,9 +18,13 @@ html {
 }
 
 body {
-	background: $white;
+  background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
+
+  background-image: url("/images/Background.svg");
+  background-repeat: no-repeat;
+  background-size: 100vw auto;
 }
 
 .container {
@@ -155,8 +159,11 @@ img {
 }
 
 .masthead {
-  padding: 20px 0;
   border-bottom: 1px solid $lightGray;
+  border-radius: 0 0 1rem 1rem;
+  background-color: $translucetWhite;
+  padding: 1rem;
+  margin: 0 -1rem;
 
   @include mobile {
     text-align: center;
@@ -241,17 +248,19 @@ nav {
 // .main
 //
 
-.posts > .post {
-  padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
-}
-
-.posts > .post:last-child {
-  padding-bottom: 1em;
-  border-bottom: none;
-}
 
 .post {
+  background-color: $translucetWhite;
+  padding: 1rem;
+  margin: 2rem -1rem;
+  border-radius: 1rem;
+
+
+  &:not(last-child) {
+    border-bottom: 1px solid $lightGray;
+  }
+
+
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
@@ -261,9 +270,16 @@ nav {
     font-style: italic;
   }
 
+
+  h1:first-of-type {
+      margin-top: 0;
+  }
+
+
   .comments {
     margin-top: 10px;
   }
+
 
   .read-more {
     text-transform: uppercase;

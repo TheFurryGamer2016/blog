@@ -9,9 +9,9 @@ layout: default
     {{ content }}
   </div>
 
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
+  <time class="date" datetime="{{ page.date | date_to_xmlschema }}">
+    Written {{ page.date | date: "%F (a %A) at %R" }}
+  </time>
 
   {% include disqus.html %}
 </article>

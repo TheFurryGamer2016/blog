@@ -11,8 +11,9 @@ $black: #000;
 $darkerGray: #222;
 $darkGray: #333;
 $gray: #666;
-$lightGray: #eee;
+$lightGray: rgba(0,0,0, 0.07);
 $white: #fff;
+$translucetWhite: rgba(255,255,255, 0.3);
 
 // Font stacks
 $helvetica: Helvetica, Arial, sans-serif;
