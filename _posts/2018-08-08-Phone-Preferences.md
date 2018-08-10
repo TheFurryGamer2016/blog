@@ -11,17 +11,20 @@ It's simple, really; it just comes down to my requirements in a phone. There cer
 
 <!-- I'm sorry if the alignment doesn't make much sense to you, but this is how it lines up in Atom on macOS, so it's what I needed to do to make sense out of it. -->
 
-|--------------------------+----+----+----+----------+----------+----------|
-|             Requirements | S7 | S8 | S9 | iPhone 8 | iPhone X |  Pixel 2 |
-|-------------------------:|:--:|:--:|:--:|:--------:|:--------:|:--------:|
-| Magnetic-Coil Tap-to-pay | ✅ | ✅ | ✅  |    ❌    |     ❌    |    ❌    |
-|             Great Camera | ✅ | ✅ | ✅  |    ✅    |     ✅    |    ✅    |
-|     Very Customizable OS | ✅ | ✅ | ✅  |    ❌    |     ❌    |    ✅    |
-|          6+ hour Battery | ✅ | ✅ | ✅  |    🤔    |     🤔    |    ✅    |
-|               Flat Front | ✅ | ❌ | ❌  |    ✅    |     ✅    |    ✅    |
-|              64GB+ Drive | 😞 | ✅ | ✅  |    ✅    |     ✅    |    ✅    |
-|       4.8" - 6.4" Screen | ✅ | ✅ | ✅  |    ✅    |     ✅    |    ✅    |
-|--------------------------+----+----+----+----------+----------+----------|
+|--------------------------+----+----+----+--------+----------+----------+----------|
+|             Requirements | S7 | S8 | S9 | Note 9 | iPhone 8 | iPhone X |  Pixel 2 |
+|-------------------------:|:--:|:--:|:--:|:------:|:--------:|:--------:|:--------:|
+| Magnetic-Coil Tap-to-pay | ✅ | ✅ | ✅  |    ✅  |    ❌    |     ❌    |    ❌    |
+|             Great Camera | ✅ | ✅ | ✅  |    ✅  |    ✅    |     ✅    |    ✅    |
+|     Very Customizable OS | ✅ | ✅ | ✅  |    ✅  |    ❌    |     ❌    |    ✅    |
+|          6+ hour Battery | ✅ | ✅ | ✅  |    ✅  |    🤔    |     🤔    |    ✅    |
+|               Flat Front | ✅ | ❌ | ❌  |    ✅  |    ✅    |     ✅    |    ✅    |
+|              64GB+ Drive | 😞 | ✅ | ✅  |    🙌🏼  |    ✅    |     ✅    |    ✅    |
+|       4.8" - 6.4" Screen | ✅ | ✅ | ✅  |    ✅  |    ✅    |     ✅    |    ✅    |
+|--------------------------+----+----+----+--------+----------+----------+----------|
 
+> - ❌ = Does not meet requirement
+> - ✅ = Meets or exceeds requirement
+> - 🙌 = Surpasses requirement excellently
 > - 😞 = Available somehow, but not to my current carrier, T-Mobile.
 > - 🤔 = Reviews say Yes, but my usage might turn this into a No
