@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Phone Preferences
-date: 2018-08-08 21:00 -0400
+date: 2018-08-11 22:36 -0400
 ---
 
 People often ask me why I am using a Samsung Galaxy S7, a phone from 3 years ago, despite me being such a tech enthusiast and macOS Software Engineer.
