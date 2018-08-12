@@ -12,6 +12,12 @@ layout: default
   <time class="date" datetime="{{ page.date | date_to_xmlschema }}">
     Written {{ page.date | date: "%F (a %A) at %R %Z" }}
   </time>
+  {% if page.date-edit %}
+  |
+  <time class="date" datetime="{{ page.date-edit | date_to_xmlschema }}">
+      Updated {{ page.date-edit | date: "%F (a %A) at %R %Z" }}
+    </time>
+  {% endif %}
 
   {% include disqus.html %}
 </article>

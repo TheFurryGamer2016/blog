@@ -2,9 +2,10 @@
 layout: post
 title: Phone Preferences
 date: 2018-08-11 22:36 -0400
+date-edit: 2018-08-12 00:43 -0400
 ---
 
-People often ask me why I am using a Samsung Galaxy S7, a phone from 3 years ago, despite me being such a tech enthusiast and macOS Software Engineer.
+People often ask me why I am using a Samsung Galaxy S7, a phone from 2 and a half years ago, despite me being such a tech enthusiast and macOS Software Engineer.
 
 It's simple, really; it just comes down to my requirements in a phone. There certainly are contenders, and I've made a table below showing my reasonings, but the S7 still seems to be the best fit for me at this time.
 
