@@ -2,7 +2,7 @@
 layout: post
 title: Phone Preferences
 date: 2018-08-11 22:36 -0400
-date-edit: 2018-08-12 00:43 -0400
+date-edit: 2018-08-20 23:24 -0400
 ---
 
 People often ask me why I am using a Samsung Galaxy S7, a phone from 2 and a half years ago, despite me being such a tech enthusiast and macOS Software Engineer.
@@ -74,8 +74,8 @@ It's simple, really; it just comes down to my requirements in a phone. There cer
                 <td>✅</td><!-- Galaxy S7 -->
                 <td>❌</td><!-- Galaxy S8 -->
                 <td>❌</td><!-- Galaxy S9 -->
-                <td>✅</td><!-- Note 8 -->
-                <td>✅</td><!-- Note 9 -->
+                <td>❌</td><!-- Note 8 -->
+                <td>❌</td><!-- Note 9 -->
                 <td>✅</td><!-- iPhone 8 -->
                 <td>✅</td><!-- iPhone X -->
                 <td>✅</td><!-- Pixel 2 -->
