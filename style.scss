@@ -104,6 +104,22 @@ ul ul, ol ul {
   list-style-type: circle;
 }
 
+ol, ul {
+    &.plain {
+        list-style-type: none !important;
+    }
+
+    &.inline-list li {
+        display: inline-block;
+    }
+
+    &.inline-list,
+    &.plain {
+        margin: 0;
+        padding: 0;
+    }
+}
+
 em, i {
   font-style: italic;
 }
@@ -303,6 +319,14 @@ footer {
   padding: 20px 0;
   text-align: center;
 }
+
+
+.material-icons {
+    &.small {
+        font-size: 18px;
+    }
+}
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
