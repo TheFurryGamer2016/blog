@@ -3,21 +3,32 @@ layout: default
 ---
 
 <article class="post">
-  <h1>{{ page.title }}</h1>
+    <header>
+        <h1>{{ page.title }}</h1>
+    </header>
 
-  <div class="entry">
+    <div class="entry">
     {{ content }}
-  </div>
+    </div>
 
-  <time class="date" datetime="{{ page.date | date_to_xmlschema }}">
-    Written {{ page.date | date: "%F (a %A) at %R %Z" }}
-  </time>
-  {% if page.date-edit %}
-  |
-  <time class="date" datetime="{{ page.date-edit | date_to_xmlschema }}">
-      Updated {{ page.date-edit | date: "%F (a %A) at %R %Z" }}
-    </time>
-  {% endif %}
+    <footer class="flex flex-row flex-horiz-space-between">
+        <div>
+            <time class="date" datetime="{{ page.date | date_to_xmlschema }}">
+            Written {{ page.date | date: "%F (a %A) at %R %Z" }}
+            </time>
+            {% if page.date-edit %}
+            &boxv;
+            <time class="date" datetime="{{ page.date-edit | date_to_xmlschema }}">
+                Updated {{ page.date-edit | date: "%F (a %A) at %R %Z" }}
+            </time>
+            {% endif %}
+        </div>
 
-  {% include disqus.html %}
+        <ol class="plain inline-list">
+            <a href="https://github.com/BenLeggiero/blog/commits/master/{{ page.path }}" title="Post History" target="_blank" class="small material-icons button">history</a>
+            <a href="https://github.com/BenLeggiero/blog/edit/master/{{ page.path }}" title="Suggest an Edit" target="_blank" class="small material-icons button">edit</a>
+        </ol>
+    </footer>
 </article>
+
+{% include disqus.html %}
