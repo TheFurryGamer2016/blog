@@ -306,6 +306,14 @@ nav {
     text-transform: uppercase;
     font-size: 15px;
   }
+
+
+    footer {
+        .dates-and-times {
+            list-style-type: none;
+            font-size: small;
+        }
+    }
 }
 
 .wrapper-footer {
@@ -324,6 +332,25 @@ footer {
 .material-icons {
     &.small {
         font-size: 18px;
+    }
+    &.button {
+        position: relative;
+
+        &::before {
+            content: attr(title);
+            font-family: Roboto, inherited;
+            display: block;
+            font-size: 50%;
+            opacity: 0;
+            position: absolute;
+            bottom: 5ex;
+            right: 0;
+            pointer-events: none;
+        }
+
+        &:hover::before {
+            opacity: 1;
+        }
     }
 }
 

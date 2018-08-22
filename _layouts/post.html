@@ -11,22 +11,35 @@ layout: default
     {{ content }}
     </div>
 
-    <footer class="flex flex-row flex-horiz-space-between">
-        <div>
-            <time class="date" datetime="{{ page.date | date_to_xmlschema }}">
-            Written {{ page.date | date: "%F (a %A) at %R %Z" }}
-            </time>
-            {% if page.date-edit %}
-            &boxv;
-            <time class="date" datetime="{{ page.date-edit | date_to_xmlschema }}">
-                Updated {{ page.date-edit | date: "%F (a %A) at %R %Z" }}
-            </time>
+    <footer class="flex flex-row flex-horiz-space-between flex-vert-bottom">
+        <ol class="dates-and-times">
+            <li>
+                <time class="date" datetime="{{ page.date | date_to_xmlschema }}">
+                    Written {{ page.date | date: "%F (a %A) at %R %Z" }}
+                </time>
+            </li>
+            {% if page.date-migrated %}
+            <li>
+                <time class="date" datetime="{{ page.date-migrated | date_to_xmlschema }}">
+                    Migrated {{ page.date-migrated | date: "%F (a %A) at %R %Z" }}
+                </time>
+            </li>
             {% endif %}
-        </div>
+            {% if page.date-edit %}
+            <li>
+                <time class="date" datetime="{{ page.date-edit | date_to_xmlschema }}">
+                    Updated {{ page.date-edit | date: "%F (a %A) at %R %Z" }}
+                </time>
+            </li>
+            {% endif %}
+        </ol>
 
         <ol class="plain inline-list">
-            <a href="https://github.com/BenLeggiero/blog/commits/master/{{ page.path }}" title="Post History" target="_blank" class="small material-icons button">history</a>
-            <a href="https://github.com/BenLeggiero/blog/edit/master/{{ page.path }}" title="Suggest an Edit" target="_blank" class="small material-icons button">edit</a>
+            {%if page.original-url %}
+            <li><a href="{{ page.original-url }}" title="View Original" target="_blank" class="small material-icons button">import_contacts</a></li>
+            {% endif %}
+            <li><a href="https://github.com/BenLeggiero/blog/commits/master/{{ page.path }}" title="Post History" target="_blank" class="small material-icons button">history</a></li>
+            <li><a href="https://github.com/BenLeggiero/blog/edit/master/{{ page.path }}" title="Suggest an Edit" target="_blank" class="small material-icons button">edit</a></li>
         </ol>
     </footer>
 </article>
