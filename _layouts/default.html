@@ -21,21 +21,22 @@
 
   <body>
     <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+        <div class="container">
+            <header class="masthead   flex-row flex-horiz-space-between flex-vert-center">
+                <div class="site-microprofile   flex-row flex-horiz-left flex-vert-center">
+                    <a href="/" class="site-avatar"><img src="https://www.gravatar.com/avatar/2f4691f7a1c9d3192fe843a164a27535?s=140px"></a>
 
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-
-          <nav>
-            <!-- <a href="{{ site.baseurl }}/">Blog</a> -->
-            <a href="{{ site.baseurl }}/about">About</a>
-          </nav>
-        </header>
-      </div>
+                    <div class="site-info">
+                        <h1 class="site-name"><a href="/">Ben Leggiero's Blog</a></h1>
+                        <p class="site-description">Developer | Designer | Blogger</p>
+                    </div>
+                </div>
+                <nav>
+                    <!-- <a href="/">Blog</a> -->
+                    <a href="/about">About</a>
+                </nav>
+            </header>
+        </div>
     </div>
 
     <main id="main" role="main" class="container">

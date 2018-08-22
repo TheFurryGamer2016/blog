@@ -109,8 +109,15 @@ ol, ul {
         list-style-type: none !important;
     }
 
-    &.inline-list li {
-        display: inline-block;
+    &.inline-list {
+        li {
+            display: inline-block;
+        }
+
+        @include mobile {
+            text-align: center;
+            width: 100%;
+        }
     }
 
     &.inline-list,
@@ -143,31 +150,7 @@ img {
     opacity: 0.4;
 }
 
-.posts>.post .date {
-    float: right;
-}
 
-// Specify the color of the selection
-::-moz-selection {
-  color: $black;
-  background: $lightGray;
-}
-::selection {
-  color: $black;
-  background: $lightGray;
-}
-
-// Nicolas Gallagher's micro clearfix hack
-// http://nicolasgallagher.com/micro-clearfix-hack/
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
-}
-
-.clearfix:after {
-    clear: both;
-}
 
 /*********************/
 /* LAYOUT / SECTIONS */
@@ -189,18 +172,27 @@ img {
   margin: 0 -1rem;
 
   @include mobile {
+    &[class^="flex-"], &[class*=" flex-"] {
+        display: block !important;
+    }
     text-align: center;
   }
 }
 
+.site-microprofile {
+    @include mobile {
+        &[class^="flex-"], &[class*=" flex-"] {
+            display: block !important;
+        }
+    }
+}
+
 .site-avatar {
-  float: left;
   width: 70px;
   height: 70px;
   margin-right: 15px;
 
   @include mobile {
-    float: none;
     display: block;
     margin: 0 auto;
   }
@@ -211,10 +203,8 @@ img {
 }
 
 .site-info {
-  float: left;
 
   @include mobile {
-    float: none;
     display: block;
     margin: 0 auto;
   }
@@ -241,13 +231,10 @@ img {
 }
 
 nav {
-  float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 18px;
 
   @include mobile {
-    float: none;
     margin-top: 9px;
     display: block;
     font-size: 16px;
@@ -326,17 +313,34 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+
+  .posts>.post & {
+      padding: 0;
+      text-align: start;
+      text-align: initial;
+      text-align: inherit;
+  }
 }
 
 
 .material-icons {
     &.small {
         font-size: 18px;
+
+        :link &,
+        :visited &,
+        &.button {
+            @include mobile {
+                padding: 0.5ex 1ex;
+                margin-left: 1em;
+                margin-right: 1em;
+            }
+        }
     }
     &.button {
         position: relative;
 
-        &::before {
+        &::after {
             content: attr(title);
             font-family: Roboto, inherited;
             display: block;
@@ -346,9 +350,16 @@ footer {
             bottom: 5ex;
             right: 0;
             pointer-events: none;
+
+            @include mobile {
+                opacity: 1;
+                position: static;
+                pointer-events: all;
+                padding-top: 1ex;
+            }
         }
 
-        &:hover::before {
+        &:hover::after {
             opacity: 1;
         }
     }

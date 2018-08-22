@@ -12,11 +12,13 @@ layout: default
         {{ post.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      <footer class="flex-row flex-horiz-space-between flex-vert-bottom">
+        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
 
-      <time class="date" datetime="{{ post.date | date_to_xmlschema }}">
-        {{ post.date | date: "%a. %F at %R" }}
-      </time>
+        <time class="date" datetime="{{ post.date | date_to_xmlschema }}">
+          {{ post.date | date: "%a. %F at %R" }}
+        </time>
+      </footer>
     </article>
   {% endfor %}
 </div>
