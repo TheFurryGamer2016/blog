@@ -11,6 +11,14 @@ layout: default
     {{ content }}
     </div>
 
+    <footer>
+        <ol class="tags   plain   flex-row flex-wrap flex-horiz-center flex-vert-center">
+            {% for tag in page.categories %}
+            <li><span class="tag" data-tag-name="{{ tag }}">{{ tag }}</span></li>
+            {% endfor %}
+        </ol>
+    </footer>
+
     <footer class="flex-row flex-horiz-space-between flex-vert-bottom flex-wrap">
         <ol class="dates-and-times">
             <li>
@@ -35,7 +43,7 @@ layout: default
         </ol>
 
         <ol class="plain inline-list">
-            {%if page.original-url %}
+            {% if page.original-url %}
             <li><a href="{{ page.original-url }}" title="View Original" target="_blank" class="small material-icons button">import_contacts</a></li>
             {% endif %}
             <li><a href="https://github.com/BenLeggiero/blog/commits/master/{{ page.path }}" title="Post History" target="_blank" class="small material-icons button">history</a></li>

@@ -4,6 +4,7 @@
 
 # Name of your site (displayed in the header)
 name: Ben Leggiero's Blog
+title: Ben Leggiero's Blog
 
 # Short bio or description (displayed in the header)
 description: Developer | Designer | Blogger
@@ -72,6 +73,7 @@ sass:
 plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-archives
 
 # Exclude these files from your production _site
 exclude:

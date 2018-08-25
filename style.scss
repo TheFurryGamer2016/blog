@@ -25,6 +25,7 @@ body {
   background-image: url("/images/Background.svg");
   background-repeat: no-repeat;
   background-size: 100vw auto;
+  background-attachment: fixed;
 
   min-height: 100vh;
 }
@@ -84,7 +85,9 @@ a {
 }
 
 ul, ol {
-  margin: 15px 0;
+  &:not(:blank) {
+    margin: 15px 0;
+  }
   padding-left: 30px;
 }
 
@@ -264,11 +267,9 @@ nav {
   padding: 1rem;
   margin: 2rem -1rem;
   border-radius: 1rem;
+  border: 1px solid transparent;
 
-
-  &:not(last-child) {
-    border-bottom: 1px solid $lightGray;
-  }
+  border-bottom-color: $lightGray;
 
 
   blockquote {
@@ -294,11 +295,68 @@ nav {
     font-size: 15px;
   }
 
+    &.separator {
+        border-color: #00000012;
+        font-size: 11pt;
+        text-align: center;
 
-    footer {
+        h1 {
+            font-size: 16pt;
+        }
+    }
+
+
+    &>footer {
         .dates-and-times {
             list-style-type: none;
             font-size: small;
+        }
+
+
+        &>* {
+            white-space: nowrap;
+        }
+
+
+        .tags {
+            text-align: center;
+            font-size: 9pt;
+            text-transform: UPPERCASE;
+
+            @include mobile {
+                display: none !important;
+            }
+        }
+
+
+        .tag {
+            border: 1px solid currentColor;
+            border-radius: 99in;
+            padding: 0.15ex 0.5ex;
+            opacity: 0.7;
+            margin: .5ex 1ex;
+
+
+            &:hover, &:focus {
+                opacity: 1;
+            }
+
+
+            &[data-tag-name="Migrated" i] {
+                color: $material-purple-A700;
+            }
+            &[data-tag-name="Ben.BHStudios.org/why" i] {
+                color: $material-blue-grey-600;
+            }
+            &[data-tag-name="Society" i] {
+                color: $material-light-blue-A400;
+            }
+            &[data-tag-name="Gender" i] {
+                color: $material-green-A700;
+            }
+            &[data-tag-name="Essay" i] {
+                color: $material-amber-900;
+            }
         }
     }
 }
