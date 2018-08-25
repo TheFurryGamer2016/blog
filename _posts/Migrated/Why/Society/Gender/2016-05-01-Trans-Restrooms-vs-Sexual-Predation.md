@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ben's opinions on Transgender-Friendly Bathrooms vs Sexual Predation.
-date: 2016-06-04
+date: 2016-05-01 16:54 -0400
 date-migrated: 2018-08-21 23:44 -0400
 original-url: https://ben.bhstudios.org/why?Society/Gender/Trans-Restrooms-vs-Sexual-Predation
 categories:
@@ -9,6 +9,7 @@ categories:
   - Ben.BHStudios.org/why
   - Society
   - Gender
+  - Essay
 ---
 
 <blockquote>This essay is a response to the following article: <a href="http://thefederalist.com/2015/11/23/a-rape-survivor-speaks-out-about-transgender-bathrooms/"><i>A Rape Survivor Speaks Out About Transgender Bathrooms</i></a> and <a href="https://plus.google.com/106132190902853507998/posts/4De5apaq3ZC">a post on Google+</a>. For the purposes of this essay, I will use "bathrooms" as an encompassing term for "restrooms, bathrooms, locker rooms, dressing rooms, and other areas designated one-sex-only".</blockquote>
