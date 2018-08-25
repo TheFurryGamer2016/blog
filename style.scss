@@ -25,6 +25,7 @@ body {
   background-image: url("/images/Background.svg");
   background-repeat: no-repeat;
   background-size: 100vw auto;
+  background-attachment: fixed;
 
   min-height: 100vh;
 }
@@ -266,11 +267,9 @@ nav {
   padding: 1rem;
   margin: 2rem -1rem;
   border-radius: 1rem;
+  border: 1px solid transparent;
 
-
-  &:not(last-child) {
-    border-bottom: 1px solid $lightGray;
-  }
+  border-bottom-color: $lightGray;
 
 
   blockquote {
@@ -295,6 +294,16 @@ nav {
     text-transform: uppercase;
     font-size: 15px;
   }
+
+    &.separator {
+        border-color: #00000012;
+        font-size: 11pt;
+        text-align: center;
+
+        h1 {
+            font-size: 16pt;
+        }
+    }
 
 
     &>footer {

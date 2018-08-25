@@ -4,7 +4,7 @@ layout: default
 
 <div class="posts">
   {% for post in site.posts %}
-    <article class="post">
+    <article class="post{% if post.categories contains 'Separator' %} separator{% endif %}">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
@@ -12,8 +12,11 @@ layout: default
         {{ post.excerpt }}
       </div>
 
+      {% unless post.categories contains 'Separator' %}
       <footer class="flex-row flex-horiz-space-between flex-vert-bottom">
+        {% unless post.categories contains 'Micro' %}
         <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+        {% endunless %}
 
         <ol class="tags   plain   flex-row flex-wrap flex-horiz-center flex-vert-center">
             {% for tag in post.categories %}
@@ -27,6 +30,7 @@ layout: default
           {{ post.date | date: "%a. %F at %R" }}
         </time>
       </footer>
+      {% endunless %}
     </article>
   {% endfor %}
 </div>
