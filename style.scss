@@ -368,6 +368,11 @@ nav {
   background-color: $lightGray;
 }
 
+.post,
+.wrapper-footer {
+    backdrop-filter: blur(6px) saturate(2);
+}
+
 footer {
   padding: 20px 0;
   text-align: center;
