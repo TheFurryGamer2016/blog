@@ -17,7 +17,7 @@ categories:
 
 <section id="">
 	<h2></h2>
-	<p><a href="https://www.apple.com/ios/siri/" target="_blank">Siri</a>, <a href="https://assistant.google.com/" target="_blank">Google Assistant</a>, <a href="https://support.microsoft.com/en-us/help/17214/windows-10-what-is" target="_blank">Cortana</a>, <a href="https://www.amazon.com/b/?ie=UTF8&node=9818047011&ref_=fs_ods_fs_aucc_cp" target="_blank">Alexa</a>, etc.. The generic term is "personal assistants," but that's just a metaphor, like
+	<p><a href="https://www.apple.com/ios/siri/" target="_blank">Siri</a>, <a href="https://assistant.google.com/" target="_blank">Google Assistant</a>, <a href="https://www.microsoft.com/en-us/cortana/" target="_blank">Cortana</a>, <a href="https://www.amazon.com/b/?ie=UTF8&node=9818047011&ref_=fs_ods_fs_aucc_cp" target="_blank">Alexa</a>, etc.. The generic term is "personal assistants," but that's just a metaphor, like
 	"virtual reality". In my opinion, a personal assistant, human or otherwise, must be able to do hear and form a
 	respone to the following in a reasonable amount of time:</p>
 	<blockquote>
