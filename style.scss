@@ -7,6 +7,13 @@
 
 @import "reset";
 @import "variables";
+@import "infoboxes";
+@import "nav-pills";
+@import "app-cloud";
+@import "word-cloud";
+@import "decorations";
+@import "legal-styles";
+@import "theme-engine";
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -52,7 +59,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+  margin-top: 1in;
   font-size: 30px;
+
   a {
     color: inherit;
   }
@@ -73,15 +82,45 @@ h4 {
 
 p {
   margin: 15px 0;
+
+  &:empty {
+        display: none;
+    }
 }
 
 a {
-  color: $blue;
-  text-decoration: none;
-	cursor: pointer;
-  &:hover, &:active {
     color: $blue;
-  }
+    text-decoration: none;
+    cursor: pointer;
+    &:hover, &:active {
+        color: $blue;
+        text-decoration: underline;
+    }
+}
+
+del {
+    &.block {
+        display: block;
+        // position: relative;
+        text-decoration: none;
+
+        // &::after {
+            background-image: url(/images/Block%20Del.svg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-position: center;
+        //     content: " ";
+        //
+        //     position: absolute;
+        //
+        //     width: 100%;
+        //     height: 100%;
+        //     top: 0;
+        //     left: 0;
+        //     bottom: 0;
+        //     right: 0;
+        // }
+    }
 }
 
 ul, ol {
@@ -152,6 +191,10 @@ sup {
     }
 }
 
+small {
+    font-size: 10pt;
+}
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
@@ -183,6 +226,7 @@ sup {
   background-color: $translucetWhite;
   padding: 1rem;
   margin: 0 -1rem;
+  max-width: 100vw;
 
   @include mobile {
     &[class^="flex-"], &[class*=" flex-"] {
@@ -243,7 +287,7 @@ sup {
   }
 }
 
-nav {
+.masthead nav {
   font-family: $helveticaNeue;
   font-size: 18px;
 
@@ -281,6 +325,8 @@ nav {
 
   border-bottom-color: $lightGray;
 
+  max-width: 100vw;
+
 
   blockquote {
     margin: 1.8em .8em;
@@ -290,7 +336,9 @@ nav {
   }
 
 
-  h1:first-of-type {
+  &>header {
+
+  } h1:first-of-type {
       margin-top: 0;
   }
 
@@ -341,12 +389,6 @@ nav {
         text-align: center;
         background: #FFF8;
         color: #888;
-    }
-
-
-    figure::after {
-        content: " ";
-        clear: both;
     }
 
 
@@ -401,6 +443,9 @@ nav {
             }
             &[data-tag-name="Essay" i] {
                 color: $material-amber-900;
+            }
+            &[data-tag-name="Opinion" i] {
+                color: $material-blue-A400;
             }
         }
     }

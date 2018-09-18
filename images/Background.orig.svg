@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1080px" height="608px" viewBox="0 0 1080 608" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Background.orig</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="1.72254642e-14%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#2979FF" offset="0%"></stop>
+            <stop stop-color="#448AFF" offset="25.1029268%"></stop>
+            <stop stop-color="#F340AE" stop-opacity="0.75" offset="73.2004155%"></stop>
+            <stop stop-color="#DD2C00" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="1.05475548e-30%" x2="2.22044605e-14%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#80D8FF" offset="0%"></stop>
+            <stop stop-color="#7C4DFF" offset="25.0351593%"></stop>
+            <stop stop-color="#E64A19" stop-opacity="0.75" offset="77.6237355%"></stop>
+            <stop stop-color="#FF4081" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Background" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.251953">
+        <g id="Group-3">
+            <g id="Group-2" opacity="0.503683036">
+                <polygon id="Rectangle-2" fill="url(#linearGradient-1)" points="0 0 1080 0 1080 608"></polygon>
+                <polygon id="Rectangle-Copy" fill="url(#linearGradient-2)" points="0 608 0 -1.13686838e-13 1080 0"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
