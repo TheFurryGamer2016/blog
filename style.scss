@@ -145,6 +145,11 @@ img {
 sup {
     vertical-align: super;
     font-size: smaller;
+    line-height: 0;
+
+    &.reg {
+        opacity: 0.75;
+    }
 }
 
 // Fixes images in popup boxes from Google Translate
@@ -310,6 +315,40 @@ nav {
             font-size: 16pt;
         }
     }
+
+    aside {
+        opacity: 0.7;
+        text-align: end;
+        font-size: smaller;
+        margin: 1em;
+    }
+
+    p {
+        text-indent: 1em;
+    }
+
+    figure b.tldr {
+        float: left;
+        /* display: block; */
+        height: 1.5cm;
+        width: 1.5cm;
+        padding: 0;
+        box-shadow: 0 0 0 1px #8884;
+        border-radius: 1ex;
+        margin-right: 1em;
+        display: table-cell;
+        line-height: 1.5cm;
+        text-align: center;
+        background: #FFF8;
+        color: #888;
+    }
+
+
+    figure::after {
+        content: " ";
+        clear: both;
+    }
+
 
 
     &>footer {
