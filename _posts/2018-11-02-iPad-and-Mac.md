@@ -2,11 +2,12 @@
 layout: post
 title: iPad & Mac
 date: 2018-11-03 22:07 -0400
+date-edit: 2018-11-05 00:16 -0500
 ---
 
 I've been thinking a lot about the dynamic between iPad<sup class="reg">&reg;</sup> and Mac<sup class="reg">&reg;</sup>. There's a gap there which has been filling, getting smaller and smaller every year.
 
-<aside>Now, when I say iPad and Mac, I really mean tablets and traditional computers, but since iPad is the most successful tablet, and Apple<sup class="reg">&reg;</sup> is known for being very decisive and proud of their brands, so this is a nice distillation of that argument. If you don't like Apple, just pretend I'm talking about... Microsoft<sup class="reg">&reg;</sup>'s Surface<sup class="reg">&reg;</sup> and Surface Laptop? Dell<sup class="reg">&reg;</sup>'s Latitude<sup class="reg">&reg;</sup> and Inspiron<sup class="reg">&reg;</sup>? Whatever floats your boat.</aside>
+<aside>Now, when I say iPad and Mac, I really mean tablets and traditional computers, but since iPad is the most successful tablet, and Apple<sup class="reg">&reg;</sup> is known for being very decisive and proud of their brands, that means this is a nice distillation of that argument. If you don't like Apple, just pretend I'm talking about... Microsoft<sup class="reg">&reg;</sup>'s Surface<sup class="reg">&reg;</sup> and Surface Laptop? Dell<sup class="reg">&reg;</sup>'s Latitude<sup class="reg">&reg;</sup> and Inspiron<sup class="reg">&reg;</sup>? Whatever floats your boat.</aside>
 
 > <figure><a href="#summary"><b class="tldr">tl;dr</b></a> <figcaption>If you can't be bothered to read all this, you can skip to <a href="#summary">the Summary section</a>.</figcaption></figure>
 
