@@ -3,6 +3,10 @@ layout: post
 title: iPad & Mac
 date: 2018-11-03 22:07 -0400
 date-edit: 2018-11-05 00:16 -0500
+categories:
+  - Think-Piece
+  - Tech
+  - Apple
 ---
 
 I've been thinking a lot about the dynamic between iPad<sup class="reg">&reg;</sup> and Mac<sup class="reg">&reg;</sup>. There's a gap there which has been filling, getting smaller and smaller every year.
