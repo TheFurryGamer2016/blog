@@ -11,7 +11,7 @@ $black: #000;
 $darkerGray: #222;
 $darkGray: #333;
 $gray: #555;
-$lightGray: rgba(0,0,0, 0.07);
+$lightGray: unquote('#8882');
 $white: #fff;
 $translucetWhite: #FFF5;
 
@@ -34,6 +34,8 @@ $material-red-500: #f44336;
 
 $material-purple-500: #9C27B0;
 $material-purple-A700: #AA00FF;
+
+$material-blue-A400: #2979FF;
 
 $material-light-blue-A400: #00B0FF;
 

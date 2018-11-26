@@ -1,0 +1,104 @@
+
+@import "variables";
+
+
+
+.infobox {
+    border: 1px solid $lightGray;
+    padding: 8px;
+    border-radius: 12px;
+
+
+
+    @include mobile {
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    &>:link,
+    &>:visited,
+    .app-logo {
+        min-width: 128px;
+        max-height: 196px;
+    }
+
+    .app-logo {
+        border: 1px solid $lightGray;
+        padding: 1ex;
+        border-radius: 4px;
+        margin: 0;
+    }
+
+    &,
+    .app-logo {
+        background: #FFF8;
+    }
+
+    dl {
+        display: flex;
+
+        &>div {
+            margin: 0 2ex;
+
+            @include mobile {
+                width: 100%;
+            }
+        }
+
+        dt {
+            font-weight: 600;
+            font-size: 10pt;
+            text-transform: UPPERCASE;
+            margin-top: 1em;
+        }
+
+        dd {
+            margin-left: 1em;
+            font-size: 13pt;
+
+            &:not(:first-of-type) {
+                position: relative;
+
+                &::before {
+                    content: "";
+                    border-top: 1px dotted #7777;
+                    position: absolute;
+                    width: calc(100% - 2em);
+                    left: 1em;
+                }
+            }
+
+            &:last-of-type {
+                margin-bottom: 1em;
+            }
+        }
+    }
+}
+
+
+.highly-recommended {
+    position: relative;
+
+    &::before {
+        content: "🌟";
+        background: #18FFFF;
+        background: #00E5FF;
+        background: #546E7A;
+        width: 3ex;
+        height: 3ex;
+        line-height: 3ex;
+        text-align: center;
+        vertical-align: middle;
+        border-radius: 99in;
+        position: absolute;
+        top: -1ex;
+        left: -0.5rem;
+        font-size: 3ex;
+        transform: rotate(-15deg);
+        pointer-events: none;
+        box-shadow: 0 2px 1ex 0 #0006;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0, .14),0 4px 5px 0 rgba(0,0,0, .12),0 1px 10px 0 rgba(0,0,0, .20);
+        border: 1px solid #FFEA00;
+    }
+}
