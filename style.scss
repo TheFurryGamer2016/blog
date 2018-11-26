@@ -101,25 +101,12 @@ a {
 del {
     &.block {
         display: block;
-        // position: relative;
         text-decoration: none;
 
-        // &::after {
-            background-image: url(/images/Block%20Del.svg);
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
-            background-position: center;
-        //     content: " ";
-        //
-        //     position: absolute;
-        //
-        //     width: 100%;
-        //     height: 100%;
-        //     top: 0;
-        //     left: 0;
-        //     bottom: 0;
-        //     right: 0;
-        // }
+        background-image: url(/images/Block%20Del.svg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
     }
 }
 
