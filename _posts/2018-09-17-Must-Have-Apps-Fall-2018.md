@@ -116,7 +116,7 @@ Telegram is Yet Another Chat App&trade;. That obviously isn't why I love it; no,
     <li>Self-Destructing Messages</li>
     <li>Highly Customizable Notifications</li>
     <li>Easily Searchable &amp; Browsable History for Messages/&zwnj;Images/&zwnj;Links/&zwnj;Gifs/&zwnj;Files/&zwnj;Voice-Messages</li>
-    <li><a href="https://t.me/joinchat/AAAAAFNDkQt2SN3FUIMZRQ" target="_blank">Share Contact/Chat With Link</a></li>
+    <li><a href="https://t.me/BenLeggiero" target="_blank">Share Contact/Chat With Link</a></li>
     <li>Public (Searchable) &amp; Private (Invite-Only) Groups</li>
     <li>Emoji Search</li>
     <li>Powerful Group Admin Tools</li>
