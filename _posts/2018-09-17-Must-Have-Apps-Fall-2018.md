@@ -2,6 +2,7 @@
 layout: post
 title: Must-Have Apps (Fall 2018)
 date: 2018-11-25 18:31 -0500
+date-edit: 2019-04-07 17:10 -0400
 excerpt: I have a bunch of apps that I absolutely love, without which my digital life wouldn't be the same. I figured I'd let y'all know about them!
 categories:
   - Opinion
