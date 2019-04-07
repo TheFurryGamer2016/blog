@@ -2,6 +2,7 @@
 layout: post
 title: Must-Have Apps (Fall 2018)
 date: 2018-11-25 18:31 -0500
+date-edit: 2019-04-07 17:10 -0400
 excerpt: I have a bunch of apps that I absolutely love, without which my digital life wouldn't be the same. I figured I'd let y'all know about them!
 categories:
   - Opinion
@@ -116,7 +117,7 @@ Telegram is Yet Another Chat App&trade;. That obviously isn't why I love it; no,
     <li>Self-Destructing Messages</li>
     <li>Highly Customizable Notifications</li>
     <li>Easily Searchable &amp; Browsable History for Messages/&zwnj;Images/&zwnj;Links/&zwnj;Gifs/&zwnj;Files/&zwnj;Voice-Messages</li>
-    <li><a href="https://t.me/joinchat/AAAAAFNDkQt2SN3FUIMZRQ" target="_blank">Share Contact/Chat With Link</a></li>
+    <li><a href="https://t.me/BenLeggiero" target="_blank">Share Contact/Chat With Link</a></li>
     <li>Public (Searchable) &amp; Private (Invite-Only) Groups</li>
     <li>Emoji Search</li>
     <li>Powerful Group Admin Tools</li>
