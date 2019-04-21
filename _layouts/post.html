@@ -23,7 +23,7 @@ layout: default
         <ol class="dates-and-times">
             <li>
                 <time class="date" datetime="{{ page.date | date_to_xmlschema }}">
-                    Written {{ page.date | date: "%F (a %A) at %R %Z" }}
+                    {% if page.date-migrated or page.date-edit %}Originally posted{% else %}Posted{% endif %} {{ page.date | date: "%F (a %A) at %R %Z" }}
                 </time>
             </li>
             {% if page.date-migrated %}
