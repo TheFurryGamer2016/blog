@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Objective-C was
-date: 2019-04-22 12:00 -0400
+date: 2019-04-21 00:26 -0400
 categories:
   - Think-Piece
   - Tech
