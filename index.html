@@ -2,35 +2,40 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post{% if post.categories contains 'Separator' %} separator{% endif %}">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        <p>{{ post.excerpt }}</p>
-      </div>
-
-      {% unless post.categories contains 'Separator' %}
-      <footer class="flex-row flex-horiz-space-between flex-vert-bottom">
-        {% unless post.categories contains 'Micro' %}
-        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-        {% endunless %}
-
-        <ol class="tags   plain   flex-row flex-wrap flex-horiz-center flex-vert-center">
-            {% for tag in post.categories %}
-            {% if tag == 'Migrated' or tag == 'Essay' %}
-            <li><span class="tag" data-tag-name="{{ tag }}">{{ tag }}</span></li>
-            {% endif %}
-            {% endfor %}
-        </ol>
-
-        <time class="date" datetime="{{ post.date | date_to_xmlschema }}">
-          {{ post.date | date: "%a. %F at %R" }}
-        </time>
-      </footer>
-      {% endunless %}
+<div class="posts   link-style-underline-on-hover   flex-row flex-wrap flex-horiz-stretch">
+    {% for post in site.posts %}
+    {% if post.categories contains 'Separator' %}
+    <article class="post separator">
+        <h1>{{ post.title }}</h1>
+        <div class="entry">
+            {{ post.excerpt }}
+        </div>
     </article>
-  {% endfor %}
+    {% else %}
+    <article class="post">
+
+        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+        <div class="entry">
+            {{ post.excerpt }}
+        </div>
+
+        <footer class="flex-row flex-horiz-space-between flex-vert-center">
+            <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%a. %F at %R" }}</time>
+
+            <ol class="tags   plain   flex-row flex-wrap flex-horiz-center flex-vert-center">
+                {% for tag in post.categories %}
+                {% if tag == 'Migrated' or tag == 'Essay' %}
+                <li><span class="tag" data-tag-name="{{ tag }}">{{ tag }}</span></li>
+                {% endif %}
+                {% endfor %}
+            </ol>
+
+            {% unless post.categories contains 'Micro' %}
+            <a href="{{ site.baseurl }}{{ post.url }}" class="small low-emphasis button">Read More</a>
+            {% endunless %}
+        </footer>
+    </article>
+    {% endif %}
+    {% endfor %}
 </div>

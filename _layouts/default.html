@@ -1,19 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html class="brightness-dark">
   <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
     {% include meta.html %}
 
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/theme-light.css" />
     <link rel="stylesheet" type="text/css" href="https://stylesheets.bhstudios.org/assets/v2/structure/flex.css" />
     <link rel="stylesheet" type="text/css" href="https://stylesheets.bhstudios.org/assets/v2/neon/neon-tables.css" />
+    <link rel="stylesheet" type="text/css" href="https://stylesheets.bhstudios.org/assets/v2/neon/neon-water.css" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
     <link href="https://google.com/+BenLeggiero" rel="me" />
@@ -21,41 +17,27 @@
     <link href="https://micro.blog/BenLeggiero" rel="me" />
     <link href="https://mastodon.social/@BenLeggiero" rel="me" />
 
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+    <!-- Forked from Jekyll Now - http://GitHub.com/barryclark/jekyll-now -->
+    <!-- See also the git repository at https://GitHub.com/BenLeggiero/blog -->
   </head>
 
-  <body>
-    <div class="wrapper-masthead">
-        <div class="container">
-            <header class="masthead   flex-row flex-horiz-space-between flex-vert-center">
-                <div class="site-microprofile   flex-row flex-horiz-left flex-vert-center">
-                    <a href="/" class="site-avatar"><img src="https://www.gravatar.com/avatar/2f4691f7a1c9d3192fe843a164a27535?s=140px"></a>
-
-                    <div class="site-info">
-                        <h1 class="site-name"><a href="/">Ben Leggiero's Blog</a></h1>
-                        <p class="site-description">Developer | Designer | Blogger</p>
-                    </div>
-                </div>
-                <nav>
-                    <!-- <a href="/">Blog</a> -->
-                    <a href="/about">About</a>
-                </nav>
-            </header>
-        </div>
-    </div>
+<body>
+    <header class="app-bar gradient-background">
+        <a href="https://GitHub.com/BenLeggiero/blog" class="button back-to-root-link"><i class="insignia   back-to-root-icon   invisible"></i> <h1 class="title"><span class="title-text">Ben Leggiero's Blog</span><span class="subtitle-text"></span></h1></a>
+    </header>
 
     <main id="main" role="main" class="container">
-      {{ content }}
+        {{ content }}
     </main>
 
     <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
+        <div class="container">
+            <footer class="footer">
+                {% include svg-icons.html %}
+            </footer>
+        </div>
     </div>
 
     {% include analytics.html %}
-  </body>
+</body>
 </html>
