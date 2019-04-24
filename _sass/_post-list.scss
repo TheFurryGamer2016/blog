@@ -1,0 +1,24 @@
+.posts .post {
+    flex-basis: 5in;
+    margin: 1em;
+    padding: 1em;
+
+    border-radius: 1ex;
+    background: var(--theme-background-color);
+    box-shadow: var(--box-shadow-z1);
+
+    @media (max-width: 6in) {
+        flex-basis: 100%;
+        margin: 1em 0;
+    }
+
+    &.separator {
+        flex-basis: calc(100% - 2em);
+        flex-basis: fill;
+        text-align: center;
+    }
+
+    h1 {
+        margin-block-end: 1ex;
+    }
+}
