@@ -1,0 +1,84 @@
+{
+    "features": [
+        {
+            "name": "Background Installs",
+            "key": "bgInstall"
+        },
+        {
+            "name": "Background Updates",
+            "key": "bgUpdate"
+        },
+        {
+            "name": "Prevents illogical usage",
+            "key": "protectiveUi"
+        }
+    ],
+    "stores": [
+        {
+            "shortName": "iOS",
+            "fullName": "App Store",
+            "isGui": true,
+            "features": {
+                "bgInstall": true,
+                "bgUpdate": true,
+                "protectiveUi": true
+            }
+        },
+        {
+            "shortName": "macOS",
+            "fullName": "Mac App Store",
+            "isGui": true,
+            "features": {
+                "bgInstall": true,
+                "bgUpdate": true,
+                "protectiveUi": true
+            }
+        },
+        {
+            "shortName": "Android",
+            "fullName": "App Store",
+            "isGui": true,
+            "features": {
+                "bgInstall": true,
+                "bgUpdate": true,
+                "protectiveUi": true
+            }
+        },
+        {
+            "shortName": "Windows",
+            "fullName": "Windows Store",
+            "isGui": true,
+            "features": {
+                "bgInstall": true,
+                "bgUpdate": true,
+                "protectiveUi": true
+            }
+        },
+        {
+            "shortName": "Chrome",
+            "fullName": "Chrome Web Store",
+            "isGui": true,
+            "features": {
+                "bgInstall": true,
+                "bgUpdate": true,
+                "protectiveUi": true
+            }
+        },
+        {
+            "shortName": "pacman",
+            "fullName": "pacman",
+            "isGui": false,
+            "features": {
+                "protectiveUi": false
+            }
+        },
+        {
+            "shortName": "brew",
+            "fullName": "Homebrew",
+            "isGui": false,
+            "features": {
+                "protectiveUi": false
+            }
+        }
+    ]
+}
