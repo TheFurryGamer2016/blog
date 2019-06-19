@@ -5,6 +5,7 @@
 # Name of your site (displayed in the header)
 name: Ben Leggiero's Blog
 title: Ben Leggiero's Blog
+author: Ben Leggiero
 
 # Short bio or description (displayed in the header)
 description: Developer | Designer | Blogger
@@ -17,14 +18,17 @@ avatar: https://www.gravatar.com/avatar/2f4691f7a1c9d3192fe843a164a27535?s=140px
 #
 
 # Includes an icon in the footer for each username you enter
-footer-links:
+social:
   email: BenLeggiero@Gmail.com
   github: BenLeggiero/blog
   rss: /feed.xml # just type anything here for a working RSS icon
   twitter: BenLeggiero
   stackoverflow: users/3939277/ben-leggiero
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: +BenLeggiero # anything in your profile username that comes after plus.google.com/
+  mastodon:
+      instance: mastodon.social
+      username: BenLeggiero
+
+theme-color: "#21043C"
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
