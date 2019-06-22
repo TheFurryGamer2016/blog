@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" type="text/css" href="https://stylesheets.bhstudios.org/assets/v2/structure/flex.css" />
     <link rel="stylesheet" type="text/css" href="https://stylesheets.bhstudios.org/assets/v2/neon/neon-tables.css" />
+    <link rel="stylesheet" type="text/css" href="https://stylesheets.bhstudios.org/assets/v2/neon/neon-renderer.css" />
     <link rel="stylesheet" type="text/css" href="https://stylesheets.bhstudios.org/assets/v2/neon/neon-water.css" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
@@ -44,8 +45,23 @@
         </div>
     </div>
 
-    <nav class="sidebar">
-        oh hi
+    <nav class="sidebar   flex-column flex-vert-space-between">
+        <section>
+            Top content placeholder
+        </section>
+        <section>
+            <ul class="theme-color-selection-list">
+                <li><a href="#Brightness-Dark"  onclick="return setBrightness('Dark')"  title="Dark"  class="color-swatch theme-brightness-swatch-dark" >Dark</a></li>
+                <li><a href="#Brightness-Light" onclick="return setBrightness('Light')" title="Light" class="color-swatch theme-brightness-swatch-light">Light</a></li>
+            </ul>
+            <ul class="theme-color-selection-list">
+                <li><a href="#Theme-Water" onclick="return setTheme('Water')" title="Water" class="color-swatch theme-color-swatch-water">Water</a></li>
+                <li><a href="#Theme-Fire"  onclick="return setTheme('Fire')"  title="Fire"  class="color-swatch theme-color-swatch-fire" >Fire</a></li>
+                <li><a href="#Theme-Earth" onclick="return setTheme('Earth')" title="Earth" class="color-swatch theme-color-swatch-earth">Earth</a></li>
+                <li><a href="#Theme-Air"   onclick="return setTheme('Air')"   title="Air"   class="color-swatch theme-color-swatch-air"  >Air</a></li>
+                <!-- <li><a href="#Theme-Magic" onclick="return setTheme('Magic')" title="Magic" class="color-swatch theme-color-swatch-magic">Magic</a></li> -->
+            </ul>
+        </section>
     </nav>
 
     {% include analytics.html %}
