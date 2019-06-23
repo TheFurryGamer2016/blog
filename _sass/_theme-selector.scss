@@ -37,38 +37,38 @@ $color-swatch-fill-color-warning: #f00;
 
 
 
-    &.theme-brightness-swatch-dark {
+    &[theme-brightness-swatch="dark"] {
         border-color: #1e292f;
         background-color: #253137;
     }
 
 
-    &.theme-brightness-swatch-light {
+    &[theme-brightness-swatch="light"] {
         border-color: #dbdbdb;
         background-color: #fafafa;
     }
 
 
 
-    &.theme-color-swatch-water {
+    &[theme-color-swatch="water"] {
         border-color: #fbc02d;
         background-color: #00b0ff;
     }
 
 
-    &.theme-color-swatch-fire {
+    &[theme-color-swatch="fire"] {
         border-color: #00e5ff;
         background-color: #ff6e40;
     }
 
 
-    &.theme-color-swatch-earth {
+    &[theme-color-swatch="earth"] {
         border-color: #ff7043;
         background-color: #4caf50;
     }
 
 
-    &.theme-color-swatch-air {
+    &[theme-color-swatch="air"] {
         border-color: #616161;
         background-color: #0d47a1;
 
