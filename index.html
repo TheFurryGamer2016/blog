@@ -16,9 +16,15 @@ layout: default
         <section>
             <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
+            {% if post.categories contains 'Micro' %}
+            <div class="entry">
+                {{ post.content }}
+            </div>
+            {% else %}
             <div class="entry">
                 {{ post.excerpt }}
             </div>
+            {% endif %}
         </section>
 
         <footer class="flex-row flex-horiz-space-between flex-vert-center">
@@ -34,6 +40,8 @@ layout: default
 
             {% unless post.categories contains 'Micro' %}
             <a href="{{ site.baseurl }}{{ post.url }}" class="small low-emphasis button">Read More</a>
+            {% else %}
+            <span class="placeholder"></span>
             {% endunless %}
         </footer>
     </article>
