@@ -6,7 +6,14 @@
  */
 
 .app-bar .title {
-    font-family: Questrial;
+    text-transform: none;
+}
+
+
+:root {
+    --font-family-title: Questrial;
+    --font-weight-title: 300;
+    --font-size-title: calc(var(--app-bar-height-auto) / 2);
 }
 
 

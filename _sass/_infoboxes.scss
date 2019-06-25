@@ -4,7 +4,7 @@
 
 
 .infobox {
-    border: 1px solid $lightGray;
+    border: 1px solid var(--material-gray-400);
     padding: 8px;
     border-radius: 12px;
 
@@ -24,7 +24,7 @@
     }
 
     .app-logo {
-        border: 1px solid $lightGray;
+        border: 1px solid var(--material-gray-400);
         padding: 1ex;
         border-radius: 4px;
         margin: 0;

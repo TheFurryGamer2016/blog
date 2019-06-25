@@ -35,6 +35,14 @@ $color-swatch-fill-color-warning: #f00;
     background: $color-swatch-fill-color-warning;
     font-size: 0;
 
+    .theme-color-selection-list & {
+        &:hover,
+        &:focus {
+            box-shadow: 0 0 0 0.5rem #607D8B;
+        }
+    }
+
+
 
 
     &[theme-swatch-type="brightness"][theme-swatch-value="dark"] {

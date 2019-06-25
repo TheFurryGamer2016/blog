@@ -33,7 +33,7 @@ layout: default
             <ol class="tags   plain   flex-row flex-wrap flex-horiz-center flex-vert-center">
                 {% for tag in post.categories %}
                 {% if tag == 'Migrated' or tag == 'Essay' %}
-                <li><span class="tag" data-tag-name="{{ tag }}">{{ tag }}</span></li>
+                <li><span class="chip tag" data-tag-name="{{ tag }}">{{ tag }}</span></li>
                 {% endif %}
                 {% endfor %}
             </ol>
