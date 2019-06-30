@@ -26,9 +26,9 @@
 
 
         &:hover, &:focus {
-            background: unquote($blue + "30");
+            background: var(--material-blue-500);
             text-decoration: none;
-            border-color: $blue;
+            border-color: var(--material-blue-500);
         }
     }
 }
