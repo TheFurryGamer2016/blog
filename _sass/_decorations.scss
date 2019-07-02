@@ -2,7 +2,9 @@
 kbd {
     display: inline-block;
     vertical-align: middle;
-    font-size: 0.7em;
+    font-size: 10pt;
+    line-height: 1;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
     background: #000;
     background: linear-gradient(to bottom, #111 0%, #222 100%);
     color: #FFF;

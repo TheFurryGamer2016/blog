@@ -3,42 +3,111 @@
 
 
 
-.infobox {
-    border: 1px solid var(--material-gray-400);
-    padding: 8px;
-    border-radius: 12px;
+:root {
+    --app-logo-width: 144px;
+    --app-logo-height: 144px;
+    --app-logo-padding-block-start: 1ex;
+    --app-logo-padding-block-end: 1ex;
+    --app-logo-padding-inline-start: 1ex;
+    --app-logo-padding-inline-end: 1ex;
+    --app-logo-total-block-padding: calc(var(--app-logo-padding-block-start) + var(--app-logo-padding-block-end));
+    --app-logo-total-inline-padding: calc(var(--app-logo-padding-inline-start) + var(--app-logo-padding-inline-end));
+}
 
+
+
+.infobox {
+    margin: 2em 0;
+    padding: 8px;
+    transition-property: border-color, background-color;
+
+    border: 1px solid transparent;
+    border-radius: 12px;
+    background: var(--theme-background-color-at-level-2);
+    box-shadow: var(--box-shadow-z6);
 
 
     @include mobile {
-        -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     }
 
-    &>:link,
-    &>:visited,
-    .app-logo {
-        min-width: 128px;
-        max-height: 196px;
+
+    .brightness-dark & {
+        border-color: var(--semitransparent-grey);
     }
 
+
+    >:link,
+    >:visited,
     .app-logo {
-        border: 1px solid var(--material-gray-400);
-        padding: 1ex;
-        border-radius: 4px;
+        width: var(--app-logo-width);
+        // min-width: var(--app-logo-min-width);
+        height: var(--app-logo-height);
+        // max-height: var(--app-logo-max-height);
+    }
+
+    // scss-lint:disable UnnecessaryParentReference
+    @at-root & .app-logo,
+    .app-cloud .app-logo {
         margin: 0;
-    }
+        padding-inline-start: var(--app-logo-padding-inline-start);
+        padding-inline-end: var(--app-logo-padding-inline-end);
+        padding-block-start: var(--app-logo-padding-block-start);
+        padding-block-end: var(--app-logo-padding-block-end);
+        transition-property: background-color, border-color;
 
-    &,
-    .app-logo {
-        background: #FFF8;
-    }
+        // border: 1px solid var(--material-gray-400);
+        border: 1px solid transparent;
+        border-radius: 1ex;
+        background-color: var(--theme-background-color-at-level-3);
+        box-shadow: var(--box-shadow-z4);
 
+        .brightness-dark &,
+        .brightness-black & {
+            border-color: var(--semitransparent-grey);
+        }
+
+        &.circular {
+            border-radius: 99in;
+
+            // --app-logo-width: 128px;
+            // --app-logo-min-width: unset;
+            // --app-logo-height: var(--app-logo-width);
+            // --app-logo-max-height: unset;
+
+            img {
+                width: calc(var(--app-logo-width) - var(--app-logo-total-inline-padding));
+                height: calc(var(--app-logo-height) - var(--app-logo-total-block-padding));
+                border-radius: 99in;
+            }
+        }
+
+        img {
+            // max-width: 100%;
+            max-width: calc(var(--app-logo-width) - var(--app-logo-total-inline-padding));
+            // max-width: fill-available;
+            // max-width: stretch;
+            // max-width: -moz-available;
+            // max-width: -webkit-fill-available;
+            // max-height: 100%;
+            max-height: calc(var(--app-logo-height) - var(--app-logo-total-block-padding));
+            // max-height: stretch;
+            // max-height: -moz-available;
+            // max-height: -webkit-fill-available;
+        }
+
+        &:not(img) {
+            padding-block-end: var(--app-logo-padding-block-end);
+        }
+    }
+    // scss-lint:enable UnnecessaryParentReference
+
+    // The list of information items
     dl {
         display: flex;
 
-        &>div {
+        // Each individual information item
+        >div {
             margin: 0 2ex;
 
             @include mobile {
@@ -46,26 +115,29 @@
             }
         }
 
+        // The title of each information item
         dt {
-            font-weight: 600;
-            font-size: 10pt;
-            text-transform: UPPERCASE;
             margin-top: 1em;
+            font-size: 10pt;
+            font-weight: 600;
+            text-transform: UPPERCASE;
         }
 
+        // The info of each information item
         dd {
             margin-left: 1em;
             font-size: 13pt;
 
+            // All but the first information item
             &:not(:first-of-type) {
                 position: relative;
 
                 &::before {
                     content: "";
-                    border-top: 1px dotted #7777;
                     position: absolute;
-                    width: calc(100% - 2em);
                     left: 1em;
+                    width: calc(100% - 2em);
+                    // border-top: 1px dotted #7777;
                 }
             }
 
@@ -73,6 +145,11 @@
                 margin-bottom: 1em;
             }
         }
+    }
+
+
+    .infobox-content {
+        flex-grow: 1;
     }
 }
 
@@ -82,23 +159,21 @@
 
     &::before {
         content: "🌟";
-        background: #18FFFF;
-        background: #00E5FF;
-        background: #546E7A;
-        width: 3ex;
-        height: 3ex;
-        line-height: 3ex;
-        text-align: center;
-        vertical-align: middle;
-        border-radius: 99in;
         position: absolute;
         top: -1ex;
         left: -0.5rem;
-        font-size: 3ex;
+        width: 3ex;
+        height: 3ex;
         transform: rotate(-15deg);
+
+        border: 1px solid var(--material-yellow-a400);
+        border-radius: 99in;
+        background: var(--theme-background-color-at-level-3);
+        box-shadow: var(--box-shadow-z6);
+        font-size: 3ex;
+        line-height: 3ex;
+        text-align: center;
+        vertical-align: middle;
         pointer-events: none;
-        box-shadow: 0 2px 1ex 0 #0006;
-        box-shadow: 0 2px 4px 0 rgba(0,0,0, .14),0 4px 5px 0 rgba(0,0,0, .12),0 1px 10px 0 rgba(0,0,0, .20);
-        border: 1px solid #FFEA00;
     }
 }

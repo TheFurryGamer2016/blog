@@ -8,6 +8,7 @@ categories:
   - Opinion
   - Recommendations
 ---
+<!--lint disable no-literal-urls-->
 
 There are a bunch of apps that I use and didn't make, which I absolutely love. Without these, my digital life just wouldn't be the same. I figured I'd let y'all know about them!
 
@@ -40,7 +41,8 @@ Let's start with what most of y'all can use, regardless of what platform you're 
     creatorName='GitHub'
     creatorUrl='https://GitHub.com'
     websiteUrl='https://Atom.IO'
-    iconUrl='https://BenLeggieroBlogCdn.BHStudios.org/Logos/Apps/Atom.svg'
+    iconUrl='https://BenLeggieroBlogCdn.BHStudios.org/Logos/Apps/Atom Icon.svg'
+    circular_icon=true
     platforms='Windows,,Linux <small>(<code>deb</code>, <code>rpm</code>, <code>tar.gz</code>)</small>,, macOS'
     price='Free'
     source_model='<a href="https://github.com/atom/atom">Free and Open-Source</a>'
@@ -61,6 +63,7 @@ Before I found Atom, I was using [Notepad++](https://notepad-plus-plus.org) (hon
     creatorUrl='https://Google.com'
     websiteUrl='https://Chrome.com'
     iconUrl='https://BenLeggieroBlogCdn.BHStudios.org/Logos/Apps/Google-Chrome.svg'
+    circular_icon=true
     platforms='All'
     price='Free'
     source_model='Based on <a href="https://www.chromium.org" target="_blank">Chromium</a>, which is <a href="https://www.chromium.org/developers/contributing-code#TOC-Legal-stuff" target="_blank">Free and Open-Source</a>'
@@ -77,8 +80,9 @@ I don't&hellip; need to explain this one, do I? It's a common choice. I usually 
     creatorUrl='https://Axosoft.com'
     websiteUrl='https://GitKraken.com/invite/4BcuQTTb'
     websiteName='GitKraken.com'
-    iconUrl='https://BenLeggieroBlogCdn.bhstudios.org/Logos/Apps/Gitkraken.png'
-    darkMode_iconUrl='https://res.cloudinary.com/bhstudios/image/upload/v1537762102/BenLeggiero.blog/Logos/Apps/gitkraken-logo-light-sq.png'
+    iconUrl='https://BenLeggieroBlogCdn.bhstudios.org/Logos/Apps/Gitkraken.svg'
+    darkMode_iconUrl='https://BenLeggieroBlogCdn.bhstudios.org/Logos/Apps/Gitkraken for dark theme.svg'
+    circular_icon=true
     platforms='Windows,,Linux <small>(<code>deb</code>, <code>tar.gz</code>)</small>,, macOS'
     price='Free,,Pro: $49/yr,,Enterprise: $99/user/yr'
     source_model='Closed-Source'
@@ -94,6 +98,7 @@ Another one I'm using to make this blog, GitKraken is the easiest and most intui
     creatorName='Telegram Messenger Inc.'
     websiteUrl='https://Telegram.org'
     iconUrl='https://BenLeggieroBlogCdn.bhstudios.org/Logos/Apps/Telegram.svg'
+    circular_icon=true
     platforms='<a href="https://telegram.org/apps" target="_blank">All</a>'
     price='Free'
     source_model='<a href="https://telegram.org/apps#source-code" target="_blank">Free and Open-Source</a>'
@@ -131,6 +136,7 @@ Telegram is Yet Another Chat App&trade;. That obviously isn't why I love it; no,
     creatorName='f.lux software LLC'
     websiteUrl='https://JustGetFlux.com'
     iconUrl='https://BenLeggieroBlogCdn.bhstudios.org/Logos/Apps/f.lux.png'
+    circular_icon=true
     platforms='Windows,,macOS,,Linux (PPA, X-Window),,Android,,iOS (Jailbroken)'
     price='Free'
     source_model='Closed Source'
@@ -149,6 +155,7 @@ I do this to warm up the tone of the display during normal use, to match the whi
     creatorUrl='https://Blog.AgileBits.com'
     websiteUrl='https://1Password.com'
     iconUrl='https://BenLeggieroBlogCdn.bhstudios.org/Logos/Apps/1Password.png'
+    circular_icon=true
     platforms='Windows,,macOS,,Android,,iOS,,CLI,,Browsers'
     price='Standard: <a href="https://1password.com/sign-up/" target="_blank">$3/mo</a>,,Families: $5/mo,,Teams: $4/user/mo,,Business: $8/user/mo,,Enterprise: Quoted'
     source_model='Closed Source'
@@ -177,9 +184,11 @@ Obviously, eventually, I settled on 1Password, and it's been hard to look back. 
 
 As many Windows users have, I started taking screenshots by pressing <kbd>Prnt <br/>Scrn</kbd>, then pasting into MS Paint, then saving that. When Windows Vista included the Snipping Tool, I rejoiced and pinned it to my taskbar, using it by default for cropped screenshots. When Windows 8 included a shortcut for fullscreen shots, I gladly used <kbd>&boxplus;</kbd><kbd>Prnt <br/>Scrn</kbd> to save it to `Pictures/Screenshots`. And since then Windows hasn't improved on the system at all.
 
+<!--lint disable no-inline-padding-->
 Well, when I started using macOS, I found that <kbd>⌘</kbd><kbd>⇧</kbd><kbd>4</kbd>[ **\*** ](#macos-screenshot-specifics), while unintuitive, provided a quick, easy, and fully-featured screenshotting tool. I became so accustomed to this that when I moved back to Windows, I found it barbaric to launch Snipping Tool, select Snip mode, click New, select what I wanted, and press <kbd>Ctrl</kbd><kbd>S</kbd> to do what in macOS would just be <kbd>⌘</kbd><kbd>⇧</kbd><kbd>4</kbd> and select. And on top of that, after Windows 8 changed its window border thicknesses, the snipping tool was no longer accurate (it's consistently off by 1px to the right and 1px down).
 
 So, I went searching and found GreenShot! This let me replicate this behavior _and_ tweak it to my liking. Now in Windows I just slap <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>4</kbd> and select, then it saves it. It also copies it to the clipboard, and while you're selecting on the screen it shows a zoom of the pixels surrounding the cursor. This is even an improvement over the macOS screenshot tool[ **\*** ](#macos-screenshot-specifics) [ **\*\*** ](#macos-mojave-screenshot-tool)!
+<!--lint enable no-inline-padding-->
 
 
 
@@ -231,6 +240,7 @@ I highly recommend the format since it's free and open source (unlike `rar`), an
     creatorUrl='https://Urbandroid.org'
     websiteUrl='https://Sleep.Urbandroid.org'
     iconUrl='https://BenLeggieroBlogCdn.bhstudios.org/Logos/Apps/Sleep as Android.png'
+    circular_icon=true
     price='Full: $6 &amp; Free Trial,,Limited: Free'
     source_model='Closed-Source'
     highly=true
@@ -310,6 +320,7 @@ It even supports raw photos! I honestly can't believe this thing is free.
     creatorUrl='https://github.com/aonez'
     websiteUrl='https://Keka.IO'
     iconUrl='https://BenLeggieroBlogCdn.bhstudios.org/Logos/Apps/Keka.png'
+    circular_icon=true
     price='Free'
     source_model='<a href="https://github.com/aonez/Keka" target="_blank">Free and Open-Source</a>'
 %}
@@ -327,6 +338,7 @@ Oh yeah, and Keka lets you [exclude macOS resource forks](https://superuser.com/
     creatorUrl='https://bjango.com'
     websiteUrl='https://bjango.com/mac/istatmenus/'
     iconUrl='https://BenLeggieroBlogCdn.bhstudios.org/Logos/Apps/iStat-Menus.png'
+    circular_icon=true
     price='Single: $15,,Family: $20'
     source_model='Closed-Source'
 %}
@@ -426,32 +438,38 @@ Much like crxMouse Gestures, sadly, [Hover Zoom was also found to be malicous](h
             <li>{% include app-cloud-app.html
                 appName='Atom'
                 websiteUrl='https://Atom.IO'
-                iconUrl='https://BenLeggieroBlogCdn.BHStudios.org/Logos/Apps/Atom.svg'
+                iconUrl='https://BenLeggieroBlogCdn.BHStudios.org/Logos/Apps/Atom Icon.svg'
+                circular_icon=true
             %}</li>
             <li>{% include app-cloud-app.html
                 appName='Google Chrome'
                 websiteUrl='https://Chrome.com'
                 iconUrl='https://BenLeggieroBlogCdn.BHStudios.org/Logos/Apps/Google-Chrome.svg'
+                circular_icon=true
             %}</li>
             <li>{% include app-cloud-app.html
                 appName='GitKraken'
                 websiteUrl='https://GitKraken.com/invite/4BcuQTTb'
                 iconUrl='https://BenLeggieroBlogCdn.bhstudios.org/Logos/Apps/Gitkraken.png'
+                circular_icon=true
             %}</li>
             <li>{% include app-cloud-app.html
                 appName='Telegram'
                 websiteUrl='https://Telegram.org'
                 iconUrl='https://BenLeggieroBlogCdn.bhstudios.org/Logos/Apps/Telegram.svg'
+                circular_icon=true
             %}</li>
             <li>{% include app-cloud-app.html
                 appName='f.lux'
                 websiteUrl='https://JustGetFlux.com'
                 iconUrl='https://BenLeggieroBlogCdn.bhstudios.org/Logos/Apps/f.lux.png'
+                circular_icon=true
             %}</li>
             <li>{% include app-cloud-app.html
                 appName='1Password'
                 websiteUrl='https://1Password.com'
                 iconUrl='https://BenLeggieroBlogCdn.bhstudios.org/Logos/Apps/1Password.png'
+                circular_icon=true
             %}</li>
         </ul>
     </li>
@@ -483,6 +501,7 @@ Much like crxMouse Gestures, sadly, [Hover Zoom was also found to be malicous](h
                 websiteUrl='https://Urbandroid.org'
                 iconUrl='https://BenLeggieroBlogCdn.bhstudios.org/Logos/Apps/Sleep as Android.png'
                 highly=true
+                circular_icon=true
             %}</li>
             <li>{% include app-cloud-app.html
                 appName='Meteor Swipe'
@@ -508,11 +527,13 @@ Much like crxMouse Gestures, sadly, [Hover Zoom was also found to be malicous](h
                 appName='Keka'
                 websiteUrl='https://Keka.IO'
                 iconUrl='https://BenLeggieroBlogCdn.bhstudios.org/Logos/Apps/Keka.png'
+                circular_icon=true
             %}</li>
             <li>{% include app-cloud-app.html
                 appName='iStat Menus'
                 websiteUrl='https://bjango.com/mac/istatmenus'
                 iconUrl='https://BenLeggieroBlogCdn.bhstudios.org/Logos/Apps/iStat-Menus.png'
+                circular_icon=true
             %}</li>
             <li>{% include app-cloud-app.html
                 appName='Bartender'

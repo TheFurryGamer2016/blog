@@ -74,7 +74,12 @@ $color-swatch-fill-color-warning: #f00;
 
     &[theme-swatch-type="color"][theme-swatch-value="fire"] {
         --color-swatch-primary-color: #ff6e40;
-        --color-swatch-accent-color: #00e5ff;
+        --color-swatch-accent-color: #2196f3;
+
+        .brightness-dark &,
+        .brightness-black & {
+            --color-swatch-accent-color: #00e5ff;
+        }
     }
 
 
