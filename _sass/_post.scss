@@ -20,7 +20,8 @@
     h4,
     h5,
     h6 {
-        margin: 2em 0 1ex;
+        margin: 0 0 1ex;
+        padding: 2em 0 0;
     }
 
     header h1 {
@@ -36,5 +37,79 @@
         border-radius: 1ex;
         border-color: var(--semitransparent-grey);
         font-size: 0.8rem;
+    }
+
+    blockquote {
+        border-inline-start: 2px solid var(--semitransparent-grey);
+        margin: 2em;
+        padding: 1em;
+    }
+
+    hr {
+        max-width: 3in;
+        margin: 2cm auto;
+        border-style: solid;
+        border-color: var(--semitransparent-grey);
+    }
+
+
+    .chips {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .chip {
+        &:link,
+        &:visited,
+        &:not([disabled]) {
+
+            transition-property: background-color, box-shadow, color;
+
+            &:hover,
+            &:focus {
+                box-shadow: var(--box-shadow-z3);
+            }
+        }
+    }
+
+
+    footer.card {
+        max-width: var(--phone-portrait-medium-max-width);
+        margin: 10vh auto;
+
+        >* {
+            margin: 1em 0;
+
+            // &:first-child {
+            //     margin-block-start: 0;
+            // }
+
+            &:last-child {
+                margin-block-end: 0;
+            }
+        }
+
+        >.chips:first-child {
+            margin-block-start: 1ex;
+        }
+
+        .dates-and-times {
+            list-style-type: none;
+            margin-block-start: 2em;
+
+            >* {
+                margin: 1em 0;
+                opacity: 0.5;
+            }
+
+            time span {
+                display: inline-block;
+            }
+        }
+
+        .oss-links {
+            text-align: end;
+        }
     }
 }

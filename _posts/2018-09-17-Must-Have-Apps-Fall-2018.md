@@ -14,14 +14,14 @@ There are a bunch of apps that I use and didn't make, which I absolutely love. W
 
 These aren't in any particular order. I love them all! Of course, these picks are my opinions and they don't mean any competing app is bad, just that I prefer these. Of course, none of these are promotions. No compensation changed hands; these are truly my opinions.
 
-<nav class="nav-pills">
-    <ol>
-        <li><a href="#cross-platform">Cross-Platform</a></li>
-        <li><a href="#windows">Windows</a></li>
-        <li><a href="#android">Android</a></li>
-        <li><a href="#macos">macOS</a></li>
-        <li><a href="#browser-extensions">Browser Extensions</a></li>
-        <li><a href="#tldr">tl;dr</a></li>
+<nav>
+    <ol class="chips">
+        <li><a href="#cross-platform" class="chip">Cross-Platform</a></li>
+        <li><a href="#windows" class="chip">Windows</a></li>
+        <li><a href="#android" class="chip">Android</a></li>
+        <li><a href="#macos" class="chip">macOS</a></li>
+        <li><a href="#browser-extensions" class="chip">Browser Extensions</a></li>
+        <li><a href="#tldr" class="chip">tl;dr</a></li>
     </ol>
 </nav>
 

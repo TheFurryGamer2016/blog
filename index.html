@@ -30,10 +30,10 @@ layout: default
         <footer class="flex-row flex-horiz-space-between flex-vert-center">
             <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%a. %F at %R" }}</time>
 
-            <ol class="tags   plain   flex-row flex-wrap flex-horiz-center flex-vert-center">
-                {% for tag in post.categories %}
-                {% if tag == 'Migrated' or tag == 'Essay' %}
-                <li><span class="chip tag" data-tag-name="{{ tag }}">{{ tag }}</span></li>
+            <ol class="chips   plain   flex-row flex-wrap flex-horiz-center flex-vert-center">
+                {% for category in post.categories %}
+                {% if category == 'Migrated' or category == 'Essay' %}
+                <li><span class="chip" disabled data-category-name="{{ category }}">{{ category }}</span></li>
                 {% endif %}
                 {% endfor %}
             </ol>

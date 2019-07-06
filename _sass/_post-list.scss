@@ -25,12 +25,13 @@
     }
 
     h1 {
+        padding-block-start: 0;
         margin-block-start: 0;
         margin-block-end: 1ex;
     }
 
     .date {
-        opacity: 0.8;
+        opacity: 0.5;
         font-size: 80%;
     }
 
