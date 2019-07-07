@@ -1,5 +1,20 @@
 <!DOCTYPE html>
-<html class="brightness-dark reduce-motion">
+<html class="brightness-dark reduce-motion content-animates-with-navigation">
+    <!--
+    brightness-dark:                  Set the default theme brightness immediately. Whichever the user picks, this
+                                      default will flash briefly when the page first loads. I figure it's better to
+                                      flash dark when the user wants light, than to flash light when the user wants
+                                      dark. I imagine someone in a darker room getting a sudden flash of light every
+                                      time they navigate wouldn't be happy about it, but someone in a bright room
+                                      getting a flash of darkness might not mind at all.
+
+    reduce-motion:                    This class is almost immeidately removed once the page is done loading. This
+                                      ensures that when the user's selected theme is initially read and set with
+                                      scripting, it doesn't animate in, but instantly becomes the current theme. Since
+                                      this is removed immediately thereafter, all other animations continue.
+
+    content-animates-with-navigation: Allows the content to animage in and out when the user navigates between pages.
+    -->
   <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
@@ -41,19 +56,21 @@
     $(window).on("load", function() {
         $("html").removeClass("reduce-motion")
         $(".falls-away-on-nav-away").removeClass("fallen-away")
+        $(".fades-out-on-nav-away").removeClass("faded-out")
 
         // All links to other pages should make the content go away and then navigate
-        $(":link, :visited")
+        $(".content-animates-with-navigation :link, .content-animates-with-navigation  :visited")
             .filter((_, element) => {
-                // Match any link to another page (not a fragment link)
-                return (element.pathname.match(/^\/[^\/]+\/?$/)
-                    || element.pathname == "/")
+                // Match any link to another page (not a fragment link) in this site
+                return element.host == window.location.host
+                    && (element.pathname.match(/^\/[^\/]+\/?$/)
+                        || element.pathname == "/")
                     && (element.hash == ""
                         && !element.href.endsWith("#"))
             })
             .click(event => {
                 window.localStorage["org.bh.should-rise-back-on-load"] = true
-                $(".falls-away-on-nav-away").addClass("fallen-away")
+                $(".falls-away-on-nav-away").addClass("fallen-away").removeClass("risen-up")
                 $(".fades-out-on-nav-away").addClass("faded-out")
                 $(":root").removeClass("sidebar-shown")
                 setTimeout(_ => {
@@ -72,11 +89,11 @@
         <span class="layout-placeholder"></span>
     </header>
 
-    <main id="main" role="main" class="falls-away-on-nav-away">
+    <main id="main" role="main" class="falls-away-on-nav-away rises-up-on-load">
         {{ content }}
     </main>
 
-    <footer class="fades-in-on-load fades-out-on-nav-away">
+    <footer class="fades-in-on-load falls-away-on-nav-away">
         {% include svg-icons.html %}
     </footer>
 
@@ -102,7 +119,7 @@
     <script>
     if (window.localStorage["org.bh.should-rise-back-on-load"]) {
         window.localStorage.removeItem("org.bh.should-rise-back-on-load")
-        $(".falls-away-on-nav-away").addClass("rises-up-on-load")
+        $(".rises-up-on-load").addClass("risen-up")
     }
     </script>
     {% include analytics.html %}

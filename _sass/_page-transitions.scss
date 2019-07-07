@@ -42,28 +42,6 @@
     }
 }
 
-.falls-away-on-nav-away.fallen-away {
-    @include page-load-animation(fall-away);
-    transform: translateY(0vh);
-    opacity: 1;
-}
-
-.fades-out-on-nav-away.faded-out {
-    @include page-load-animation(fade-out);
-    opacity: 1;
-}
-
-
-
-.fades-in-on-load {
-    @include page-load-animation(fade-in);
-    opacity: 0;
-
-    @at-root footer#{&} {
-        animation-delay: 400ms;
-    }
-}
-
 
 @keyframes fade-in {
     0% { opacity: 0; }
@@ -76,19 +54,42 @@
 }
 
 
-.rises-up-on-load {
-    @include page-load-animation(rise-up);
-    transform: translateY(110vh);
-    opacity: 0;
-}
-
-
 @keyframes rise-up {
     0% { transform: translateY(110vh); opacity: 0; }
-    100% { transform: translateY(0vh); opacity: 1; }
+    100% { transform: translateY(0); opacity: 1; }
 }
 
 @keyframes fall-away {
-    0% { transform: translateY(0vh); opacity: 1; }
+    0% { transform: translateY(0); opacity: 1; }
     100% { transform: translateY(110vh); opacity: 0; }
+}
+
+
+.content-animates-with-navigation {
+    .falls-away-on-nav-away.fallen-away {
+        @include page-load-animation(fall-away);
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    .fades-out-on-nav-away.faded-out {
+        @include page-load-animation(fade-out);
+        opacity: 1;
+    }
+
+
+    .rises-up-on-load.risen-up {
+        @include page-load-animation(rise-up);
+        transform: translateY(110vh);
+        opacity: 0;
+    }
+
+    .fades-in-on-load {
+        @include page-load-animation(fade-in);
+        opacity: 0;
+    }
+
+    footer.fades-in-on-load {
+        animation-delay: calc(var(--page-load-transition-duration));
+    }
 }
