@@ -7,6 +7,7 @@ excerpt: I have a bunch of apps that I absolutely love, without which my digital
 categories:
   - Opinion
   - Recommendations
+  - Tech
 ---
 <!--lint disable no-literal-urls-->
 

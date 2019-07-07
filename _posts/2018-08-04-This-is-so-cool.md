@@ -3,6 +3,10 @@ layout: post
 title: This is so cool!
 date: 2018-08-04 12:40 -0500
 date-edit: 2019-07-07 03:05 -0600
+categories:
+  - Meta
+  - Tech
+  - Micro
 ---
 
 Last night I made a blog at [https://BenLeggiero.blog](https://BenLeggiero.blog) and mirrored it on [https://micro.blog/BenLeggiero](https://micro.blog/BenLeggiero)! 
