@@ -6,6 +6,7 @@
 //
 
 @import "variables";
+@import "page-transitions";
 @import "posts-and-pages";
 @import "post-list";
 @import "infoboxes";
@@ -24,3 +25,22 @@ main {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+
+
+@keyframes load {
+    0% {
+        transition-duration: 0ms !important;
+        transition-property: none !important;
+    }
+
+    100% {
+        transition-duration: 0ms !important;
+        transition-property: none !important;
+    }
+}
+
+* {
+    animation-name: load;
+    animation-duration: 1s;
+    animation-timing-function: step-end;
+}

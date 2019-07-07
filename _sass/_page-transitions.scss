@@ -1,0 +1,94 @@
+
+// scss-lint:disable ImportantRule
+
+:root {
+    --page-load-transition-duration: 500ms;
+}
+
+
+@mixin _base-animation($name, $timing-function) {
+    animation-name: $name;
+    animation-duration: var(--page-load-transition-duration);
+    animation-timing-function: $timing-function;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+
+
+@mixin page-load-animation($name) {
+    @include _base-animation($name, ease-in);
+}
+
+
+@mixin nav-away-animation($end-class-name, $start-states, $end-states) {
+    $props: ();
+
+    @each $p, $_ in $start-states {
+        $props: append($props, $p, $separator: comma);
+    }
+    transition-property: $props;
+
+    @each $start-state-name, $start-state-value in $start-states {
+        #{$start-state-name}: $start-state-value;
+    }
+
+    &.#{$end-class-name} {
+        animation-fill-mode: none;
+        @each $end-state-name, $end-state-value in $end-states {
+            #{$end-state-name}: $end-state-value;
+        }
+    }
+}
+
+.falls-away-on-nav-away.fallen-away {
+    @include page-load-animation(fall-away);
+    transform: translateY(0vh);
+    opacity: 1;
+}
+
+.fades-out-on-nav-away.faded-out {
+    @include page-load-animation(fade-out);
+    opacity: 1;
+}
+
+
+
+.fades-in-on-load {
+    @include page-load-animation(fade-in);
+    opacity: 0;
+
+    @at-root footer#{&} {
+        animation-delay: 400ms;
+    }
+}
+
+
+@keyframes fade-in {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes fade-out {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+
+.rises-up-on-load {
+    @include page-load-animation(rise-up);
+    transform: translateY(110vh);
+    opacity: 0;
+}
+
+
+@keyframes rise-up {
+    0% { transform: translateY(110vh); opacity: 0; }
+    100% { transform: translateY(0vh); opacity: 1; }
+}
+
+@keyframes fall-away {
+    0% { transform: translateY(0vh); opacity: 1; }
+    100% { transform: translateY(110vh); opacity: 0; }
+}

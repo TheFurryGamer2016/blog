@@ -10,23 +10,23 @@ layout: default
     {{ content }}
   </div>
 
-    <footer class="flex-row flex-horiz-space-between flex-vert-bottom flex-wrap">
+  <footer class="card">
         <ol class="dates-and-times">
             {% if page.date-edit %}
             <li>
                 <time class="date" datetime="{{ page.date-edit | date_to_xmlschema }}">
-                    Last updated {{ page.date-edit | date: "%F (a %A) at %R %Z" }}
+                    Last updated {{ page.date-edit | date: "%F <span>(a %A)</span> at <span>%R %Z</span>" }}
                 </time>
             </li>
             {% endif %}
         </ol>
 
-        <ol class="plain inline-list">
+        <footer class="oss-links">
             {% if page.original-url %}
-            <li><a href="{{ page.original-url }}" title="View Original" target="_blank" class="small material-icons button">import_contacts</a></li>
+            <a href="{{ page.original-url }}" title="View Original" target="_blank" class="low-emphasis button"><i class="material-icons">import_contacts</i> <span>View Original</span></a>
             {% endif %}
-            <li><a href="https://github.com/BenLeggiero/blog/commits/master/{{ page.path }}" title="Post History" target="_blank" class="small material-icons button">history</a></li>
-            <li><a href="https://github.com/BenLeggiero/blog/edit/master/{{ page.path }}" title="Suggest an Edit" target="_blank" class="small material-icons button">edit</a></li>
-        </ol>
+            <a href="https://github.com/BenLeggiero/blog/commits/master/{{ page.path }}" title="Post History" target="_blank" class="low-emphasis button"><i class="material-icons">history</i> <span>History</span></a>
+            <a href="https://github.com/BenLeggiero/blog/edit/master/{{ page.path }}" title="Suggest an Edit" target="_blank" class="low-emphasis button"><i class="material-icons">edit</i> <span>Suggest an Edit</span></a>
+        </footer>
     </footer>
 </article>

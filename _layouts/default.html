@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="brightness-dark" nighteye="disabled">
+<html class="brightness-dark reduce-motion">
   <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="https://stylesheets.bhstudios.org/assets/v2/structure/flex.css" />
     <link rel="stylesheet" type="text/css" href="https://stylesheets.bhstudios.org/assets/v2/neon/neon-tables.css" />
     <link rel="stylesheet" type="text/css" id="framework-stylesheet" href="https://stylesheets.bhstudios.org/assets/v2/neon/neon-renderer.css" />
-    <link rel="stylesheet" type="text/css" id="theme-stylesheet" href="https://stylesheets.bhstudios.org/assets/v2/neon/neon-water.css" />
+    <link rel="stylesheet" type="text/css" id="theme-stylesheet" href="https://stylesheets.bhstudios.org/assets/v2/neon/neon-renderer.css" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
@@ -24,6 +24,45 @@
 
     <!-- Forked from Jekyll Now - http://GitHub.com/barryclark/jekyll-now -->
     <!-- See also the git repository at https://GitHub.com/BenLeggiero/blog -->
+
+    <script>
+
+    // Ensure a better page reload, since we can't generate different headers for different users
+    // because this is a static site.
+
+    if (undefined === window.localStorage["org.bh.theme"]) {
+        window.localStorage["org.bh.theme"] = JSON.stringify({"color":"water","brightness":"dark"})
+    }
+    else {
+        const oldBrightness = JSON.parse(window.localStorage["org.bh.theme"]).brightness
+
+    }
+
+    $(window).on("load", function() {
+        $("html").removeClass("reduce-motion")
+        $(".falls-away-on-nav-away").removeClass("fallen-away")
+
+        // All links to other pages should make the content go away and then navigate
+        $(":link, :visited")
+            .filter((_, element) => {
+                // Match any link to another page (not a fragment link)
+                return (element.pathname.match(/^\/[^\/]+\/?$/)
+                    || element.pathname == "/")
+                    && (element.hash == ""
+                        && !element.href.endsWith("#"))
+            })
+            .click(event => {
+                window.localStorage["org.bh.should-rise-back-on-load"] = true
+                $(".falls-away-on-nav-away").addClass("fallen-away")
+                $(".fades-out-on-nav-away").addClass("faded-out")
+                $(":root").removeClass("sidebar-shown")
+                setTimeout(_ => {
+                    window.location = event.target.href || $(event.target).parents("[href]")[0].href
+                }, 1000)
+                return false
+            })
+    })
+    </script>
   </head>
 
 <body>
@@ -33,17 +72,13 @@
         <span class="layout-placeholder"></span>
     </header>
 
-    <main id="main" role="main" class="container">
+    <main id="main" role="main" class="falls-away-on-nav-away">
         {{ content }}
     </main>
 
-    <div class="wrapper-footer">
-        <div class="container">
-            <footer class="footer">
-                {% include svg-icons.html %}
-            </footer>
-        </div>
-    </div>
+    <footer class="fades-in-on-load fades-out-on-nav-away">
+        {% include svg-icons.html %}
+    </footer>
 
     <nav class="sidebar   flex-column flex-vert-space-between">
         <section>
@@ -64,6 +99,12 @@
         </section>
     </nav>
 
+    <script>
+    if (window.localStorage["org.bh.should-rise-back-on-load"]) {
+        window.localStorage.removeItem("org.bh.should-rise-back-on-load")
+        $(".falls-away-on-nav-away").addClass("rises-up-on-load")
+    }
+    </script>
     {% include analytics.html %}
 </body>
 </html>

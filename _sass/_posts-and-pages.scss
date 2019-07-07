@@ -4,7 +4,8 @@
 //
 
 
-.post {
+.post,
+.page {
     max-width: var(--desktop-small-max-width);
     margin: auto;
 
@@ -26,6 +27,7 @@
 
     header h1 {
         margin: 3em 0;
+        padding: 0;
         text-align: center;
     }
 
