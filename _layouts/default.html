@@ -77,8 +77,21 @@
 
     <nav class="sidebar   flex-column flex-vert-space-between">
         <section>
-            Top content placeholder
+            <header>
+                <figure>
+                    <img src="{{ site.author.avatar }}" class="avatar"/>
+                </figure>
+            </header>
+            <ul class="link-list">
+                {% unless page.url == "/" %}
+                <li><a href="/" class="low-emphasis button">{{ site.title }}</a></li>
+                {% endunless %}
+                {% unless page.url == "/About" or page.url == "/About/" %}
+                <li><a href="/About" class="low-emphasis button">About</a></li>
+                {% endunless %}
+            </ul>
         </section>
+
         <section>
             <ul class="theme-color-selection-list">
                 <li><a href="#Brightness-Dark"  onclick="return false" title="Dark"  class="color-swatch" theme-swatch-type="brightness" theme-swatch-value="dark" >Dark</a></li>

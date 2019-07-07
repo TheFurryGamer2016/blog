@@ -27,3 +27,11 @@ kbd {
     font-size: 3cm;
     text-align: center;
 }
+
+
+.sidebar .avatar {
+    display: block;
+    margin: 1em auto;
+    border: 1px solid var(--semitransparent-grey);
+    border-radius: 99in;
+}
