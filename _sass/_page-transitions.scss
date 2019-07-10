@@ -6,43 +6,6 @@
 }
 
 
-@mixin _base-animation($name, $timing-function) {
-    animation-name: $name;
-    animation-duration: var(--page-load-transition-duration);
-    animation-timing-function: $timing-function;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-play-state: running;
-}
-
-
-@mixin page-load-animation($name) {
-    @include _base-animation($name, ease-in);
-}
-
-
-@mixin nav-away-animation($end-class-name, $start-states, $end-states) {
-    $props: ();
-
-    @each $p, $_ in $start-states {
-        $props: append($props, $p, $separator: comma);
-    }
-    transition-property: $props;
-
-    @each $start-state-name, $start-state-value in $start-states {
-        #{$start-state-name}: $start-state-value;
-    }
-
-    &.#{$end-class-name} {
-        animation-fill-mode: none;
-        @each $end-state-name, $end-state-value in $end-states {
-            #{$end-state-name}: $end-state-value;
-        }
-    }
-}
-
-
 @keyframes fade-in {
     0% { opacity: 0; }
     100% { opacity: 1; }
@@ -78,30 +41,44 @@
         animation-fill-mode: forwards;
     }
 
-    .falls-away-on-nav-away.fallen-away {
+    .falls-away-on-nav-away {
         transform: translateY(0);
-        animation-name: fall-away;
         opacity: 1;
+
+        &.fallen-away {
+            animation-name: fall-away;
+        }
     }
 
-    .fades-out-on-nav-away.faded-out {
-        animation-name: fade-out;
+    .fades-out-on-nav-away {
         opacity: 1;
+
+        &.faded-out {
+            animation-name: fade-out;
+        }
     }
 
 
-    .rises-up-on-load.risen-up {
-        transform: translateY(110vh);
-        animation-name: rise-up;
-        opacity: 0;
-    }
+    &:not(.disable-load-in-animation) {
+        .rises-up-on-load {
+            transform: translateY(110vh);
+            opacity: 0;
 
-    .fades-in-on-load {
-        animation-name: fade-in;
-        opacity: 0;
-    }
+            &.risen-up {
+                animation-name: rise-up;
+            }
+        }
 
-    footer.fades-in-on-load:not(.fallen-away):not(.faded-out) {
-        animation-delay: calc(var(--page-load-transition-duration));
+        .fades-in-on-load {
+            opacity: 0;
+
+            &.faded-in {
+                animation-name: fade-in;
+            }
+        }
+
+        footer.fades-in-on-load:not(.fallen-away):not(.faded-out) {
+            animation-delay: calc(var(--page-load-transition-duration));
+        }
     }
 }

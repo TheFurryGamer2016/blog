@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="brightness-dark reduce-motion content-animates-with-navigation">
+<html class="brightness-dark reduce-motion">
     <!--
     brightness-dark:                  Set the default theme brightness immediately. Whichever the user picks, this
                                       default will flash briefly when the page first loads. I figure it's better to
@@ -8,14 +8,15 @@
                                       time they navigate wouldn't be happy about it, but someone in a bright room
                                       getting a flash of darkness might not mind at all.
 
-    reduce-motion:                    This class is almost immeidately removed once the page is done loading. This
+    reduce-motion:                    This class is almost immediately removed once the page is done loading. This
                                       ensures that when the user's selected theme is initially read and set with
                                       scripting, it doesn't animate in, but instantly becomes the current theme. Since
                                       this is removed immediately thereafter, all other animations continue.
 
     content-animates-with-navigation: Allows the content to animage in and out when the user navigates between pages.
     -->
-  <head>
+<head>
+    {% include page-transitions-header-tippity-top-content.html %}
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
     {% include meta.html %}
@@ -67,7 +68,7 @@
         <span class="layout-placeholder"></span>
     </header>
 
-    <main id="main" role="main" class="falls-away-on-nav-away rises-up-on-load">
+    <main id="main" class="rises-up-on-load falls-away-on-nav-away">
         {{ content }}
     </main>
 
