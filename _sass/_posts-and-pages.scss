@@ -10,9 +10,12 @@
     margin: auto;
 
     p {
-        margin: 0 0 1em;
         line-height: 1.25;
         text-indent: 1em;
+
+        &:not(:last-child) {
+            margin: 0 0 1em;
+        }
     }
 
     h1,
