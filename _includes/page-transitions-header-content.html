@@ -21,7 +21,7 @@ $(window).on("load", function() {
             $(":root").removeClass("sidebar-shown")
             setTimeout(_ => {
                 window.location = event.target.href || $(event.target).parents("[href]")[0].href
-            }, 1000)
+            }, 400)
             return false
         })
 })
