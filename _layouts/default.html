@@ -17,7 +17,7 @@
     -->
 <head>
     {% include page-transitions-header-tippity-top-content.html %}
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.author.name }} – {{ site.description }}</title>
 
     {% include meta.html %}
 
@@ -27,7 +27,7 @@
     <link rel="stylesheet" type="text/css" id="theme-stylesheet" href="https://stylesheets.bhstudios.org/assets/v2/neon/neon-renderer.css" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.author.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
     <link href="https://google.com/+BenLeggiero" rel="me" />
     <link href="https://twitter.com/BenLeggiero" rel="me" />
