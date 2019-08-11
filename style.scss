@@ -14,8 +14,7 @@
 @import "word-cloud";
 @import "decorations";
 @import "legal-styles";
-@import "theme-engine";
-@import "theme-selector";
+@import "theme-styles";
 
 main {
     max-width: var(--desktop-large-min-width);
