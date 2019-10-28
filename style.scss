@@ -16,14 +16,11 @@
 @import "legal-styles";
 @import "theme-styles";
 
+
+
 main {
     max-width: var(--desktop-large-min-width);
 }
-
-// Settled on moving the import of syntax highlighting to the bottom of the CSS
-// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-@import "highlights";
-@import "svg-icons";
 
 
 @keyframes load {
@@ -42,4 +39,28 @@ main {
     animation-name: load;
     animation-duration: 1s;
     animation-timing-function: step-end;
+}
+
+
+
+// Settled on moving the import of syntax highlighting to the bottom of the CSS
+// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+@import "highlights";
+
+
+
+
+.sidebar ul .button.image-button {
+    align-items: center;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.sidebar ul .button.image-button {
+    .material-icons,
+    .fab {
+        font-size: 2em;
+        width: 1em;
+    }
 }

@@ -48,7 +48,7 @@ url: https://BenLeggiero.blog
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
-timezone: America/New_York
+timezone: America/Denver
 
 #
 # !! You don't need to change any of the configuration flags below !!

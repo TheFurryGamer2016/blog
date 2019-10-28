@@ -26,6 +26,7 @@
     <link rel="stylesheet" type="text/css" id="framework-stylesheet" href="https://stylesheets.bhstudios.org/assets/v2/neon/neon-renderer.css" />
     <link rel="stylesheet" type="text/css" id="theme-stylesheet" href="https://stylesheets.bhstudios.org/assets/v2/neon/neon-renderer.css" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Questrial|Roboto:300,400,700,900&display=swap" />
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.author.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
@@ -72,9 +73,7 @@
         {{ content }}
     </main>
 
-    <footer class="fades-in-on-load falls-away-on-nav-away">
-        {% include svg-icons.html %}
-    </footer>
+
 
     <nav class="sidebar   flex-column flex-vert-space-between">
         <section>
@@ -92,6 +91,10 @@
                 <li><a href="/About" class="button">About</a></li>
                 {% endunless %}
             </ul>
+        </section>
+
+        <section>
+            {% include social-links.html %}
         </section>
 
         <section>
