@@ -11,19 +11,17 @@ layout: default
     {{ content }}
     </div>
 
-    <footer>
-        <ol class="tags   plain   flex-row flex-wrap flex-horiz-center flex-vert-center">
-            {% for tag in page.categories %}
-            <li><span class="tag" data-tag-name="{{ tag }}">{{ tag }}</span></li>
+    <footer class="card">
+        <ol class="chips   plain   flex-row flex-wrap flex-horiz-center flex-vert-center">
+            {% for category in page.categories %}
+            <li><span class="chip" disabled data-category-name="{{ category }}">{{ category }}</span></li>
             {% endfor %}
         </ol>
-    </footer>
 
-    <footer class="flex-row flex-horiz-space-between flex-vert-bottom flex-wrap">
         <ol class="dates-and-times">
             <li>
                 <time class="date" datetime="{{ page.date | date_to_xmlschema }}">
-                    {% if page.date-migrated or page.date-edit %}Originally posted{% else %}Posted{% endif %} {{ page.date | date: "%F (a %A) at %R %Z" }}
+                    <span>{% if page.date-migrated or page.date-edit %}Originally posted{% else %}Posted{% endif %}</span> {{ page.date | date: "%F <span>(a %A)</span> at <span>%R %Z</span>" }}
                 </time>
             </li>
             {% if page.date-migrated %}
@@ -42,13 +40,13 @@ layout: default
             {% endif %}
         </ol>
 
-        <ol class="plain inline-list">
+        <footer class="oss-links">
             {% if page.original-url %}
-            <li><a href="{{ page.original-url }}" title="View Original" target="_blank" class="small material-icons button">import_contacts</a></li>
+            <a href="{{ page.original-url }}" title="View Original" target="_blank" class="low-emphasis button"><i class="material-icons">import_contacts</i> <span>View Original</span></a>
             {% endif %}
-            <li><a href="https://github.com/BenLeggiero/blog/commits/master/{{ page.path }}" title="Post History" target="_blank" class="small material-icons button">history</a></li>
-            <li><a href="https://github.com/BenLeggiero/blog/edit/master/{{ page.path }}" title="Suggest an Edit" target="_blank" class="small material-icons button">edit</a></li>
-        </ol>
+            <a href="https://github.com/BenLeggiero/blog/commits/master/{{ page.path }}" title="Post History" target="_blank" class="low-emphasis button"><i class="material-icons">history</i> <span>History</span></a>
+            <a href="https://github.com/BenLeggiero/blog/edit/master/{{ page.path }}" title="Suggest an Edit" target="_blank" class="low-emphasis button"><i class="material-icons">edit</i> <span>Suggest an Edit</span></a>
+        </footer>
     </footer>
 </article>
 

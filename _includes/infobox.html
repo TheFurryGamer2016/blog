@@ -25,9 +25,13 @@
 
 
 <figure class="infobox infobox-app{% if include.highly %} highly-recommended{% endif %}   flex-row flex-vert-center flex-horiz-center">
-    <a href="{{ include.websiteUrl }}" target="_blank"><img src="{{ include.iconUrl }}" class="app-logo" data-target-theme="light"/>{% if include.darkMode_iconUrl %}
-    <img src="{{ include.darkMode_iconUrl }}" class="app-logo" data-target-theme="dark"/>{% endif %}</a>
-    <figcaption>
+    <a href="{{ include.websiteUrl }}" target="_blank"><div class="{% if include.circular_icon %}circular {% endif %}app-logo   flex-row flex-vert-center flex-horiz-center">{% if include.darkMode_iconUrl %}
+        <img src="{{ include.iconUrl }}" data-target-theme="light"/>
+        <img src="{{ include.darkMode_iconUrl }}" data-target-theme="dark"/>
+    {% else %}
+        <img src="{{ include.iconUrl }}"/>
+    {% endif %}</div></a>
+    <figcaption class="infobox-content">
         <dl class="flex-row flex-wrap flex-vert-top flex-horiz-left">
             <div data-infobox-row="creator">
                 <dt>Creator</dt>

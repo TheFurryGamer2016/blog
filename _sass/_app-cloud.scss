@@ -1,11 +1,15 @@
 
 .app-cloud {
-    list-style-type: none;
-    text-align: center;
     margin: 0;
     padding: 0;
 
-    &>* {
+    list-style-type: none;
+    text-align: center;
+
+    --app-logo-width: 1in;
+    --app-logo-height: 1in;
+
+    >* {
         display: inline-block;
         margin: 1ex 1em;
         padding: 0;
@@ -18,25 +22,25 @@
     margin: 0;
     padding: 0;
 
-    &>* {
-        list-style-type: none;
+    >* {
         margin: 0;
         padding: 0;
+        list-style-type: none;
     }
 }
 
 
 .app-cloud-app {
-    width: 1in;
+    width: var(--app-logo-width);
 
     figcaption {
-        text-align: center;
-        font-size: 10pt;
         margin-top: 1ex;
+        font-size: 10pt;
+        text-align: center;
     }
 
     .app-logo-holder {
-        width: 1in;
-        height: 1in;
+        width: var(--app-logo-width);
+        height: var(--app-logo-height);
     }
 }
