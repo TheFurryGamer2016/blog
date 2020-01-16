@@ -58,6 +58,23 @@
     }
 
 
+    pre {
+        margin: 1em 0;
+        padding: 1ex;
+        border-radius: 0.5ex;
+        background: var(--code-background);
+    }
+
+    cite {
+        opacity: 0.5;
+        font-style: italic;
+
+        &::before {
+            content: "— ";
+        }
+    }
+
+
     .chips {
         display: flex;
         flex-wrap: wrap;
