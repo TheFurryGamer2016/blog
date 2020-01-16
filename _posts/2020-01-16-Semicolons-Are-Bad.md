@@ -63,19 +63,21 @@ func largestAndSmallest(in array: [Int]) -> (largest: Int, smallest: Int) {
 
 This code looks very similar; in fact it compiles and runs identically. However, it has unnecessary punctuation. This introduces noise that is unnecessary for the reader and, since it's Swift, unnecessary for the compiler too.
 
-At a fundamental level, [Swift cares about clarity](https://swift.org/documentation/api-design-guidelines/#fundamentals). If additional information makes something unclear, Swift omits it. If there's not enough information to make something clear, Swift adds more. The semicolons above hinder clarity; they're something else for the human reading it to look at, ignore, and move on. For a seasoned developer, that might be second-nature, but this is a skill which a newcomer has to build. It's additional information that someone has to learn to filter out, which is of no use to them. It reduces clarity, and slightly increases the barrier to entry.
+At a fundamental level, [Swift cares about clarity](https://swift.org/documentation/api-design-guidelines/#fundamentals). If additional information makes something unclear, Swift omits it. If there's not enough information to make something clear, Swift adds more. The punctuation above hinder clarity; they're something else for the human reading it to look at, ignore, and move on. For a seasoned developer, that might be second-nature, but this is a skill which a newcomer has to build. It's additional information that someone has to learn to filter out, which is of no use to them. It reduces clarity, and slightly increases the barrier to entry.
 
 
 
 # So what? #
 
-It's easy enough to learn to read past semicolons, to learn that they signify the end of some lines. Why bother writing up a whole blog post about how this small thing is bad?
+> It's easy enough to learn to read past semicolons, to learn that they signify the end of some lines. Why bother writing up a whole blog post about how this small thing is bad?
+>
+> <cite>You, maybe</cite>
 
 It's an indicator of the mindset of the language designers. It shows what's important to them. It shows that a fast compiler, or perhaps tradition, is more important to them than making their language clear and easy to understand.
 
-Remember, programming languages are for humans; they're not for computers. So the top priority of a language designer should be to make it good for humans. If a language designed to be compiled on modern hardware also requires you to put punctuation at the end of each line, then it is prioritizing the wrong thing; **it's a bad smell** which leaks into many corners of the language.
-
 Also note that I said that bad programming languages _require_ semicolons. If writing punctuation to end a line makes it clearer for you, then you should have the freedom to do so. That's why languages like Swift, Kotlin, JavaScript, Python, Ruby, et al make them _optional_, not _disallowed_.
+
+Remember, programming languages are for humans; they're not for computers. So the top priority of a language designer should be to make it good for humans. If a language designed to be compiled andor interpreted on modern hardware also requires you to put punctuation at the end of each line, then it is prioritizing the wrong thing; **it's a bad smell** which leaks into many corners of the language.
 
 
 
