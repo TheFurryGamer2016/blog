@@ -65,6 +65,15 @@
         background: var(--code-background);
     }
 
+    cite {
+        opacity: 0.5;
+        font-style: italic;
+
+        &::before {
+            content: "— ";
+        }
+    }
+
 
     .chips {
         display: flex;
