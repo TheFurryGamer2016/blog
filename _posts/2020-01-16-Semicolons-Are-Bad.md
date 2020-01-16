@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bad Programming Languages Require Semicolons;
-date: 2020-01-16 00:00 -0700
+date: 2020-01-16 13:10 -0700
 categories:
   - Tech
   - Programming
