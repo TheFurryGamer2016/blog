@@ -147,6 +147,9 @@
 }
 
 .highlight {
+    
+    width: fit-content;
+    margin: auto;
 
     &.code-highlighting-alt,
     .code-highlighting-alt & {
