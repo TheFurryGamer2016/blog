@@ -24,7 +24,7 @@ func largestAndSmallest(in array: [Int]) -> (largest: Int, smallest: Int) {
    var largestSoFar = array[0]
    var smallestSoFar = array[0]
 
-   array.forEach { value in
+   for value in array {
       if value < smallestSoFar {
          smallestSoFar = value
       }
@@ -48,7 +48,7 @@ func largestAndSmallest(in array: [Int]) -> (largest: Int, smallest: Int) {
    var largestSoFar = array[0];
    var smallestSoFar = array[0];
 
-   array.forEach { (value) in
+   for (value) in (array) {
       if (value < smallestSoFar) {
          smallestSoFar = value;
       }
