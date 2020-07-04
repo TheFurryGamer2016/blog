@@ -77,31 +77,40 @@
     }
 
 
-    @at-root .trans-nb-pride-theme {
-        .post {
-            h1,
-            h2,
-            h3,
-            h4,
-            h5,
-            h6 {
-                &:not(.title) {
-                    background: url("/images/NB Flag.svg") 100% / 1em, #888;
-                    background-blend-mode: multiply;
-                    -webkit-background-clip: text;
-                    -webkit-text-fill-color: transparent;
-                    -webkit-text-stroke: thin var(--theme-foreground-color);
-
-                    transition-property: background-blend-mode, -webkit-text-stroke;
-
-                    .brightness-dark &,
-                    .brightness-black & {
-                        background-blend-mode: color-dodge;
-                        -webkit-text-stroke: unset;
-                    }
-                }
-            }
+    img {
+        &.mid-post-hero {
+            width: 100%;
+            margin-block: 3em;
         }
+    }
+
+
+    @at-root .trans-nb-pride-theme {
+        // .post {
+        //     h1,
+        //     h2,
+        //     h3,
+        //     h4,
+        //     h5,
+        //     h6 {
+        //         &:not(.title) {
+        //             background: url("/images/NB Flag (Faded).svg") 100% / 1em,
+        //                         var(--theme-foreground-color);
+        //             // background-blend-mode: multiply;
+        //             -webkit-background-clip: text;
+        //             -webkit-text-fill-color: transparent;
+        //             -webkit-text-stroke: thin var(--theme-foreground-color);
+        //
+        //             transition-property: background-blend-mode, -webkit-text-stroke;
+        //
+        //             .brightness-dark &,
+        //             .brightness-black & {
+        //                 // background-blend-mode: color-dodge;
+        //                 -webkit-text-stroke: unset;
+        //             }
+        //         }
+        //     }
+        // }
 
         .app-bar {
             // background: inherit, repeating-linear-gradient(170deg,

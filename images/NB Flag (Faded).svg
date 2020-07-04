@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="4px" viewBox="0 0 8 4" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>NB Flag (Faded)</title>
+    <g id="NB-Flag-(Faded)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.3">
+        <g id="NB-Flag">
+            <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="8" height="4"></rect>
+            <rect id="Rectangle" fill="#FFEB3B" x="0" y="0" width="8" height="1"></rect>
+            <rect id="Rectangle-Copy" fill="#673AB7" x="0" y="2" width="8" height="1"></rect>
+            <rect id="Rectangle-Copy-2" fill="#212121" x="0" y="3" width="8" height="1"></rect>
+        </g>
+    </g>
+</svg>
