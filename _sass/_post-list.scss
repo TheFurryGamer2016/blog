@@ -1,5 +1,6 @@
 .posts .post {
     flex-basis: 5in;
+    max-width: 6in;
     margin: 1em;
     padding: 1em 1em 1ex;
 
@@ -22,6 +23,7 @@
         background: none;
         box-shadow: none;
         text-align: center;
+        max-width: none;
     }
 
     h1 {
@@ -33,6 +35,19 @@
     .date {
         opacity: 0.5;
         font-size: 80%;
+    }
+
+    &.trans-nb-pride-theme {
+        background-image: url("/images/NB Trans Swoopy Design.svg");
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: overlay;
+
+        .brightness-dark &,
+        .brightness-black & {
+            background-blend-mode: soft-light;
+            text-shadow: 1px 1px hsla(0deg, 0%, 0%, 50%);
+        }
     }
 
     footer {

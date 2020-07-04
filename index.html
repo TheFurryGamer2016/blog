@@ -12,7 +12,7 @@ layout: default
         </div>
     </article>
     {% else %}
-    <article class="post   flex-column flex-vert-space-between">
+    <article class="post   flex-column flex-vert-space-between {%- for class-name in post.special-theme-name %} {{ class-name }}{% endfor %}">
         <section>
             <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
