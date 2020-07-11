@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Non-Binary
-date: 2020-07-11 00:00 -0600
+date: 2020-07-11 12:30 -0600
 categories:
   - Civil Rights
 
