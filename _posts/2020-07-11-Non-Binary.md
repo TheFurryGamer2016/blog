@@ -2,6 +2,7 @@
 layout: post
 title: Non-Binary
 date: 2020-07-11 12:30 -0600
+date-edit: 2020-07-11 14:07 -0600
 categories:
   - Civil Rights
 
@@ -24,7 +25,7 @@ Of course, I’ve been thinking about this for a long time. A very long time. I'
 All that said, I do enjoy making myself look good. I like sculpting the person in the mirror &ndash; my beard and hair are especially fun to play with. Next up, I'm looking to sculpt the rest of my body. I've been working out more, tracking all my nutrients, and taking hormones, to build my muscle, trim some fat, and grow breasts. I'm looking forward to how I'll look afterwards!
 
 
-I'd like to see the world embrace gender as a way to express oneself, and communicate one's desired lifestyle. Someday soon I hope to see it become untied from sex completely. The same with sexuality: I think folks should love whomever they love, regardless of identity and expression. Of course, gender can come into play if they want, but it shouldn't be assumed that it does.
+I'd like to see the world embrace gender as a way to express oneself, and communicate one's identity. Someday soon I hope to see it become untied from sex completely. The same with sexuality: I think folks should love whomever they love, regardless of identity and expression. Of course, gender can come into play if they want, but it shouldn't be assumed that it does.
 
 
 {::options parse_block_html="true" /}
