@@ -44,6 +44,11 @@
         border-radius: 1ex;
         border-color: var(--semitransparent-grey);
         font-size: 0.8rem;
+
+        &,
+        p {
+            line-height: 1.4;
+        }
     }
 
     blockquote {
@@ -73,6 +78,88 @@
 
         &::before {
             content: "— ";
+        }
+    }
+
+
+    img {
+        &.mid-post-hero {
+            width: 100%;
+            margin-block: 3em;
+        }
+    }
+
+
+    @at-root .trans-nb-pride-theme {
+        // .post {
+        //     h1,
+        //     h2,
+        //     h3,
+        //     h4,
+        //     h5,
+        //     h6 {
+        //         &:not(.title) {
+        //             background: url("/images/NB Flag (Faded).svg") 100% / 1em,
+        //                         var(--theme-foreground-color);
+        //             // background-blend-mode: multiply;
+        //             -webkit-background-clip: text;
+        //             -webkit-text-fill-color: transparent;
+        //             -webkit-text-stroke: thin var(--theme-foreground-color);
+        //
+        //             transition-property: background-blend-mode, -webkit-text-stroke;
+        //
+        //             .brightness-dark &,
+        //             .brightness-black & {
+        //                 // background-blend-mode: color-dodge;
+        //                 -webkit-text-stroke: unset;
+        //             }
+        //         }
+        //     }
+        // }
+
+        .app-bar {
+            // background: inherit, repeating-linear-gradient(170deg,
+            //     #FFEB3B22 0, #FFEB3B22 1em,
+            //     #FFF2 1em, #FFF2 2em,
+            //     purple 2em, purple 3em,
+            //     black 3em, black 4em
+            // );
+
+            // background: url("/images/NB Trans Swoopy Design.svg") center / contain no-repeat,
+            //             url("/images/Very Wide Trans Flag.svg") left / 50% 100% no-repeat,
+            //             url("/images/NB Flag.svg") right / contain repeat
+            // ;
+
+            background: linear-gradient(0, #FFF6, #FFF6),
+                        url("/images/Very Wide Trans NB Swoopy Design.svg"),
+                        var(--theme-background-color-at-level-raised);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100% 100%;
+            // background-blend-mode: multiply;
+
+            .brightness-dark &,
+            .brightness-black & {
+                background-blend-mode: soft-light;
+            }
+
+
+            // .flat.button {
+            //     margin: 1ex;
+            //     background-color: #FFF6;
+            //     text-shadow: 0 0.2ex 1ex #FFF6,
+            //                  0 1px 2px #FFF6;
+            //
+                * {
+                    color: var(--theme-foreground-color) !important;
+                }
+            //
+            //     .brightness-dark &,
+            //     .brightness-black & {
+            //         background: none;
+            //         text-shadow: none;
+            //     }
+            // }
         }
     }
 
