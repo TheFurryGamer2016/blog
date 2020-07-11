@@ -36,8 +36,7 @@ Probably one of the worst things I've seen happen in the world of gender and sex
 {::options parse_block_html="false" /}
 
 
-
 So if you see me or contact me, all I ask is for your respect. Thank you so much for taking the time to read this! Feel free to [contact me](/about) any time and ask as many questions as you like! I’m so happy to talk about it with any and all of you. Be excellent to each other, may God bless, and have a great day.
 
 
-[![Me, wearing a T-Shirt over my prosthetic breasts. The T-Shirt reads "Bend the binary till it breaks"](https://BenLeggieroBlogCdn.BHStudios.org/Photos/20200608_101427 thumbnail.jpg){:.hero-image.mid-post-hero}](https://BenLeggieroBlogCdn.BHStudios.org/Photos/20200608_101427.jpg)
+[![Me, wearing a T-Shirt over my prosthetic breasts. The T-Shirt reads "Bend the binary till it breaks"](https://BenLeggieroBlogCdn.BHStudios.org/Photos/20200608_101427 thumbnail.jpg){:.end-post-hero.card}](https://BenLeggieroBlogCdn.BHStudios.org/Photos/20200608_101427.jpg)
