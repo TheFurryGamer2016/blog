@@ -83,11 +83,19 @@
 
 
     img {
-        &.mid-post-hero {
+        &.mid-post-hero,
+        &.end-post-hero {
             width: 100%;
             margin-block: 3em;
+        }
+
+        &.hero-image,
+        &.end-post-hero,
+        &.card {
             border-radius: calc(var(--card-border-radius) * 2);
             box-shadow: var(--card-shadow-raised);
+            padding: 0;
+            border: none;
         }
     }
 
