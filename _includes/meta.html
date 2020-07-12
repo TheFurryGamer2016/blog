@@ -20,3 +20,9 @@
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="twitter:title" content="{{ page.title }}" />
     {% endif %}
+
+    {% if page.social-preview-image %}
+    <meta property="og:image"                          content="{{ page.social-preview-image }}" /><!-- Image for sharing on social networks -->
+    <meta property="twitter:image"                     content="{{ page.social-preview-image }}" />
+    <meta name="twitter:image:src"                     content="{{ page.social-preview-image }}" />
+    {% endif %}
