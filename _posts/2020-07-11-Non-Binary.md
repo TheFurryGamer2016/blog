@@ -7,6 +7,7 @@ categories:
   - Civil Rights
 
 special-theme-name: trans-nb-pride-theme
+social-preview-image: https://BenLeggieroBlogCdn.BHStudios.org/Photos/I'm Non-Binary 2 thumbnail.jpg
 ---
 
 
