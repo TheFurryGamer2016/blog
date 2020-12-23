@@ -195,6 +195,12 @@
     }
 
 
+    table .example.no-break {
+        display: inline-block;
+        white-space: nowrap;
+    }
+
+
     footer.card {
         max-width: var(--phone-portrait-medium-max-width);
         margin: 10vh auto;
