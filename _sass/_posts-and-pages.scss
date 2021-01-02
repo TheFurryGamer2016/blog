@@ -187,6 +187,7 @@
     .chip {
         &.accented:not([selected]) {
             background: var(--button-background);
+            color: var(--theme-text-on-accent-color-color);
         }
 
         &:link,
