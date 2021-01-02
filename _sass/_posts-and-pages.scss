@@ -72,7 +72,7 @@
         background: var(--code-background);
     }
 
-    cite {
+    blockquote cite {
         opacity: 0.5;
         font-style: italic;
 
@@ -178,9 +178,17 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+
+        &.content-replacer {
+            margin-block-end: 2em;
+        }
     }
 
     .chip {
+        &.accented:not([selected]) {
+            background: var(--button-background);
+        }
+
         &:link,
         &:visited,
         &:not([disabled]) {
@@ -191,6 +199,23 @@
             &:focus {
                 box-shadow: var(--box-shadow-z3);
             }
+        }
+    }
+
+
+    .mutates-page {
+        cursor: default;
+    }
+
+
+    table {
+        .example.no-break {
+            display: inline-block;
+            white-space: nowrap;
+        }
+
+        .highlight {
+            background-color: hsla(65deg, 100%, 75%, .4);
         }
     }
 
