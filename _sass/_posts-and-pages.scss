@@ -72,7 +72,7 @@
         background: var(--code-background);
     }
 
-    cite {
+    blockquote cite {
         opacity: 0.5;
         font-style: italic;
 
@@ -185,6 +185,10 @@
     }
 
     .chip {
+        &.accented:not([selected]) {
+            background: var(--button-background);
+        }
+
         &:link,
         &:visited,
         &:not([disabled]) {
@@ -204,9 +208,15 @@
     }
 
 
-    table .example.no-break {
-        display: inline-block;
-        white-space: nowrap;
+    table {
+        .example.no-break {
+            display: inline-block;
+            white-space: nowrap;
+        }
+
+        .highlight {
+            background-color: hsla(65deg, 100%, 75%, .4);
+        }
     }
 
 
