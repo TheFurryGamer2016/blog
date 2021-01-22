@@ -44,8 +44,8 @@ layout: default
             {% if page.original-url %}
             <a href="{{ page.original-url }}" title="View Original" target="_blank" class="low-emphasis button"><i class="material-icons">import_contacts</i> <span>View Original</span></a>
             {% endif %}
-            <a href="https://github.com/BenLeggiero/blog/commits/master/{{ page.path }}" title="Post History" target="_blank" class="low-emphasis button"><i class="material-icons">history</i> <span>History</span></a>
-            <a href="https://github.com/BenLeggiero/blog/edit/master/{{ page.path }}" title="Suggest an Edit" target="_blank" class="low-emphasis button"><i class="material-icons">edit</i> <span>Suggest an Edit</span></a>
+            <a href="https://github.com/BenLeggiero/blog/commits/{{ site.git.default-branch }}/{{ page.path }}" title="Post History" target="_blank" class="low-emphasis button"><i class="material-icons">history</i> <span>History</span></a>
+            <a href="https://github.com/BenLeggiero/blog/edit/{{ site.git.default-branch }}/{{ page.path }}" title="Suggest an Edit" target="_blank" class="low-emphasis button"><i class="material-icons">edit</i> <span>Suggest an Edit</span></a>
         </footer>
     </footer>
 </article>
