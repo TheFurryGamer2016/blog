@@ -35,3 +35,21 @@ kbd {
     border: 1px solid var(--semitransparent-grey);
     border-radius: 99in;
 }
+
+
+
+b.sparkly {
+
+    font-weight: inherit;
+    letter-spacing: 3pt;
+    font-size: 80%;
+
+
+    &::before {
+        content: " ✨";
+    }
+
+    &::after {
+        content: " 💫";
+    }
+}

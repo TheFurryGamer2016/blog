@@ -23,7 +23,7 @@ Of course, I’ve been thinking about this for a long time. A very long time. I'
 ![An illustration of a white and purple umbrella, labelled "Non-Binary". Beneath it are yellow capsules labelled with various genders, and one in front of them labeled "Whatever I am". The genders read "Gender-Neutral", "Gender-Queer", "Androgynous", "Demigirl", "Demiboy", "Demi-fluid", "Gender-fluid", "Agender", "Bigender", and "Polygender".](/images/The Non-Binary Umbrella.svg){:.mid-post-hero}
 
 
-All that said, I do enjoy making myself look good. I like sculpting the person in the mirror &ndash; my beard and hair are especially fun to play with. Next up, I'm looking to sculpt the rest of my body. I've been working out more, tracking all my nutrients, and taking hormones, to build my muscle, trim some fat, and grow breasts. I'm looking forward to how I'll look afterwards!
+All that said, I do enjoy making myself look good. I like sculpting the person in the mirror &ndash; my beard and hair are especially fun to play with. Next up, I'm looking to sculpt the rest of my body. I've been working out more, tracking all my nutrients, and taking hormones, to build my muscle, trim some fat, and grow breasts.<a name="growing-breasts" /> I'm looking forward to how I'll look afterwards!
 
 
 I'd like to see the world embrace gender as a way to express oneself, and communicate one's identity. Someday soon I hope to see it become untied from sex completely. The same with sexuality: I think folks should love whomever they love, regardless of identity and expression. Of course, gender can come into play if they want, but it shouldn't be assumed that it does.
