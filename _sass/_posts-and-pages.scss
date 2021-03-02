@@ -9,6 +9,15 @@
     max-width: var(--desktop-small-max-width);
     margin: auto;
 
+    a:empty {
+        /*
+         * Empty anchor tags are used for fragment linking; give it a tall top so links to these
+         * areas don't hide the content under the app bar
+         */
+        padding-top: calc(3 * var(--app-bar-height-auto));
+        margin-top: calc(-3 * var(--app-bar-height-auto));
+    }
+
     p {
         line-height: 1.25;
         text-indent: 1em;
