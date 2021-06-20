@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="12px" viewBox="0 0 22 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #757575;">
+    <title>GSM Pride Flag (2021 Ky Leggiero design)</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="22" height="12"></rect>
+    </defs>
+    <g id="GSM-Pride-Flag-(2021-Ky-Leggiero-design)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#757575" x="0" y="0" width="22" height="12"></rect>
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g id="Rectangle"></g>
+        <g id="Chevrons" mask="url(#mask-2)">
+            <g transform="translate(-26.000000, 0.000000)">
+                <polygon id="White" fill="#FAFAFA" points="40 8.32667268e-17 46 6 40 12 16 12 16 0"></polygon>
+                <polygon id="Purple" fill="#8E24AA" points="38 8.32667268e-17 44 6 38 12 14 12 14 0"></polygon>
+                <polygon id="Indigo" fill="#311B92" points="36 8.32667268e-17 42 6 36 12 12 12 12 0"></polygon>
+                <polygon id="Cyan" fill="#81D4FA" points="34 8.32667268e-17 40 6 34 12 10 12 10 0"></polygon>
+                <polygon id="Green" fill="#388E3C" points="32 8.32667268e-17 38 6 32 12 8 12 8 0"></polygon>
+                <polygon id="Yellow" fill="#FFEB3B" points="30 8.32667268e-17 36 6 30 12 6 12 6 0"></polygon>
+                <polygon id="Orange" fill="#FF9800" points="28 8.32667268e-17 34 6 28 12 4 12 4 0"></polygon>
+                <polygon id="Red" fill="#F44336" points="26 8.32667268e-17 32 6 26 12 2 12 2 0"></polygon>
+                <polygon id="Pink" fill="#F8BBD0" points="24 8.32667268e-17 30 6 24 12 0 12 0 0"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

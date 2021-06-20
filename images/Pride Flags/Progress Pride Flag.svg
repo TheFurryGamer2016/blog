@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="468px" height="297px" viewBox="0 0 468 297" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Progress Pride Flag</title>
+    <g id="Progress-Pride-Flag" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#000000" x="0" y="0" width="468" height="297"></rect>
+        <g id="LGBTQ+_rainbow_flag_Quasar__Progress__variant" fill-rule="nonzero">
+            <rect id="Rectangle" fill="#750787" x="0" y="0" width="468" height="297"></rect>
+            <rect id="Rectangle" fill="#004DFF" x="0" y="0" width="468" height="248"></rect>
+            <rect id="Rectangle" fill="#008026" x="0" y="0" width="468" height="198"></rect>
+            <rect id="Rectangle" fill="#FFED00" x="0" y="0" width="468" height="149"></rect>
+            <rect id="Rectangle" fill="#FF8C00" x="0" y="0" width="468" height="99"></rect>
+            <rect id="Rectangle" fill="#E40303" x="0" y="0" width="468" height="50"></rect>
+            <polygon id="Path" fill="#000000" points="74.4496644 0 223 148.5 74.4496644 297 37 297 37 0"></polygon>
+            <polygon id="Path" fill="#613915" points="0 0 0 297 37.5119497 297 186 148.5 37.5119497 0"></polygon>
+            <polygon id="Path" fill="#74D7EE" points="0 0 149 148.5 0 297"></polygon>
+            <polygon id="Path" fill="#FFAFC8" points="0 38 111 149 0 260"></polygon>
+            <polygon id="Path" fill="#FFFFFF" points="0 75 74 148.5 0 222"></polygon>
+        </g>
+    </g>
+</svg>

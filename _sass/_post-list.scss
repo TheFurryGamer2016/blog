@@ -50,6 +50,15 @@
         }
     }
 
+    img {
+        max-width: 100%;
+
+        &.preview {
+            border-radius: 1ex;
+            margin: 1em 0;
+        }
+    }
+
     footer {
         max-width: none;
         min-height: 2em;

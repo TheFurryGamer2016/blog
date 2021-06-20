@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="420px" height="297px" viewBox="0 0 420 297" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Philadelphia Pride Flag</title>
+    <g id="Philadelphia-Pride-Flag" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#000000" x="0" y="0" width="420" height="297"></rect>
+        <g id="Philadelphia_Pride_Flag" fill-rule="nonzero">
+            <polygon id="Path" fill="#750787" points="0 0 420 0 420 297 0 297"></polygon>
+            <polygon id="Path" fill="#004DFF" points="0 0 420 0 420 260 0 260"></polygon>
+            <polygon id="Path" fill="#008026" points="0 0 420 0 420 223 0 223"></polygon>
+            <polygon id="Path" fill="#FFED00" points="0 0 420 0 420 186 0 186"></polygon>
+            <polygon id="Path" fill="#FF8C00" points="0 0 420 0 420 149 0 149"></polygon>
+            <polygon id="Path" fill="#E40303" points="0 0 420 0 420 111 0 111"></polygon>
+            <polygon id="Path" fill="#784F17" points="0 0 420 0 420 74 0 74"></polygon>
+            <polygon id="Path" fill="#000000" points="0 0 420 0 420 37 0 37"></polygon>
+        </g>
+    </g>
+</svg>
