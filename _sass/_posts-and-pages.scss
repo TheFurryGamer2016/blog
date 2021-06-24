@@ -69,6 +69,20 @@
         }
     }
 
+    figure {
+        cite[role="figcaption"] {
+            text-align: center;
+            display: block;
+            padding: 0 0 2em;
+            font-size: 80%;
+            opacity: 75%;
+        }
+
+        .mid-post-hero + cite[role="figcaption"]{
+            margin-block-start: -2em;
+        }
+    }
+
     blockquote {
         border-inline-start: 2px solid var(--semitransparent-grey);
         margin: 2em;

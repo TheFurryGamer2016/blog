@@ -1,6 +1,19 @@
 ---
 ---
 
+:root {
+    --pride--original-rainbow-flag--hot-pink:  #FF80AB;
+    --pride--original-rainbow-flag--red:       #F44336;
+    --pride--original-rainbow-flag--orange:    #FF9800;
+    --pride--original-rainbow-flag--yellow:    #FFEB3B;
+    --pride--original-rainbow-flag--green:     #388E3C;
+    --pride--original-rainbow-flag--turquoise: #26C6DA;
+    --pride--original-rainbow-flag--indigo:    #311B92;
+    --pride--original-rainbow-flag--violet:    #8E24AA;
+}
+
+
+
 .chevron-header {
 
     position: relative;
@@ -53,9 +66,68 @@
         background-image: url("/images/Pride Flags/GSM Pride Flag - Chevron (Grey).svg");
     }
 
+
     &.yellow::before,
     &.white::before {
         background-color: #{"hsl(0deg, 0%, 50%, 40%)"};
         border-radius: 0.5ex;
+
+
+        .brightness-dark &,
+        .brightness-black & {
+            background-color: transparent;
+            border-radius: 0;
+        }
     }
+
+
+    &.indigo::before {
+        .brightness-dark &,
+        .brightness-black & {
+            background-color: #{"hsl(0deg, 0%, 50%, 40%)"};
+            border-radius: 0.5ex;
+        }
+    }
+}
+
+
+
+.original-flag-stripe-meanings {
+    ::marker {
+        content: "━ ";
+        font-weight: 900;
+    }
+
+    .hot-pink::marker {
+        color: var(--pride--original-rainbow-flag--hot-pink);
+    }
+
+    .red::marker {
+        color: var(--pride--original-rainbow-flag--red);
+    }
+
+    .orange::marker {
+        color: var(--pride--original-rainbow-flag--orange);
+    }
+
+    .yellow::marker {
+        color: var(--pride--original-rainbow-flag--yellow);
+    }
+
+    .green::marker {
+        color: var(--pride--original-rainbow-flag--green);
+    }
+
+    .turquoise::marker {
+        color: var(--pride--original-rainbow-flag--turquoise);
+    }
+
+    .indigo::marker {
+        color: var(--pride--original-rainbow-flag--indigo);
+    }
+
+    .violet::marker {
+        color: var(--pride--original-rainbow-flag--violet);
+    }
+
 }

@@ -32,13 +32,15 @@ Let's talk about some of these flags!
 For context, we need to understand the original rainbow flag. It was created by Gilbert Baker as a challenge from Harvey Milk in 1974, and first flew at the San Francisco Gay Freedom Parade on **June 25 1978**, 9 years after the Stonewall Riots and just 5 months before Harvey Milk was assassinated. That assassination helped stir demand for the flag as a unifying symbol of the gay community.
 
 It has 8 stripes, each with symbology that's very much of 70s culture:
-- Hot Pink for Sex
-- Red for Life
-- Orange for Healing
-- Yellow for Sunlight
-- Green for Nature
-- Turquoise for Magic andor Art
-- Violet for Spirit
+- {:.hot-pink}  Hot Pink for Sex
+- {:.red}       Red for Life
+- {:.orange}    Orange for Healing
+- {:.yellow}    Yellow for Sunlight
+- {:.green}     Green for Nature
+- {:.turquoise} Turquoise for Magic andor Art
+- {:.indigo}    Indigo for Serenity
+- {:.violet}    Violet for Spirit
+{:.original-flag-stripe-meanings}
 
 
 
@@ -89,7 +91,7 @@ In **May 2021**, intersex rights activist [Valentino Vecchietti](https://twitter
 
 # My Personal Feelings #
 
-I really love these! They all show a desire by the community to unify under one banner, recognizable and empowering. All of them evoke the familiar rainbow flag, and add something that can be noticed, understood, and talked about. That kind of passion and creativity makes me happy; it's what has grown and centered this community for so many years.
+**I really love these!** They all show a desire by the community to unify under one banner, recognizable and empowering. All of them evoke the familiar rainbow flag, and add something that can be noticed, understood, and talked about. That kind of passion and creativity makes me happy; it's what has grown and centered this community for so many years.
 
 While there is something delightful and powerful about the idea of continuing to add stripes and chevrons to the rainbow flag, I personally feel like that isn't the best direction to head with this.
 
@@ -117,7 +119,10 @@ After I identified these related but distinct needs, inspiration struck me and I
 
 # My Proposal #
 
+<figure markdown=1>
 ![A flag displaying 10 chevrons pointing rightward: the original 8 colors, then white and grey](/images/Pride Flags/GSM Pride Flag (2021 Ky Leggiero design).svg){:.mid-post-hero.card}
+<cite role="figcaption">The GSM Pride Flag (2021 Ky Leggiero design)</cite>
+</figure>
 
 
 
@@ -189,3 +194,16 @@ Together, we create and enact change. Together, we are stronger. As we fight div
 {:.chevron-header.grey}
 
 All these point toward the reason we are a shared community: we demand justice. We demand to never be treated as lesser, simply because our gender or sexuality isn't in the majority. We demand to no longer fight simply for what we need to be happy. Justice for each of us and our sub-communities is about feeling like we have a place in this world, rather than feeling like a downtrodden, cast-aside, andor forgotten minority.
+
+
+
+# To The Community #
+
+With this, I release this flag to the community. I claim no ownership over its design; I just want folks to feel like they have something that represents them. If you're a legal nerd, then consider this flag released under [the CC-0 license](http://creativecommons.org/publicdomain/zero/1.0/). Below is the official legal notice making this official:
+
+<aside class="legal-disclaimer" xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+    <a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="/images/CC0 Badge.svg" alt="CC0" /></a>
+    <br />
+    To the extent possible under law, <a rel="dct:publisher" href="https://BenLeggiero.me"><span property="dct:title">Ben Leggiero</span></a>, also known as <span property="dct:title">Ky Leggiero</span>, has waived all copyright and related or neighboring rights to <span property="dct:title">The GSM Pride Flag (2021 Ky Leggiero design)</span>.
+    This work is published from <span property="vcard:Country" datatype="dct:ISO3166" content="US" about="https://BenLeggiero.me">The United States</span>.
+</aside>
