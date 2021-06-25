@@ -95,22 +95,22 @@ In **May 2021**, intersex rights activist [Valentino Vecchietti](https://twitter
 
 While there is something delightful and powerful about the idea of continuing to add stripes and chevrons to the rainbow flag, I personally feel like that isn't the best direction to head with this.
 
-I'm also concerned about the **omissions**. None of these represent various oppressed minorities within the GSM community, such as Asian-American & Native-American people, people on the Autism Spectrum, bisexual people, polyamorous people, asexual & aromantic people, multigender & genderfluid people, non-binary people, et cetera.
+I'm also concerned about the **omissions**. None of these represent various oppressed minorities within the GSM community, such as Asian-American & Native-American people, people on the Autism Spectrum, bisexual people, polyamorous people, asexual & aromantic people, multigender & genderfluid people, non-binary people, plural systems, et cetera.
 
-To add all these to a progress pride flag, each with one or more specific stripes highlighting that oppressed subgroup, will only continue to make any subgroup not on the flag feel even more oppressed and unrepresented. For that reason, I don't think that adding subgroup-specific flag elements is a good direction.
+To add all these to a progress pride flag, each with one or more specific stripes highlighting that oppressed subgroup, will only continue to make any subgroup not on the flag feel even more oppressed and unrepresented, and might end up making the flag difficult to understand and reproduce. For that reason, I don't think that adding subgroup-specific flag elements is the best direction.
 
-Another problem is that, while in theory **the rainbow flag alone** can represent all members of the GSM community, in practice it mainly appears to represent solely homosexual men; whether intentionally or not, many folks in our community don't identify with the rainbow flag. For that reason, it might be necessary to use a different flag to represent the whole community.
+Another problem is that, while in theory **the rainbow flag alone** can represent all members of the GSM community, in practice it mainly appears to represent solely homosexual men; whether intentionally or not, many folks in our community don't identify with the rainbow flag. For that reason, it might be necessary to use a different flag, perhaps an all-new one, to represent the whole community.
 
 
 
-## The Solution ##
+## A Solution ##
 
 What we need is a flag that:
 
-- Is familiar as representing the GSM community
+- Intentionally represents & symbolizes the modern GSM community in a familiar way
 - Stands on its own as a specific symbol, rather than adding to an existing one
 - Evokes progress and inclusivity in its design
-- Intentionally symbolizes the modern GSM community
+- Doesn't single-out nor omit any specific minorities within the GSM community
 
 
 After I identified these related but distinct needs, inspiration struck me and I tried my hand at one, myself.
@@ -121,12 +121,12 @@ After I identified these related but distinct needs, inspiration struck me and I
 
 <figure markdown=1>
 ![A flag displaying 10 chevrons pointing rightward: the original 8 colors, then white and grey](/images/Pride Flags/GSM Pride Flag (2021 Ky Leggiero design).svg){:.mid-post-hero.card}
-<cite role="figcaption">The GSM Pride Flag (2021 Ky Leggiero design)</cite>
+<figcaption role="cite">The GSM Pride Flag (2021 Ky Leggiero design)</figcaption>
 </figure>
 
 
 
-Here is my proposal. It uses the original Retro 8 colors for 8 rightward-pointing chevrons, then a white chevron, and the rest grey. The symbology here is intertwined and represents what I see as deeply-ingarained pieces of the GSM community and its members. Let's dive into why I landed on this design:
+Here is my proposal. It uses the original Retro 8 colors in 8 rightward-pointing chevrons, then a white chevron, and the rest grey. The symbology here is intertwined and represents what I see as deeply-ingrained pieces of the GSM community and its members. Let's dive into why I landed on this design:
 
 
 <span data-target-theme="dark">[![](/images/Pride Flags/GSM Pride Flag (2021 Ky Leggiero design; Annotated; Dark Mode).png){:.mid-post-hero.card}](/images/Pride Flags/GSM Pride Flag (2021 Ky Leggiero design; Annotated; Dark Mode).png)</span>
@@ -135,7 +135,7 @@ Here is my proposal. It uses the original Retro 8 colors for 8 rightward-pointin
 
 ### Chevrons ###
 
-Like the Progress Pride Flag, this design uses chevrons to signify that it's important for us to move forward, to continually push for progress, despite any forces which would otherwise push us back and divide us.
+Like the Progress Pride Flag and its Intersex Variant, this design uses chevrons to signify that it's important for us to move forward, to continually push for progress, despite any forces which would otherwise push us back and divide us.
 
 
 ### Pink for Gender & Red for Sexuality ###
@@ -149,13 +149,13 @@ Even when a person's gender andor sexuality is weak or nonexistent, that also he
 ### Orange for Enthusiasm ###
 {:.chevron-header.orange}
 
-Enthusiasm is extremely important in the GSM community. It drives our creativity, our expression & presentation, our desire to push for a better world. Without enthusiam, we would fade into the background; it liberates us and brings us into the public consciousness!
+Enthusiasm is extremely important in the GSM community. It drives our creativity, our expression & presentation, our desire to push for a better world. Without enthusiasm, we would fade into the background; it liberates us and brings us into the public consciousness!
 
 
 ### Yellow for Body ###
 {:.chevron-header.yellow}
 
-Our bodies are a major focus, in our own perspectives, and within our relationships, and within our community, and from outside our community. We use our bodies to present ourselves and our identities. Our bodies reflect the lives we've led, which brought us to this point. Some of us look to change their bodies, or escape them entirely, some look to embrace their bodies, placing them on display, and some do both at the same time!
+Our bodies are a major focus, in our own perspectives, within our relationships, within our community, and from outside our community. We use our bodies to present ourselves and our identities. Our bodies reflect the lives we've led, which brought us to this point. Some of us look to change their body, or escape it entirely, some look to embrace their body, placing it on display, and some do both at the same time!
 
 The yellow used here also echoes the fight for intersex awareness and rights, which focuses on bodies even more than the sexuality & gender sides of our movements.
 
@@ -169,19 +169,19 @@ How we present ourselves plays a key role in our identities. Each individual pre
 ### Cyan for Identity ###
 {:.chevron-header.cyan}
 
-Within each of us is a sense of one's own identity. Whether powerful and strong and specific, or subtle and weak and nebulous, or something else entirely, our sense of identity is what drives us to join the GSM community in the first place, many to the point that one's membership in the GSM community becomes a piece of their identity.
+Within each of us is a sense of one's own identity. Whether powerful and strong and specific, or subtle and weak and nebulous, or something else entirely, our sense of identity is what drives us to join the GSM community in the first place. For many, this comes to the point that one's membership in the GSM community becomes a piece of their identity, itself.
 
 
 ### Indigo for Birth ###
 {:.chevron-header.indigo}
 
-The circumstances of one's birth cannot be chosen by that individual, and often shape their body and their sense of identity. For many of us, we feel strongly that we were born one way, and that drives our presentation and enthusiasm. For others, our birth has little to do with how we feel, and we might waver away from and around it. One might be born into a time or place or class that defines their perspective on life and the world, shaping their identity and enthusiasm simply by being born into a different environment than others.
+The circumstances of one's birth cannot be chosen by that individual, and often shape their body and their sense of identity. For many of us, one might feel strongly as being born one way, and that might drive that person's presentation and enthusiasm. For others, one's birth might have little to do with how that person feels, and they might waver around and away from it. One might be born into a time or place or class that defines their perspective on life and the world, shaping their identity and enthusiasm simply by being born into a different environment than others.
 
 
 ### Purple for Mind ###
 {:.chevron-header.purple}
 
-One's mind is a crucial part of them, where all these concepts collide, and from which comes their sense of identity and justice, their choices in things like their presentation, and their reflections on their lack of choices. Philosophy is a major component of the GSM community; as we are attacked by laws and words, we are forced to look inward upon ourselves, thinking about who we are, and returning with our discoveries. At both a macro scale, where we push for social change, and a micro scale, where we discover our own identities, our minds are a core part of our experiences as minorities.
+One's mind is a crucial part of them, where all these concepts collide, and from which comes their sense of identity and justice, their choices in things like their presentation, and their reflections on their lack of choices in things like their birth. Philosophy is a major component of the GSM community; as we are attacked by laws and words, we are forced to look inward upon ourselves, thinking about who we are, and returning with our discoveries. At both a macro scale, where we push for social change, and a micro scale, where we discover our own identities, our minds are a core part of our experiences as gender & sexual minorities.
 
 
 ### White for Solidarity ###
@@ -193,7 +193,7 @@ Together, we create and enact change. Together, we are stronger. As we fight div
 ### Grey for Justice ###
 {:.chevron-header.grey}
 
-All these point toward the reason we are a shared community: we demand justice. We demand to never be treated as lesser, simply because our gender or sexuality isn't in the majority. We demand to no longer fight simply for what we need to be happy. Justice for each of us and our sub-communities is about feeling like we have a place in this world, rather than feeling like a downtrodden, cast-aside, andor forgotten minority.
+All these point toward the reason we are a shared community: we demand justice. We demand to never be treated as lesser, simply because our gender or sexuality isn't in the majority. We demand to no longer fight simply for what we need to live happily. Justice for each of us and our sub-communities is about feeling like we have a place in this world, rather than feeling like a downtrodden, cast-aside, andor forgotten minority.
 
 
 
@@ -204,6 +204,36 @@ With this, I release this flag to the community. I claim no ownership over its d
 <aside class="legal-disclaimer" xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
     <a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="/images/CC0 Badge.svg" alt="CC0" /></a>
     <br />
-    To the extent possible under law, <a rel="dct:publisher" href="https://BenLeggiero.me"><span property="dct:title">Ben Leggiero</span></a>, also known as <span property="dct:title">Ky Leggiero</span>, has waived all copyright and related or neighboring rights to <span property="dct:title">The GSM Pride Flag (2021 Ky Leggiero design)</span>.
+    To the extent possible under law, <a rel="dct:publisher" href="https://KyLeggiero.me"><span property="dct:title">Ky Leggiero</span></a>, also known as <span property="dct:title">Ben Leggiero</span>, has waived all copyright and related or neighboring rights to <span property="dct:title">The GSM Pride Flag (2021 Ky Leggiero design)</span>.
     This work is published from <span property="vcard:Country" datatype="dct:ISO3166" content="US" about="https://BenLeggiero.me">The United States</span>.
 </aside>
+
+
+## Replication ##
+
+Now that you have full rights over this flag, you should know how to reproduce it if you want to!
+
+
+### Ratios ###
+
+I used a 2:1 ratio when designing this flag, but that's not strictly necessary to reproduce it. In fact, designers and vexillologists might notice that the above example is slightly shorter, at a ratio of 11:6.
+
+Whatever is used, the angle of each chevron must remain at 45º, and the line formed by the red and orange chevrons must touch the dexter corners.
+
+With the exceptions of the pink and grey, all chevrons must be the same thickness.
+
+
+### Colors ###
+
+I used these colors when designing the flag, but you might need or want to use different ones, especially when transferring the flag to a medium such as print, paint, or fabric. If you're a color nerd and find CMYK/PMS colors which reproduce this well, let me know and I'll list them here too!
+
+- Pink: #F8BBD0
+- Red: #F44336
+- Orange: #FF9800
+- Yellow: #FFEB3B
+- Green: #388E3C
+- Cyan: #81D4FA
+- Indigo: #311B92
+- Purple: #8E24AA
+- White: #FAFAFA
+- Grey: #757575

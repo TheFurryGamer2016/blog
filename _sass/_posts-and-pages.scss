@@ -70,7 +70,7 @@
     }
 
     figure {
-        cite[role="figcaption"] {
+        figcaption[role="cite"] {
             text-align: center;
             display: block;
             padding: 0 0 2em;
@@ -78,7 +78,7 @@
             opacity: 75%;
         }
 
-        .mid-post-hero + cite[role="figcaption"]{
+        .mid-post-hero + figcaption[role="cite"]{
             margin-block-start: -2em;
         }
     }
