@@ -1,0 +1,42 @@
+{%- if page.redirect_to -%}
+<!DOCTYPE html>
+<html class="brightness-dark reduce-motion">
+<head>
+    <title>Redirecting...</title>
+    <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type' />
+    <meta http-equiv="refresh" content="0; url={{ page.redirect_to }}" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+
+    <link rel="stylesheet" type="text/css" id="framework-stylesheet" href="https://stylesheets.bhstudios.org/assets/v2/neon/neon-water.css" />
+    <link rel="stylesheet" type="text/css" id="theme-stylesheet" href="https://stylesheets.bhstudios.org/assets/v2/neon/neon-renderer.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Questrial|Roboto:300,400,700,900&display=swap" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+
+    <script src="https://shared.bhstudios.org/_js/jquery-bh-preferred.js">/* jQuery */</script>
+    <script src="https://scripts.bhstudios.org/assets/v2/general/js/lib/kotlin.js">/* Kotlin/JS for BHStudios General Script */</script>
+    <script src="https://scripts.bhstudios.org/assets/v2/general/js/BHStudios%20General%20Scripts.js">/* BHStudios General Script */</script>
+</head>
+
+<body>
+    <header class="app-bar effect-background">
+        <span class="layout-placeholder"></span>
+        <a href="/" class="flat button   back-to-root-link"><h1 class="title">Redirecting</h1></a>
+        <span class="layout-placeholder"></span>
+    </header>
+
+    <main id="main" class="">
+        The page was found elsewhere. Now redirecting you&hellip;
+    </main>
+</body>
+</html>
+{%- else -%}
+<h1>DEVELOPER ERROR</h1>
+You must specify <code>redirect_to</code> in the page's front matter when the layout is <code>redirect</code>.
+
+
+<!-- page as JSON:
+{{ page | jsonify }}
+-->
+{%- endif -%}
