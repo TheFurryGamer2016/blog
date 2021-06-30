@@ -48,7 +48,7 @@ It has 8 stripes, each with symbology that's very much of 70s culture:
 
 ![The current Rainbow Flag, from top to bottom is 6 horizontal stripes: red, orange, yellow, green, indigo, and violet](/images/Pride Flags/Current Rainbow Flag.svg){:.thumbnail.card}
 
-As demand increased, folks started creating and buying the flag, and it became evident that the hot pink, and later turquoise, weren't as abundant to manufacture. So, they no longer became included, and we got the familiar 6-stripe flag we see today.
+As demand increased, folks started creating and buying the flag. It soon became evident that the hot pink, and later turquoise, weren't as abundant to manufacture. So, they no longer became included, and we got the familiar 6-stripe flag we see today.
 
 
 
@@ -91,11 +91,11 @@ In **May 2021**, intersex rights activist [Valentino Vecchietti](https://twitter
 
 # My Personal Feelings #
 
-**I really love these!** They all show a desire by the community to unify under one banner, recognizable and empowering. All of them evoke the familiar rainbow flag, and add something that can be noticed, understood, and talked about. That kind of passion and creativity makes me happy; it's what has grown and centered this community for so many years.
+**I really love these!** They all show a desire by the community to unify under one banner, recognizable and empowering. All of them evoke the familiar rainbow flag, and add something that can be noticed, understood, and talked about. That kind of enthusiasm and creativity makes me happy; it's what has grown and centered this community for so many years.
 
 While there is something delightful and powerful about the idea of continuing to add stripes and chevrons to the rainbow flag, I personally feel like that isn't the best direction to head with this.
 
-I'm also concerned about the **omissions**. None of these represent various oppressed minorities within the GSM community, such as Asian-American & Native-American people, people on the Autism Spectrum, bisexual people, polyamorous people, asexual & aromantic people, multigender & genderfluid people, non-binary people, plural systems, et cetera.
+I'm also concerned about the **omissions**. None of these represent various oppressed minorities within the GSM community, such as Asian-American & Native-American people, various GSM peoples worldwide whose governments oppress them for being GSM, people on the Autism Spectrum, bisexual people, polyamorous people, asexual & aromantic people, multigender & genderfluid people, non-binary people, plural systems, et cetera.
 
 To add all these to a progress pride flag, each with one or more specific stripes highlighting that oppressed subgroup, will only continue to make any subgroup not on the flag feel even more oppressed and unrepresented, and might end up making the flag difficult to understand and reproduce. For that reason, I don't think that adding subgroup-specific flag elements is the best direction.
 
@@ -141,7 +141,7 @@ Like the Progress Pride Flag and its Intersex Variant, this design uses chevrons
 ### Pink for Gender & Red for Sexuality ###
 {:.chevron-header.pink-and-red}
 
-The pink & red chevrons respectively signify gender & sexuality. These core parts of the GSM community are base parts of us within our societies. We use gender to express ourselves, to build our relationships, to describe our sexualities.
+The first two chevrons and the only ones to touch the leading edge of the flag are the pink & red chevrons, which respectively signify gender & sexuality. These are core parts of us within our societies and the GSM community. We use gender to express ourselves, to build our relationships, to describe our sexualities.
 
 Even when a person's gender andor sexuality is weak or nonexistent, that also helps define our identities and relationships with each other and society at large.
 
@@ -195,6 +195,8 @@ Together, we create and enact change. Together, we are stronger. As we fight div
 
 All these point toward the reason we are a shared community: we demand justice. We demand to never be treated as lesser, simply because our gender or sexuality isn't in the majority. We demand to no longer fight simply for what we need to live happily. Justice for each of us and our sub-communities is about feeling like we have a place in this world, rather than feeling like a downtrodden, cast-aside, andor forgotten minority.
 
+We also demand justice for those we've lost. Many of our GSM siblings have fallen to violence, hate crimes, actions taken by governments, and disease, most notably our lost elders who fell to the AIDS pandemic of the 80s. We fight for them, and this grey represents them as well.
+
 
 
 # To The Community #
@@ -214,26 +216,47 @@ With this, I release this flag to the community. I claim no ownership over its d
 Now that you have full rights over this flag, you should know how to reproduce it if you want to!
 
 
-### Ratios ###
+### Ratios & Composition ###
 
 I used a 2:1 ratio when designing this flag, but that's not strictly necessary to reproduce it. In fact, designers and vexillologists might notice that the above example is slightly shorter, at a ratio of 11:6.
 
-Whatever is used, the angle of each chevron must remain at 45º, and the line formed by the red and orange chevrons must touch the dexter corners.
+Whatever is used, the angle of the vertex of each chevron should remain at 90º, and the line formed by the red and orange chevrons should touch the leading corners. This ensures that the Gender & Sexuality chevrons touch the leading edge of the flag
 
-With the exceptions of the pink and grey, all chevrons must be the same thickness.
+With the exceptions of the pink and grey, all chevrons should be the same thickness.
 
 
 ### Colors ###
 
 I used these colors when designing the flag, but you might need or want to use different ones, especially when transferring the flag to a medium such as print, paint, or fabric. If you're a color nerd and find CMYK/PMS colors which reproduce this well, let me know and I'll list them here too!
 
-- Pink: #F8BBD0
-- Red: #F44336
-- Orange: #FF9800
-- Yellow: #FFEB3B
-- Green: #388E3C
-- Cyan: #81D4FA
-- Indigo: #311B92
-- Purple: #8E24AA
-- White: #FAFAFA
-- Grey: #757575
+- Pink: `#F8BBD0`
+- Red: `#F44336`
+- Orange: `#FF9800`
+- Yellow: `#FFEB3B`
+- Green: `#388E3C`
+- Cyan: `#81D4FA`
+- Indigo: `#311B92`
+- Purple: `#8E24AA`
+- White: `#FAFAFA`
+- Grey: `#757575`
+
+
+### Presentation ###
+
+![](/images/Pride Flags/GSM Pride Flag (2021 Ky Leggiero design; Flying Dexter).png){:.thumbnail.card}
+
+Because the chevrons represent progress, when flying this flag in the wind or as a jacket patch, the chevrons should point in the direction of the wind (away from a flagpole, towards the back of a person wearing it).
+
+<br style="clear:both" />
+
+![](/images/Pride Flags/GSM Pride Flag (2021 Ky Leggiero design; Flying Vertically).png){:.thumbnail.card.left}![](/images/Pride Flags/GSM Pride Flag (2021 Ky Leggiero design; Flying Vertically Down).png){:.thumbnail.card.left}
+When displaying the flag vertically, the chevrons should point upwards, to symbolize upward progress. However, since flags flown vertically are traditionally flown with the same hoist at the top as horizontal flags have towards the flagpole, that is also okay, even though the chevrons will be pointing downward.
+
+<br style="clear:both" />
+
+When displaying this as an image, I encourage folks who use right-to-left languages to present this flag with the chevrons pointing right-to-left, so that the feeling of forward progress is preserved.
+
+
+### Have fun & be proud! ###
+
+Whatever flag you choose to use, and however you choose to use it, the most important thing is for you to enjoy it! Fly it to show your pride about yourself, and to signal that you are there and cannot be silenced. These are all symbols of freedom, so you should use whichever makes you feel the most free!

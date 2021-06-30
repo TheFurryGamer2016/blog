@@ -131,17 +131,24 @@
 
         &.thumbnail {
             float: right;
-            width: 2in;
-            max-width: 100%;
+            max-width: 2in;
+            max-height: 2in;
+
+            &.left {
+                float: left;
+            }
 
             &.card {
                 border-radius: var(--card-border-radius);
             }
 
             @media (max-width: 5in) {
-                display: block;
-                float: none;
-                margin-inline: auto;
+                &,
+                &.left {
+                    display: block;
+                    float: none;
+                    margin-inline: auto;
+                }
             }
         }
 
