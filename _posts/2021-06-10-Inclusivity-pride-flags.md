@@ -8,7 +8,7 @@ categories:
   - Pride
 
 excerpt: There's a lot of divisions in the Gender & Sexual Minority (GSM) community. Some folks have used flags to call out these divisions to begin addressing them.
-social-preview-image: /images/Pride%20Flags/I%20made%20a%20pride%20flag.png
+social-preview-image: https://benleggiero.blog/images/Pride%20Flags/I%20made%20a%20pride%20flag.png
 ---
 
 <link rel="stylesheet" href="/page-specific-styles/2021-06-10-Inclusivity-pride-flags.css" />
