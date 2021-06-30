@@ -37,10 +37,19 @@
         padding: 2em 0 0;
     }
 
+    h1 {
+        margin-block-start: 4em;
+    }
+
     header h1 {
         margin: 3em 0;
         padding: 0;
         text-align: center;
+    }
+
+    ul,
+    ol {
+        margin-block: 1em;
     }
 
     aside {
@@ -57,6 +66,20 @@
         &,
         p {
             line-height: 1.4;
+        }
+    }
+
+    figure {
+        figcaption[role="cite"] {
+            text-align: center;
+            display: block;
+            padding: 0 0 2em;
+            font-size: 80%;
+            opacity: 75%;
+        }
+
+        .mid-post-hero + figcaption[role="cite"]{
+            margin-block-start: -2em;
         }
     }
 
@@ -94,8 +117,39 @@
     img {
         &.mid-post-hero,
         &.end-post-hero {
-            width: 100%;
+            display: block;
+            width: 80%;
+            margin-inline: auto;
             margin-block: 3em;
+            max-height: calc(90vh - var(--app-bar-height-auto, 1cm));
+
+
+            @media (max-width: 5in) {
+                width: 100%;
+            }
+        }
+
+        &.thumbnail {
+            float: right;
+            max-width: 2in;
+            max-height: 2in;
+
+            &.left {
+                float: left;
+            }
+
+            &.card {
+                border-radius: var(--card-border-radius);
+            }
+
+            @media (max-width: 5in) {
+                &,
+                &.left {
+                    display: block;
+                    float: none;
+                    margin-inline: auto;
+                }
+            }
         }
 
         &.hero-image,

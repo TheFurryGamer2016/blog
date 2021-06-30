@@ -10,9 +10,12 @@ categories:
 
 Okay, I promise I have plenty of stuff I'm wanting to blog about that's not related to my <b class="sparkly">gender adventures</b>, but this is just something that's been nagging me recently.
 
+
+# Let's define "Training Bra" #
+
 Traditionally, we in the USA give young girls training bras. Why? [Well that's a whole thing](https://en.wikipedia.org/wiki/Training_bra#History), but here's my takeaway:
 
-1. So [they is](/Pronouns#singularity-vs-plurality) familiar with the feeling of having a bra on and how to position & adjust it properly, and so it isn't so weird by the time they needs it for support
+1. So they [is](/Pronouns#singularity-vs-plurality) familiar with the feeling of having a bra on and how to position & adjust it properly, and so it isn't so weird by the time they needs it for support
 2. To provide padding to protect their growing [breast buds](https://en.wikipedia.org/wiki/Breast_bud)
 3. Social status among other kids; fashion
 

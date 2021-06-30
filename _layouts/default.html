@@ -65,7 +65,7 @@
 <body {%- if page.special-theme-name %} class="{% for class-name in page.special-theme-name %}{{ class-name }}{% endfor %}" {%- endif %}>
     <header class="app-bar effect-background">
         <a href="#" class="flat button show-sidebar-button" onclick="return false;"><i class="material-icons">menu</i></a>
-        <a href="/" class="flat button   back-to-root-link"><h1 class="title"><span class="title-text">{{ site.title }}</span><span class="subtitle-text"></span></h1></a>
+        <a href="/" class="flat button   back-to-root-link"><h1 class="title"><del>Ben</del> <span class="title-text">{{ site.title }}</span><span class="subtitle-text"></span></h1></a>
         <span class="layout-placeholder"></span>
     </header>
 
@@ -85,7 +85,7 @@
             <ul>
                 <li><a {% if page.url == "/" -%} disabled {%- else -%} href="/" {%- endif %} class="button">{{ site.title }}</a></li>
                 {% assign checkSlice = page.url | slice: 0, page.url.size %}
-                <li><a {% if checkSlice == "/about/" -%} disabled {%- else -%} href="/about" {%- endif %} class="button">About</a></li>
+                <li><a href="https://KyLeggiero.me" class="button">About</a></li>
             </ul>
         </section>
 

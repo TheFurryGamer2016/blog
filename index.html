@@ -25,6 +25,12 @@ layout: default
                 {{ post.excerpt }}
             </div>
             {% endif %}
+
+            {% if post.social-preview-image %}
+            <a href="{{ site.baseurl }}{{ post.url }}">
+                <img src="{{ post.social-preview-image }}" class="preview" />
+            </a>
+            {% endif %}
         </section>
 
         <footer class="flex-row flex-horiz-space-between flex-vert-center">

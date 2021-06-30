@@ -53,3 +53,55 @@ b.sparkly {
         content: " 💫";
     }
 }
+
+del {
+    opacity: 75%;
+}
+
+
+:root {
+    --gsm-pride-flag-banner-height: 1in;
+}
+
+
+.gsm-pride-flag-banner {
+
+    position: relative;
+
+    margin: var(--gsm-pride-flag-banner-height) 0 calc(var(--gsm-pride-flag-banner-height) * 2);
+    padding: 1px 0 0;
+
+    &:hover::before {
+        animation-play-state: paused;
+    }
+
+    &::before {
+        content: "";
+        background-image: url("/images/Pride Flags/GSM Pride Flag (2021 Ky Leggiero design; Repeating Banner).svg");
+        background-size: contain;
+        background-repeat: repeat-x;
+        position: absolute;
+        height: var(--gsm-pride-flag-banner-height);
+        left: 0;
+        right: 0;
+
+        animation-name: scrollBackground;
+        animation-duration: 30s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--box-shadow-z3);
+    }
+}
+
+
+@keyframes scrollBackground {
+    0% {
+        background-position: 0%;
+    }
+
+    100% {
+        background-position: 100%;
+    }
+}
