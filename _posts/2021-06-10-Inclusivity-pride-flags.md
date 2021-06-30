@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Inclusivity Pride Flags
-date: 2021-06-10 00:00 -0700
+date: 2021-06-29 22:35 -0600
 categories:
   - GSM
   - Gender
@@ -138,12 +138,12 @@ Here is my proposal. It uses the original Retro 8 colors in 8 rightward-pointing
 Like the Progress Pride Flag and its Intersex Variant, this design uses chevrons to signify that it's important for us to move forward, to continually push for progress, despite any forces which would otherwise push us back and divide us.
 
 
-### Pink for Gender & Red for Sexuality ###
+### Pink for Sexuality & Red for Gender ###
 {:.chevron-header.pink-and-red}
 
-The first two chevrons and the only ones to touch the leading edge of the flag are the pink & red chevrons, which respectively signify gender & sexuality. These are core parts of us within our societies and the GSM community. We use gender to express ourselves, to build our relationships, to describe our sexualities.
+The first two chevrons and the only ones to touch the leading edge of the flag are the pink & red chevrons, which respectively signify sexuality & gender. These are core parts of us within our societies and the GSM community. We use gender to express ourselves, to build our relationships, to describe our sexualities.
 
-Even when a person's gender andor sexuality is weak or nonexistent, that also helps define our identities and relationships with each other and society at large.
+Even when a person's sexuality andor gender is weak or nonexistent, that also helps define our identities and relationships with each other and society at large.
 
 
 ### Orange for Enthusiasm ###
@@ -220,7 +220,7 @@ Now that you have full rights over this flag, you should know how to reproduce i
 
 I used a 2:1 ratio when designing this flag, but that's not strictly necessary to reproduce it. In fact, designers and vexillologists might notice that the above example is slightly shorter, at a ratio of 11:6.
 
-Whatever is used, the angle of the vertex of each chevron should remain at 90º, and the line formed by the red and orange chevrons should touch the leading corners. This ensures that the Gender & Sexuality chevrons touch the leading edge of the flag
+Whatever is used, the angle of the vertex of each chevron should remain at 90º, and the line formed by the red and orange chevrons should touch the leading corners. This ensures that the Sexuality & Gender chevrons touch the leading edge of the flag, visually signifying their special importance.
 
 With the exceptions of the pink and grey, all chevrons should be the same thickness.
 
@@ -260,3 +260,5 @@ When displaying this as an image, I encourage folks who use right-to-left langua
 ### Have fun & be proud! ###
 
 Whatever flag you choose to use, and however you choose to use it, the most important thing is for you to enjoy it! Fly it to show your pride about yourself, and to signal that you are there and cannot be silenced. These are all symbols of freedom, so you should use whichever makes you feel the most free!
+
+<footer class="gsm-pride-flag-banner"></footer>
