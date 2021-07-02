@@ -12,7 +12,7 @@
             <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.458824 0 0 0 0 0.458824 0 0 0 0 0.458824 0 0 0 1.000000 0"></feColorMatrix>
         </filter>
         <filter color-interpolation-filters="auto" id="filter-4">
-            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.980392 0 0 0 0 0.980392 0 0 0 0 0.980392 0 0 0 1.000000 0"></feColorMatrix>
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.741176 0 0 0 0 0.741176 0 0 0 0 0.741176 0 0 0 1.000000 0"></feColorMatrix>
         </filter>
         <filter color-interpolation-filters="auto" id="filter-5">
             <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.556863 0 0 0 0 0.141176 0 0 0 0 0.666667 0 0 0 1.000000 0"></feColorMatrix>

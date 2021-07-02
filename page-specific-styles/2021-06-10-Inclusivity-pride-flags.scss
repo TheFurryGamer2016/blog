@@ -28,6 +28,11 @@
         display: inline-block;
         height: 1em;
         width: 1em;
+
+        @media (max-width: 960px) {
+            left: 0;
+            margin-inline-end: 1ex;
+        }
     }
 
     &.pink-and-red::before {
@@ -58,17 +63,12 @@
         background-image: url("/images/Pride Flags/GSM Pride Flag - Chevron (Purple).svg");
     }
 
-    &.white::before {
-        background-image: url("/images/Pride Flags/GSM Pride Flag - Chevron (White).svg");
-    }
-
-    &.grey::before {
-        background-image: url("/images/Pride Flags/GSM Pride Flag - Chevron (Grey).svg");
+    &.silver-and-grey::before {
+        background-image: url("/images/Pride Flags/GSM Pride Flag - Chevron (Silver & Grey).svg");
     }
 
 
-    &.yellow::before,
-    &.white::before {
+    &.yellow::before {
         background-color: #{"hsl(0deg, 0%, 50%, 40%)"};
         border-radius: 0.5ex;
 
