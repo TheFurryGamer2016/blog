@@ -9,6 +9,6 @@ categories:
   - Micro
 ---
 
-Last night I made a blog at [https://BenLeggiero.blog](https://BenLeggiero.blog) and mirrored it on [https://micro.blog/BenLeggiero](https://micro.blog/BenLeggiero)! 
+Last night I made a blog at [https://Blog.KyLeggiero.me](https://Blog.KyLeggiero.me) and mirrored it on [https://micro.blog/KyLeggiero](https://micro.blog/KyLeggiero)! 
 
 Thanks to [Manton Reece](https://Manton.org), [Jekyll](https://jekyllrb.com) (and [Trello](https://trello.com)'s [Barry Clark](http://www.barryclark.co) for [Jekyll Now](https://github.com/barryclark/jekyll-now)), [Shopify](https://github.com/Shopify)'s [Liquid](https://github.com/Shopify/liquid), [Hover](https://Hover.com), [Cloudflare](https://cloudflare.com), and [GitHub](https://GitHub.com) for making this so easy!

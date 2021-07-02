@@ -9,7 +9,7 @@ categories:
   - Pride
 
 excerpt: There's a lot of divisions in the Gender & Sexual Minority (GSM) community. Some folks have used flags to call out these divisions to begin addressing them.
-social-preview-image: https://benleggiero.blog/images/Pride%20Flags/I%20made%20a%20pride%20flag.png
+social-preview-image: https://blog.kyleggiero.me/images/Pride%20Flags/I%20made%20a%20pride%20flag.png
 ---
 
 <link rel="stylesheet" href="/page-specific-styles/2021-06-10-Inclusivity-pride-flags.css" />
@@ -220,8 +220,8 @@ With this, I release this flag to the community. I claim no ownership over its d
 <aside class="thin legal-disclaimer" data-legal-disclaimer-title-text="Legal Notice" xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
     <a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="/images/CC0 Badge.svg" alt="CC0" /></a>
     <br />
-    To the extent possible under law, <a rel="dct:publisher" href="https://KyLeggiero.me"><span property="dct:title">Ky Leggiero</span></a>, also known as <span property="dct:title">Ben Leggiero</span>, has waived all copyright and related or neighboring rights to <span property="dct:title">The GSM Pride Flag (2021 Ky Leggiero design)</span>.
-    This work is published from <span property="vcard:Country" datatype="dct:ISO3166" content="US" about="https://BenLeggiero.me">The United States</span>.
+    To the extent possible under law, <a rel="dct:publisher" href="https://KyLeggiero.me"><span property="dct:title">Ky Leggiero</span></a>, also known as <span property="dct:title">Ky Leggiero</span>, has waived all copyright and related or neighboring rights to <span property="dct:title">The GSM Pride Flag (2021 Ky Leggiero design)</span>.
+    This work is published from <span property="vcard:Country" datatype="dct:ISO3166" content="US" about="https://KyLeggiero.me">The United States</span>.
 </aside>
 
 
