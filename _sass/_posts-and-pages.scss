@@ -4,6 +4,13 @@
 //
 
 
+
+:root {
+    --post-and-page--aside-margin: 1rem;
+}
+
+
+
 .post,
 .page {
     max-width: var(--desktop-small-max-width);
@@ -54,7 +61,7 @@
 
     aside {
         width: fit-content;
-        margin: 1rem;
+        margin: var(--post-and-page--aside-margin);
         margin-inline-start: auto;
         padding: 1ex 1em;
         border-width: 1px;
@@ -66,6 +73,15 @@
         &,
         p {
             line-height: 1.4;
+        }
+
+        &.align-leading {
+            margin-inline-end: auto;
+            margin-inline-start: var(--post-and-page--aside-margin);
+        }
+
+        &.align-leading {
+            margin-inline: auto;
         }
     }
 

@@ -23,8 +23,17 @@ aside.legal-disclaimer {
             letter-spacing: 1pt;
         }
 
+        &[data-legal-disclaimer-title-text]::before {
+            content: attr(data-legal-disclaimer-title-text);
+        }
+
         &:last-child {
             margin-bottom: 1cm;
+        }
+
+        &.thin {
+            margin: 1cm 5mm;
+            padding: 3mm 0;
         }
     }
 }

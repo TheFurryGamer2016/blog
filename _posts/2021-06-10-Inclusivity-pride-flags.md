@@ -2,6 +2,7 @@
 layout: post
 title: Inclusivity Pride Flags
 date: 2021-06-29 22:35 -0600
+date-edit: 2021-07-01 21:55 -0600
 categories:
   - GSM
   - Gender
@@ -48,7 +49,7 @@ It has 8 stripes, each with symbology that's very much of 70s culture:
 
 ![The current Rainbow Flag, from top to bottom is 6 horizontal stripes: red, orange, yellow, green, indigo, and violet](/images/Pride Flags/Current Rainbow Flag.svg){:.thumbnail.card}
 
-As demand increased, folks started creating and buying the flag. It soon became evident that the hot pink, and later turquoise, weren't as abundant to manufacture. So, they no longer became included, and we got the familiar 6-stripe flag we see today.
+As demand increased, folks started creating and buying the flag. It soon became evident that the hot pink, and later turquoise, weren't as abundant to manufacture. So, they were omitted and we got the familiar 6-stripe flag we see today.
 
 
 
@@ -56,7 +57,7 @@ As demand increased, folks started creating and buying the flag. It soon became 
 
 ![The Philadelphia Pride Flag, which is the standard 6-color pride flag with brown and black stripes added to the top](/images/Pride Flags/Philadelphia Pride Flag.svg){:.thumbnail.card}
 
-The Philadelphia Pride Flag was commissioned by the city of Philadelphia in **June 2017** for their pride events. [It was designed](https://HelloTierney.com/work/more-color-more-pride-2) my the marketing firm [Tierney](https://HelloTierney.com). Visually, it is the standard 6-color pride flag with brown and black stripes added to the top, to draw attention to the issues which people of color such as myself face within the GSM community.
+The Philadelphia Pride Flag was commissioned by the city of Philadelphia in **June 2017** for their pride events. [It was designed](https://HelloTierney.com/work/more-color-more-pride-2) by the marketing firm [Tierney](https://HelloTierney.com). Visually, it is the standard 6-color pride flag with brown and black stripes added to the top, to draw attention to the issues which people of color such as myself face within the GSM community.
 
 One issue with this flag is that it was commissioned by a city, for public relations during Pride 2017. That origin tells a story of capitalizing on oppression issues, trying to monetize peoples' desire to be seen and to unify, rather than being created by those people to protest their oppression.
 
@@ -89,6 +90,7 @@ In **May 2021**, intersex rights activist [Valentino Vecchietti](https://twitter
 
 
 
+
 # My Personal Feelings #
 
 **I really love these!** They all show a desire by the community to unify under one banner, recognizable and empowering. All of them evoke the familiar rainbow flag, and add something that can be noticed, understood, and talked about. That kind of enthusiasm and creativity makes me happy; it's what has grown and centered this community for so many years.
@@ -117,16 +119,17 @@ After I identified these related but distinct needs, inspiration struck me and I
 
 
 
+
 # My Proposal #
 
 <figure markdown=1>
-![A flag displaying 10 chevrons pointing rightward: the original 8 colors, then white and grey](/images/Pride Flags/GSM Pride Flag (2021 Ky Leggiero design).svg){:.mid-post-hero.card}
+![A flag displaying 10 chevrons pointing rightward: the original 8 colors, then silver and grey](/images/Pride Flags/GSM Pride Flag (2021 Ky Leggiero design).svg){:.mid-post-hero.card}
 <figcaption role="cite">The GSM Pride Flag (2021 Ky Leggiero design)</figcaption>
 </figure>
 
 
 
-Here is my proposal. It uses the original Retro 8 colors in 8 rightward-pointing chevrons, then a white chevron, and the rest grey. The symbology here is intertwined and represents what I see as deeply-ingrained pieces of the GSM community and its members. Let's dive into why I landed on this design:
+Here is my proposal. It uses the original Retro 8 colors in 8 rightward-pointing chevrons, then a silver chevron, and the rest grey. The symbology here is intertwined and represents what I see as deeply-ingrained pieces of the GSM community and its members. Let's dive into why I landed on this design:
 
 
 <span data-target-theme="dark">[![](/images/Pride Flags/GSM Pride Flag (2021 Ky Leggiero design; Annotated; Dark Mode).png){:.mid-post-hero.card}](/images/Pride Flags/GSM Pride Flag (2021 Ky Leggiero design; Annotated; Dark Mode).png)</span>
@@ -145,6 +148,10 @@ The first two chevrons and the only ones to touch the leading edge of the flag a
 
 Even when a person's sexuality andor gender is weak or nonexistent, that also helps define our identities and relationships with each other and society at large.
 
+<aside class="align-center">
+These colors were chosen not only because they are the familiar first two colors of the original Retro 8 flag (with the original pink representing Sex, and this one representing Sexuality), but also because their similarity in shade further emphasizes how closely-linked they are. Pink & Red have also often been used to represent passion & sex in general.
+</aside>
+
 
 ### Orange for Enthusiasm ###
 {:.chevron-header.orange}
@@ -152,12 +159,15 @@ Even when a person's sexuality andor gender is weak or nonexistent, that also he
 Enthusiasm is extremely important in the GSM community. It drives our creativity, our expression & presentation, our desire to push for a better world. Without enthusiasm, we would fade into the background; it liberates us and brings us into the public consciousness!
 
 
+
 ### Yellow for Body ###
 {:.chevron-header.yellow}
 
 Our bodies are a major focus, in our own perspectives, within our relationships, within our community, and from outside our community. We use our bodies to present ourselves and our identities. Our bodies reflect the lives we've led, which brought us to this point. Some of us look to change their body, or escape it entirely, some look to embrace their body, placing it on display, and some do both at the same time!
 
+<aside class="align-center">
 The yellow used here also echoes the fight for intersex awareness and rights, which focuses on bodies even more than the sexuality & gender sides of our movements.
+</aside>
 
 
 ### Green for Presentation ###
@@ -184,26 +194,30 @@ The circumstances of one's birth cannot be chosen by that individual, and often 
 One's mind is a crucial part of them, where all these concepts collide, and from which comes their sense of identity and justice, their choices in things like their presentation, and their reflections on their lack of choices in things like their birth. Philosophy is a major component of the GSM community; as we are attacked by laws and words, we are forced to look inward upon ourselves, thinking about who we are, and returning with our discoveries. At both a macro scale, where we push for social change, and a micro scale, where we discover our own identities, our minds are a core part of our experiences as gender & sexual minorities.
 
 
-### White for Solidarity ###
-{:.chevron-header.white}
+### Silver for Solidarity & Grey for Justice ###
+{:.chevron-header.silver-and-grey}
 
-Together, we create and enact change. Together, we are stronger. As we fight divisions and reduce biases, we become more accepting and understanding of each other in all the various and beautiful ways that make us different. By sticking together, we can do more than we ever could divided. Only through solidarity can we win these fights for our civil rights.
+Together, we create and enact change. Together, we are stronger. As we fight divisions and reduce biases, we become more accepting and understanding of each other in all the various and beautiful ways that make us different. By sticking together, we can do more than we ever could divided.
 
 
-### Grey for Justice ###
-{:.chevron-header.grey}
+Only through solidarity can we win these fights for justice.
+
 
 All these point toward the reason we are a shared community: we demand justice. We demand to never be treated as lesser, simply because our gender or sexuality isn't in the majority. We demand to no longer fight simply for what we need to live happily. Justice for each of us and our sub-communities is about feeling like we have a place in this world, rather than feeling like a downtrodden, cast-aside, andor forgotten minority.
 
 We also demand justice for those we've lost. Many of our GSM siblings have fallen to violence, hate crimes, actions taken by governments, and disease, most notably our lost elders who fell to the AIDS pandemic of the 80s. We fight for them, and this grey represents them as well.
 
+<aside class="align-center">
+Silver & grey were chosen for their metallic likeness, evoking the metaphorical shields with which we brace ourselves in solidarity, and metaphorical swords with which we fight for our rights.
+</aside>
+
 
 
 # To The Community #
 
-With this, I release this flag to the community. I claim no ownership over its design; I just want folks to feel like they have something that represents them. If you're a legal nerd, then consider this flag released under [the CC-0 license](http://creativecommons.org/publicdomain/zero/1.0/). Below is the official legal notice making this official:
+With this, I release this flag to the community. I claim no ownership over its design; I just want folks to feel like they have something that represents them. If you're a legal nerd, then consider this flag released under [the CC-0 license](http://creativecommons.org/publicdomain/zero/1.0/). Below is the legal notice making this official:
 
-<aside class="legal-disclaimer" xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+<aside class="thin legal-disclaimer" data-legal-disclaimer-title-text="Legal Notice" xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
     <a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="/images/CC0 Badge.svg" alt="CC0" /></a>
     <br />
     To the extent possible under law, <a rel="dct:publisher" href="https://KyLeggiero.me"><span property="dct:title">Ky Leggiero</span></a>, also known as <span property="dct:title">Ben Leggiero</span>, has waived all copyright and related or neighboring rights to <span property="dct:title">The GSM Pride Flag (2021 Ky Leggiero design)</span>.
@@ -237,7 +251,7 @@ I used these colors when designing the flag, but you might need or want to use d
 - Cyan: `#81D4FA`
 - Indigo: `#311B92`
 - Purple: `#8E24AA`
-- White: `#FAFAFA`
+- Silver: `#BDBDBD`
 - Grey: `#757575`
 
 
@@ -245,11 +259,14 @@ I used these colors when designing the flag, but you might need or want to use d
 
 ![](/images/Pride Flags/GSM Pride Flag (2021 Ky Leggiero design; Flying Dexter).png){:.thumbnail.card}
 
-Because the chevrons represent progress, when flying this flag in the wind or as a jacket patch, the chevrons should point in the direction of the wind (away from a flagpole, towards the back of a person wearing it).
+Because the chevrons represent progress, when flying this flag in the wind, the chevrons should point in the direction of the wind (away from a flagpole).
+
+When worn as a jacket patch, the chevrons should point in the direction of movement (towards the front of a person wearing it).
 
 <br style="clear:both" />
 
 ![](/images/Pride Flags/GSM Pride Flag (2021 Ky Leggiero design; Flying Vertically).png){:.thumbnail.card.left}![](/images/Pride Flags/GSM Pride Flag (2021 Ky Leggiero design; Flying Vertically Down).png){:.thumbnail.card.left}
+
 When displaying the flag vertically, the chevrons should point upwards, to symbolize upward progress. However, since flags flown vertically are traditionally flown with the same hoist at the top as horizontal flags have towards the flagpole, that is also okay, even though the chevrons will be pointing downward.
 
 <br style="clear:both" />
