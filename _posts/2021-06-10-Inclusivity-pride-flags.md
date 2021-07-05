@@ -220,7 +220,7 @@ With this, I release this flag to the community. I claim no ownership over its d
 <aside class="thin legal-disclaimer" data-legal-disclaimer-title-text="Legal Notice" xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
     <a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="/images/CC0 Badge.svg" alt="CC0" /></a>
     <br />
-    To the extent possible under law, <a rel="dct:publisher" href="https://KyLeggiero.me"><span property="dct:title">Ky Leggiero</span></a>, also known as <span property="dct:title">Ky Leggiero</span>, has waived all copyright and related or neighboring rights to <span property="dct:title">The GSM Pride Flag (2021 Ky Leggiero design)</span>.
+    To the extent possible under law, <a rel="dct:publisher" href="https://KyLeggiero.me"><span property="dct:title">Ky Leggiero</span></a>, also known as <span property="dct:title">Ben Leggiero</span>, has waived all copyright and related or neighboring rights to <span property="dct:title">The GSM Pride Flag (2021 Ky Leggiero design)</span>.
     This work is published from <span property="vcard:Country" datatype="dct:ISO3166" content="US" about="https://KyLeggiero.me">The United States</span>.
 </aside>
 
@@ -274,7 +274,14 @@ When displaying the flag vertically, the chevrons should point upwards, to symbo
 When displaying this as an image, I encourage folks who use right-to-left languages to present this flag with the chevrons pointing right-to-left, so that the feeling of forward progress is preserved.
 
 
-### Have fun & be proud! ###
+### Presskit, Renders, Social Images, & Source File ###
+
+Since this is public domain, I'm also publishing my renders of the flag, some social images (banners, profile image templates, etc.), and the original project file with which I designed this flag in the first place.
+
+<span markdown=1 class="flex-column flex-horiz-center">[Download this flag and more on Google Drive](https://drive.google.com/drive/folders/1hC5HeHDs5LDt_t8O_sPOEegXHElQm1UG?usp=sharing){:.big.button}</span>
+
+
+# Have fun & be proud! #
 
 Whatever flag you choose to use, and however you choose to use it, the most important thing is for you to enjoy it! Fly it to show your pride about yourself, and to signal that you are there and cannot be silenced. These are all symbols of freedom, so you should use whichever makes you feel the most free!
 
