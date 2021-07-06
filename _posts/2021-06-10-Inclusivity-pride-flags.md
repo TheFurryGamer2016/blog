@@ -4,11 +4,11 @@ title: Inclusivity Pride Flags
 date: 2021-06-29 22:35 -0600
 date-edit: 2021-07-05 23:45 -0600
 categories:
-  - GSM
+  - GRSM
   - Gender
   - Pride
 
-excerpt: There's a lot of divisions in the Gender & Sexual Minority (GSM) community. Some folks have used flags to call out these divisions to begin addressing them.
+excerpt: There's a lot of divisions in the Gender, Romantic, & Sexual Minority (GRSM) community. Some folks have used flags to call out these divisions to begin addressing them.
 social-preview-image: https://blog.kyleggiero.me/images/Pride%20Flags/I%20made%20a%20pride%20flag.png
 
 download-link: https://drive.google.com/drive/folders/1hC5HeHDs5LDt_t8O_sPOEegXHElQm1UG?usp=sharing
@@ -18,7 +18,7 @@ download-link: https://drive.google.com/drive/folders/1hC5HeHDs5LDt_t8O_sPOEegXH
 
 # The Problem #
 
-There's a lot of divisions in the [Gender & Sexual Minority (GSM)](https://en.wikipedia.org/wiki/LGBT#SGM/GSM) community (also known as the LGBTQIA+ community). Many of these have been here from the start, some more recent. These dividing lines mirror those in the wider society, mimicking the very arguments which seek to dehumanize us. Lines like racism, transphobia, ignorance of intersex people, dismissal of ace/aro people,  have started splitting the community further.
+There's a lot of divisions in the [Gender, Romantic, & Sexual Minority (GRSM)](https://en.wikipedia.org/wiki/Sexual_minority) community (also known as the LGBTQIA+ community). Many of these have been here from the start, some more recent. These dividing lines mirror those in the wider society, mimicking the very arguments which seek to dehumanize us. Lines like racism, transphobia, ignorance of intersex people, dismissal of ace/aro people,  have started splitting the community further.
 
 Some folks have used flags to call out these divisions to begin addressing them. The idea here is to create a flag that appears familiar, which is clearly a pride flag, but which has a modification that calls out divisions, so that folks think about this, and also so that it's clear that those flying this flag are calling to unify rather than divide.
 
@@ -26,7 +26,7 @@ Let's talk about some of these flags!
 
 
 
-# A Brief History of GSM Pride Flags #
+# A Brief History of GRSM Pride Flags #
 
 ## The Original “Retro 8” Gay Pride Flag ##
 
@@ -59,7 +59,7 @@ As demand increased, folks started creating and buying the flag. It soon became 
 
 ![The Philadelphia Pride Flag, which is the standard 6-color pride flag with brown and black stripes added to the top](/images/Pride Flags/Philadelphia Pride Flag.svg){:.thumbnail.card}
 
-The Philadelphia Pride Flag was commissioned by the city of Philadelphia in **June 2017** for their pride events. [It was designed](https://HelloTierney.com/work/more-color-more-pride-2) by the marketing firm [Tierney](https://HelloTierney.com). Visually, it is the standard 6-color pride flag with brown and black stripes added to the top, to draw attention to the issues which people of color such as myself face within the GSM community.
+The Philadelphia Pride Flag was commissioned by the city of Philadelphia in **June 2017** for their pride events. [It was designed](https://HelloTierney.com/work/more-color-more-pride-2) by the marketing firm [Tierney](https://HelloTierney.com). Visually, it is the standard 6-color pride flag with brown and black stripes added to the top, to draw attention to the issues which people of color such as myself face within the GRSM community.
 
 One issue with this flag is that it was commissioned by a city, for public relations during Pride 2017. That origin tells a story of capitalizing on oppression issues, trying to monetize peoples' desire to be seen and to unify, rather than being created by those people to protest their oppression.
 
@@ -81,7 +81,7 @@ The Progress Pride Flag was created by Daniel Quasar and unveiled in **June 2018
 
 Obviously, it's important to commemorate those we've lost, and flying a flag for them is a very common way to do so. Adding this to a pride flag helps us give them representation after we've lost them, and to not forget their struggles and contributions.
 
-Representing the transgender community in this flag further calls out the trans erasure and division within the GSM community, from transphobic people calling to rename "LGBT" to "LGB", to outright harassment and violence.
+Representing the transgender community in this flag further calls out the trans erasure and division within the GRSM community, from transphobic people calling to rename "LGBT" to "LGB", to outright harassment and violence.
 
 
 ### Intersex Variant ###
@@ -99,11 +99,11 @@ In **May 2021**, intersex rights activist [Valentino Vecchietti](https://twitter
 
 While there is something delightful and powerful about the idea of continuing to add stripes and chevrons to the rainbow flag, I personally feel like that isn't the best direction to head with this.
 
-I'm also concerned about the **omissions**. None of these represent various oppressed minorities within the GSM community, such as Asian-American & Native-American people, various GSM peoples worldwide whose governments oppress them for being GSM, people on the Autism Spectrum, bisexual people, polyamorous people, asexual & aromantic people, multigender & genderfluid people, non-binary people, plural systems, et cetera.
+I'm also concerned about the **omissions**. None of these represent various oppressed minorities within the GRSM community, such as Asian-American & Native-American people, various GRSM peoples worldwide whose governments oppress them for being GRSM, people on the Autism Spectrum, bisexual people, polyamorous people, asexual & aromantic people, multigender & genderfluid people, non-binary people, plural systems, et cetera.
 
 To add all these to a progress pride flag, each with one or more specific stripes highlighting that oppressed subgroup, will only continue to make any subgroup not on the flag feel even more oppressed and unrepresented, and might end up making the flag difficult to understand and reproduce. For that reason, I don't think that adding subgroup-specific flag elements is the best direction.
 
-Another problem is that, while in theory **the rainbow flag alone** can represent all members of the GSM community, in practice it mainly appears to represent solely homosexual men; whether intentionally or not, many folks in our community don't identify with the rainbow flag. For that reason, it might be necessary to use a different flag, perhaps an all-new one, to represent the whole community.
+Another problem is that, while in theory **the rainbow flag alone** can represent all members of the GRSM community, in practice it mainly appears to represent solely homosexual men; whether intentionally or not, many folks in our community don't identify with the rainbow flag. For that reason, it might be necessary to use a different flag, perhaps an all-new one, to represent the whole community.
 
 
 
@@ -111,10 +111,10 @@ Another problem is that, while in theory **the rainbow flag alone** can represen
 
 What we need is a flag that:
 
-- Intentionally represents & symbolizes the modern GSM community in a familiar way
+- Intentionally represents & symbolizes the modern GRSM community in a familiar way
 - Stands on its own as a specific symbol, rather than adding to an existing one
 - Evokes progress and inclusivity in its design
-- Doesn't single-out nor omit any specific minorities within the GSM community
+- Doesn't single-out nor omit any specific minorities within the GRSM community
 
 
 After I identified these related but distinct needs, inspiration struck me and I tried my hand at one, myself.
@@ -127,7 +127,7 @@ After I identified these related but distinct needs, inspiration struck me and I
 <figure markdown=1>
 [![A flag displaying 10 chevrons pointing rightward: the original 8 colors, then silver and grey](/images/Pride Flags/GSM Pride Flag (2021 Ky Leggiero design).svg){:.mid-post-hero.card}]({{ page.download-link }})
 <figcaption role="cite">
-    <span style="margin:1em">The GSM Pride Flag (2021 Ky Leggiero design)</span>
+    <span style="margin:1em">The GRSM Pride Flag (2021 Ky Leggiero design)</span>
 
     <div class="flex-row flex-wrap flex-horiz-space-around flex-vert-center">
         <a href="#to-the-community"><img src="/images/CC0 Badge.svg" alt="CC0" /></a>
@@ -138,7 +138,7 @@ After I identified these related but distinct needs, inspiration struck me and I
 
 
 
-Here is my proposal. It uses the original Retro 8 colors in 8 rightward-pointing chevrons, then a silver chevron, and the rest grey. The symbology here is intertwined and represents what I see as deeply-ingrained pieces of the GSM community and its members. Let's dive into why I landed on this design:
+Here is my proposal. It uses the original Retro 8 colors in 8 rightward-pointing chevrons, then a silver chevron, and the rest grey. The symbology here is intertwined and represents what I see as deeply-ingrained pieces of the GRSM community and its members. Let's dive into why I landed on this design:
 
 
 <span data-target-theme="dark">[![](/images/Pride Flags/GSM Pride Flag (2021 Ky Leggiero design; Annotated; Dark Mode).png){:.mid-post-hero.card}](/images/Pride Flags/GSM Pride Flag (2021 Ky Leggiero design; Annotated; Dark Mode).png)</span>
@@ -153,7 +153,7 @@ Like the Progress Pride Flag and its Intersex Variant, this design uses chevrons
 ### Pink for Sexuality & Red for Gender ###
 {:.chevron-header.pink-and-red}
 
-The first two chevrons and the only ones to touch the leading edge of the flag are the pink & red chevrons, which respectively signify sexuality & gender. These are core parts of us within our societies and the GSM community. We use gender to express ourselves, to build our relationships, to describe our sexualities.
+The first two chevrons and the only ones to touch the leading edge of the flag are the pink & red chevrons, which respectively signify sexuality & gender. These are core parts of us within our societies and the GRSM community. We use gender to express ourselves, to build our relationships, to describe our sexualities.
 
 Even when a person's sexuality andor gender is weak or nonexistent, that also helps define our identities and relationships with each other and society at large.
 
@@ -165,7 +165,7 @@ These colors were chosen not only because they are the familiar first two colors
 ### Orange for Enthusiasm ###
 {:.chevron-header.orange}
 
-Enthusiasm is extremely important in the GSM community. It drives our creativity, our expression & presentation, our desire to push for a better world. Without enthusiasm, we would fade into the background; it liberates us and brings us into the public consciousness!
+Enthusiasm is extremely important in the GRSM community. It drives our creativity, our expression & presentation, our desire to push for a better world. Without enthusiasm, we would fade into the background; it liberates us and brings us into the public consciousness!
 
 
 
@@ -188,7 +188,7 @@ How we present ourselves plays a key role in our identities. Each individual pre
 ### Cyan for Identity ###
 {:.chevron-header.cyan}
 
-Within each of us is a sense of one's own identity. Whether powerful and strong and specific, or subtle and weak and nebulous, or something else entirely, our sense of identity is what drives us to join the GSM community in the first place. For many, this comes to the point that one's membership in the GSM community becomes a piece of their identity, itself.
+Within each of us is a sense of one's own identity. Whether powerful and strong and specific, or subtle and weak and nebulous, or something else entirely, our sense of identity is what drives us to join the GRSM community in the first place. For many, this comes to the point that one's membership in the GRSM community becomes a piece of their identity, itself.
 
 
 ### Indigo for Birth ###
@@ -200,7 +200,7 @@ The circumstances of one's birth cannot be chosen by that individual, and often 
 ### Purple for Mind ###
 {:.chevron-header.purple}
 
-One's mind is a crucial part of them, where all these concepts collide, and from which comes their sense of identity and justice, their choices in things like their presentation, and their reflections on their lack of choices in things like their birth. Philosophy is a major component of the GSM community; as we are attacked by laws and words, we are forced to look inward upon ourselves, thinking about who we are, and returning with our discoveries. At both a macro scale, where we push for social change, and a micro scale, where we discover our own identities, our minds are a core part of our experiences as gender & sexual minorities.
+One's mind is a crucial part of them, where all these concepts collide, and from which comes their sense of identity and justice, their choices in things like their presentation, and their reflections on their lack of choices in things like their birth. Philosophy is a major component of the GRSM community; as we are attacked by laws and words, we are forced to look inward upon ourselves, thinking about who we are, and returning with our discoveries. At both a macro scale, where we push for social change, and a micro scale, where we discover our own identities, our minds are a core part of our experiences as gender & sexual minorities.
 
 
 ### Silver for Solidarity & Grey for Justice ###
@@ -214,7 +214,7 @@ Only through solidarity can we win these fights for justice.
 
 All these point toward the reason we are a shared community: we demand justice. We demand to never be treated as lesser, simply because our gender or sexuality isn't in the majority. We demand to no longer fight simply for what we need to live happily. Justice for each of us and our sub-communities is about feeling like we have a place in this world, rather than feeling like a downtrodden, cast-aside, andor forgotten minority.
 
-We also demand justice for those we've lost. Many of our GSM siblings have fallen to violence, hate crimes, actions taken by governments, and disease, most notably our lost elders who fell to the AIDS pandemic of the 80s. We fight for them, and this grey represents them as well.
+We also demand justice for those we've lost. Many of our GRSM siblings have fallen to violence, hate crimes, actions taken by governments, and disease, most notably our lost elders who fell to the AIDS pandemic of the 80s. We fight for them, and this grey represents them as well.
 
 <aside class="align-center">
 Silver & grey were chosen for their metallic likeness, evoking the metaphorical shields with which we brace ourselves in solidarity, and metaphorical swords with which we fight for our rights.
@@ -229,7 +229,7 @@ With this, I release this flag to the community. I claim no ownership over its d
 <aside class="thin legal-disclaimer" data-legal-disclaimer-title-text="Legal Notice" xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
     <a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="/images/CC0 Badge.svg" alt="CC0" /></a>
     <br />
-    To the extent possible under law, <a rel="dct:publisher" href="https://KyLeggiero.me"><span property="dct:title">Ky Leggiero</span></a>, also known as <span property="dct:title">Ben Leggiero</span>, has waived all copyright and related or neighboring rights to <span property="dct:title">The GSM Pride Flag (2021 Ky Leggiero design)</span>.
+    To the extent possible under law, <a rel="dct:publisher" href="https://KyLeggiero.me"><span property="dct:title">Ky Leggiero</span></a>, also known as <span property="dct:title">Ben Leggiero</span>, has waived all copyright and related or neighboring rights to <span property="dct:title">The GRSM Pride Flag (2021 Ky Leggiero design)</span>.
     This work is published from <span property="vcard:Country" datatype="dct:ISO3166" content="US" about="https://KyLeggiero.me">The United States</span>.
 </aside>
 
