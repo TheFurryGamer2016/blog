@@ -9,6 +9,13 @@ layout: default
 
     <div class="entry">
     {{ content }}
+
+    {%- if page.discussion %}
+
+
+
+    {% include discussion-section.html %}
+    {% endif %}
     </div>
 
     <footer class="card">

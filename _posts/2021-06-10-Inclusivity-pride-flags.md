@@ -2,7 +2,7 @@
 layout: post
 title: Inclusivity Pride Flags
 date: 2021-06-29 22:35 -0600
-date-edit: 2021-07-05 23:45 -0600
+date-edit: 2021-07-06 17:27 -0600
 categories:
   - GRSM
   - Gender
@@ -12,6 +12,12 @@ excerpt: There's a lot of divisions in the Gender, Romantic, & Sexual Minority (
 social-preview-image: https://blog.kyleggiero.me/images/Pride%20Flags/I%20made%20a%20pride%20flag.png
 
 download-link: https://drive.google.com/drive/folders/1hC5HeHDs5LDt_t8O_sPOEegXHElQm1UG?usp=sharing
+
+discussion:
+  reddit: https://www.reddit.com/r/QueerVexillology/comments/oeyv9z/i_made_a_pride_flag_for_the_gsm_community/
+  twitter: https://twitter.com/kyleggiero/status/1412443449073098755?s=21
+  mastodon: https://mastodon.social/users/BenLeggiero/statuses/106534572931497401
+  telegram: https://t.me/KyTakes/47
 ---
 
 <link rel="stylesheet" href="/page-specific-styles/2021-06-10-Inclusivity-pride-flags.css" />
