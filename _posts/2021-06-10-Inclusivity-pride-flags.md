@@ -2,7 +2,7 @@
 layout: post
 title: Inclusivity Pride Flags
 date: 2021-06-29 22:35 -0600
-date-edit: 2021-07-04 22:36 -0600
+date-edit: 2021-07-05 23:45 -0600
 categories:
   - GSM
   - Gender
@@ -10,6 +10,8 @@ categories:
 
 excerpt: There's a lot of divisions in the Gender & Sexual Minority (GSM) community. Some folks have used flags to call out these divisions to begin addressing them.
 social-preview-image: https://blog.kyleggiero.me/images/Pride%20Flags/I%20made%20a%20pride%20flag.png
+
+download-link: https://drive.google.com/drive/folders/1hC5HeHDs5LDt_t8O_sPOEegXHElQm1UG?usp=sharing
 ---
 
 <link rel="stylesheet" href="/page-specific-styles/2021-06-10-Inclusivity-pride-flags.css" />
@@ -123,8 +125,15 @@ After I identified these related but distinct needs, inspiration struck me and I
 # My Proposal #
 
 <figure markdown=1>
-![A flag displaying 10 chevrons pointing rightward: the original 8 colors, then silver and grey](/images/Pride Flags/GSM Pride Flag (2021 Ky Leggiero design).svg){:.mid-post-hero.card}
-<figcaption role="cite">The GSM Pride Flag (2021 Ky Leggiero design)</figcaption>
+[![A flag displaying 10 chevrons pointing rightward: the original 8 colors, then silver and grey](/images/Pride Flags/GSM Pride Flag (2021 Ky Leggiero design).svg){:.mid-post-hero.card}]({{ page.download-link }})
+<figcaption role="cite">
+    <span style="margin:1em">The GSM Pride Flag (2021 Ky Leggiero design)</span>
+
+    <div class="flex-row flex-wrap flex-horiz-space-around flex-vert-center">
+        <a href="#to-the-community"><img src="/images/CC0 Badge.svg" alt="CC0" /></a>
+        <a href="{{ page.download-link }}" target="_blank" class="low-emphasis small button"><i class="material-icons">download</i><span>Download</span></a>
+    </div>
+</figcaption>
 </figure>
 
 
@@ -278,7 +287,7 @@ When displaying this as an image, I encourage folks who use right-to-left langua
 
 Since this is public domain, I'm also publishing my renders of the flag, some social images (banners, profile image templates, etc.), and the original project file with which I designed this flag in the first place.
 
-<span markdown=1 class="flex-column flex-horiz-center">[Download this flag and more on Google Drive](https://drive.google.com/drive/folders/1hC5HeHDs5LDt_t8O_sPOEegXHElQm1UG?usp=sharing){:.big.button}</span>
+<span class="flex-column flex-horiz-center"><a href="{{ page.download-link }}" target="_blank" class="big button"><i class="material-icons">download</i><span>Download this flag & more</span></a></span>
 
 
 # Have fun & be proud! #

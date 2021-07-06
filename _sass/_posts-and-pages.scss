@@ -29,6 +29,16 @@
         line-height: 1.25;
         text-indent: 1em;
 
+        button,
+        .button,
+        :link.button,
+        :visited.button,
+        input[type=submit],
+        input[type=reset],
+        .image-button {
+            text-indent: 0;
+        }
+
         &:not(:last-child) {
             margin: 0 0 1em;
         }
@@ -88,10 +98,13 @@
     figure {
         figcaption[role="cite"] {
             text-align: center;
-            display: block;
             padding: 0 0 2em;
             font-size: 80%;
             opacity: 75%;
+            
+            &:not(.flex-row):not(.flex-column) {
+                display: block;
+            }
         }
 
         .mid-post-hero + figcaption[role="cite"]{
