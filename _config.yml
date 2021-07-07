@@ -26,10 +26,10 @@ git:
 # Includes an icon in the footer for each username you enter
 footer-links:
   email: KyLeggiero@Gmail.com
-  github: Blog.KyLeggiero.me
+  github: KyLeggiero/blog
   rss: /feed.xml # just type anything here for a working RSS icon
   twitter: KyLeggiero
-  stackoverflow: users/3939277/ben-leggiero
+  stackoverflow: users/453435/ky-leggiero
   youtube: # channel/<your_long_string> or user/<user-name>
 
 
