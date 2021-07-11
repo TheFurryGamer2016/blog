@@ -83,6 +83,7 @@
         &,
         p {
             line-height: 1.4;
+            text-indent: 0;
         }
 
         &.align-leading {
@@ -92,6 +93,15 @@
 
         &.align-leading {
             margin-inline: auto;
+        }
+
+        &.important {
+            border-color: var(--theme-primary-color);
+            border-width: 2px;
+
+            &.card {
+                box-shadow: var(--box-shadow-z6);
+            }
         }
     }
 

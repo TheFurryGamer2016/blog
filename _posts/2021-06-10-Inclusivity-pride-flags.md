@@ -151,12 +151,12 @@ Here is my proposal. It uses the original Retro 8 colors in 8 rightward-pointing
 <span data-target-theme="light">[![](/images/Pride Flags/GSM Pride Flag (2021 Ky Leggiero design; Annotated; Light Mode).png){:.mid-post-hero.card}](/images/Pride Flags/GSM Pride Flag (2021 Ky Leggiero design; Annotated; Light Mode).png)</span>
 
 
-### Chevrons ###
+## Chevrons ##
 
 Like the Progress Pride Flag and its Intersex Variant, this design uses chevrons to signify that it's important for us to move forward, to continually push for progress, despite any forces which would otherwise push us back and divide us.
 
 
-### Pink for Sexuality & Red for Gender ###
+## Pink for Sexuality & Red for Gender ##
 {:.chevron-header.pink-and-red}
 
 The first two chevrons and the only ones to touch the leading edge of the flag are the pink & red chevrons, which respectively signify sexuality & gender. These are core parts of us within our societies and the GSRM community. We use gender to express ourselves, to build our relationships, to describe our sexualities.
@@ -168,57 +168,66 @@ These colors were chosen not only because they are the familiar first two colors
 </aside>
 
 
-### Orange for Enthusiasm ###
+## Orange for Love ##
 {:.chevron-header.orange}
 
-Enthusiasm is extremely important in the GSRM community. It drives our creativity, our expression & presentation, our desire to push for a better world. Without enthusiasm, we would fade into the background; it liberates us and brings us into the public consciousness!
+Love is extremely important in the GSRM community. Love takes many forms, from romance to camaraderie to fandom to common kindness. Through all these and more, we see and interact with each other, support each other, and create our community. Whatever form it takes, it defines our relationships, it gives us passion & enthusiasm for our lives & chosen families, and it can bring us a better world.
 
+Different forms of love also manifest within us as **romantic minorities**, such as homoromantic, biromantic, and aromantic people. These are as broad and diverse a spectrum as sexual minorities, and bring to our community an important mix of new diversities and perspectives.
 
+Our love for our community also manifests as **enthusiasm**, which is equally important. It drives our creativity, our expression & presentation, our desire to push for a better world. Without enthusiasm, we would fade into the background; it liberates us and brings us into the public consciousness!
 
-### Yellow for Body ###
-{:.chevron-header.yellow}
-
-Our bodies are a major focus, in our own perspectives, within our relationships, within our community, and from outside our community. We use our bodies to present ourselves and our identities. Our bodies reflect the lives we've led, which brought us to this point. Some of us look to change their body, or escape it entirely, some look to embrace their body, placing it on display, and some do both at the same time!
-
-<aside class="align-center">
-The yellow used here also echoes the fight for intersex awareness and rights, which focuses on bodies even more than the sexuality & gender sides of our movements.
+<aside class="align-center" markdown=1>
+[Initially, I attributed this orange chevron to solely represent enthusiasm.](https://github.com/KyLeggiero/blog/blob/d0159405cbc637b7663b99b567524371fefa7551/_posts/2021-06-10-Inclusivity-pride-flags.md#orange-for-enthusiasm) After presenting this flag to the community, it was pointed out to me that romantic minorities should be explicitly represented. When I heard this, I realized that romance and enthusiasm are both parts of love, and so I re-dedicated this chevron to represent love, and within that, both romantic minorities and enthusiasm.
 </aside>
 
 
-### Green for Presentation ###
+
+
+## Yellow for Body ##
+{:.chevron-header.yellow}
+
+Our bodies are a major focus, in our own perspectives, within our relationships, and within and outside our community. We use our bodies to present ourselves and our identities. Our bodies reflect the lives we've led, which brought us to this point. Some of us look to change their body, or escape it entirely, some look to embrace their body, placing it on display, and some do both at the same time!
+
+<aside class="important card   align-center" markdown=1>
+The yellow used here also echoes the fight for **intersex** awareness and rights, which focuses on bodies even more than the sexuality & gender sides of our&nbsp;movements.
+</aside>
+
+
+## Green for Presentation ##
 {:.chevron-header.green}
 
 How we present ourselves plays a key role in our identities. Each individual presents themself differently, showing off things that individual chooses, and some things they can't choose. Many of us meticulously craft our presentation, thinking about it every day and what others might take away from it. Many of us simply present as normally as possible, trying to blend into a crowd or its shadows to avoid perception. Many of us use our moment to present ourselves as a big and brash opportunity to tell the world that we exist.
 
 
-### Cyan for Identity ###
+## Cyan for Identity ##
 {:.chevron-header.cyan}
 
 Within each of us is a sense of one's own identity. Whether powerful and strong and specific, or subtle and weak and nebulous, or something else entirely, our sense of identity is what drives us to join the GSRM community in the first place. For many, this comes to the point that one's membership in the GSRM community becomes a piece of their identity, itself.
 
 
-### Indigo for Birth ###
+## Indigo for Birth ##
 {:.chevron-header.indigo}
 
 The circumstances of one's birth cannot be chosen by that individual, and often shape their body and their sense of identity. For many of us, one might feel strongly as being born one way, and that might drive that person's presentation and enthusiasm. For others, one's birth might have little to do with how that person feels, and they might waver around and away from it. One might be born into a time or place or class that defines their perspective on life and the world, shaping their identity and enthusiasm simply by being born into a different environment than others.
 
 
-### Purple for Mind ###
+## Purple for Mind ##
 {:.chevron-header.purple}
 
 One's mind is a crucial part of them, where all these concepts collide, and from which comes their sense of identity and justice, their choices in things like their presentation, and their reflections on their lack of choices in things like their birth. Philosophy is a major component of the GSRM community; as we are attacked by laws and words, we are forced to look inward upon ourselves, thinking about who we are, and returning with our discoveries. At both a macro scale, where we push for social change, and a micro scale, where we discover our own identities, our minds are a core part of our experiences as gender & sexual minorities.
 
 
-### Silver for Solidarity & Grey for Justice ###
+## Silver for Solidarity & Grey for Justice ##
 {:.chevron-header.silver-and-grey}
 
-Together, we create and enact change. Together, we are stronger. As we fight divisions and reduce biases, we become more accepting and understanding of each other in all the various and beautiful ways that make us different. By sticking together, we can do more than we ever could divided.
+Together, we create and enact change. Together, we are stronger. As we fight divisions and reduce biases, we become more accepting and understanding of each other in all the various and beautiful ways that make us different. By sticking together in solidarity, we can do more than we ever could divided.
 
 
 Only through solidarity can we win these fights for justice.
 
 
-All these point toward the reason we are a shared community: we demand justice. We demand to never be treated as lesser, simply because our gender or sexuality isn't in the majority. We demand to no longer fight simply for what we need to live happily. Justice for each of us and our sub-communities is about feeling like we have a place in this world, rather than feeling like a downtrodden, cast-aside, andor forgotten minority.
+All these point toward the reason we are a shared community: we demand justice. We demand to never be treated as lesser, simply because our sexuality, or our gender, or our romantic attractions, or our bodies, or any other part of us isn't of the majority. We demand to no longer fight simply for what we need to live happily. Justice for each of us and our sub-communities is about feeling like we have a place in this world, rather than feeling like a downtrodden, cast-aside, andor forgotten minority.
 
 We also demand justice for those we've lost. Many of our GSRM siblings have fallen to violence, hate crimes, actions taken by governments, and disease, most notably our lost elders who fell to the AIDS pandemic of the 80s. We fight for them, and this grey represents them as well.
 
