@@ -18,7 +18,7 @@ One trillion (1,000,<wbr/>000,<wbr/>000,<wbr/>000) is 13 digits long. 13 is 2 di
 
 One [googol](https://en.wikipedia.org/wiki/Googol) <small>(10,<wbr/>000,<wbr/>000,<wbr/>000,<wbr/>000,<wbr/>000,<wbr/>000,<wbr/>000,<wbr/>000,<wbr/>000,<wbr/>000,<wbr/>000,<wbr/>000,<wbr/>000,<wbr/>000,<wbr/>000,<wbr/>000,<wbr/>000,<wbr/>000,<wbr/>000,<wbr/>000,<wbr/>000,<wbr/>000,<wbr/>000,<wbr/>000,<wbr/>000,<wbr/>000,<wbr/>000,<wbr/>000,<wbr/>000,<wbr/>000,<wbr/>000,<wbr/>000,<wbr/>000)</small> also **has 3 hops** (1 googol ➡️ 100 ➡️ 3 ➡️ 1).
 
-One [googolplex](https://en.wikipedia.org/wiki/Googolplex) <small>(I'm not writing that here)</small> **has 4 hops** (1 googolplex ➡️ 1 googol ➡️ 100 ➡️ 3 ➡️ 1).
+One [googolplex](https://en.wikipedia.org/wiki/Googolplex) <small>(http://www.googolplexwrittenout.com/)</small> **has 4 hops** (1 googolplex ➡️ 1 googol ➡️ 100 ➡️ 3 ➡️ 1).
 
 
 
